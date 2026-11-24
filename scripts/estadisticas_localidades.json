@@ -1,0 +1,81 @@
+{
+  "global": {
+    "comentarios": 7927,
+    "usuarios": 1640,
+    "localidades": 449
+  },
+  "por_dia": {
+    "Día 1": {
+      "comentarios": 2646,
+      "usuarios": 883,
+      "localidades": 277
+    },
+    "Día 2": {
+      "comentarios": 1883,
+      "usuarios": 518,
+      "localidades": 217
+    },
+    "Día 3": {
+      "comentarios": 1667,
+      "usuarios": 520,
+      "localidades": 218
+    },
+    "Día 4": {
+      "comentarios": 1731,
+      "usuarios": 509,
+      "localidades": 213
+    }
+  },
+  "top_10_usuarios": [
+    {
+      "usuario": "@devendetta2",
+      "comentarios": 353,
+      "localidad": "Morteros, Córdoba, Argentina"
+    },
+    {
+      "usuario": "@Lariusf",
+      "comentarios": 119,
+      "localidad": "Tinogasta, Catamarca, Argentina"
+    },
+    {
+      "usuario": "@Cuentosconhistoria-z4p",
+      "comentarios": 114,
+      "localidad": "La Plata, Buenos Aires, Argentina"
+    },
+    {
+      "usuario": "@VueltaFermoza",
+      "comentarios": 103,
+      "localidad": "Paula, Buenos Aires, Argentina"
+    },
+    {
+      "usuario": "@moonrior",
+      "comentarios": 93,
+      "localidad": "La Pampa, La Pampa, Argentina"
+    },
+    {
+      "usuario": "@marialiazunino5363",
+      "comentarios": 92,
+      "localidad": "Chivilcoy, Buenos Aires, Argentina"
+    },
+    {
+      "usuario": "@diegol1500",
+      "comentarios": 86,
+      "localidad": "La Plata, Buenos Aires, Argentina"
+    },
+    {
+      "usuario": "@neon0801",
+      "comentarios": 71,
+      "localidad": "San Miguel de Tucumán, Tucumán, Argentina"
+    },
+    {
+      "usuario": "@tutorialcompletado5707",
+      "comentarios": 66,
+      "localidad": "San Fernando del Valle de Catamarca, Catamarca, Argentina"
+    },
+    {
+      "usuario": "@solemejia1193",
+      "comentarios": 63,
+      "localidad": "Las Malvinas, Mendoza, Argentina"
+    }
+  ]
+}

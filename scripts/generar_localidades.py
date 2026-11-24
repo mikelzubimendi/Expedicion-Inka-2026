@@ -38,8 +38,26 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable
 
-VIDEO_URL = "https://www.youtube.com/live/CtAJIkQDiyQ"
-VIDEO_ID = "CtAJIkQDiyQ"
+VIDEOS = [
+    ("https://www.youtube.com/live/CtAJIkQDiyQ", "CtAJIkQDiyQ", "EXPEDICIÓN INKA - Día 1"),
+    ("https://www.youtube.com/watch?v=vhFyl24JLlw", "vhFyl24JLlw", "EXPEDICIÓN INKA - Día 2"),
+    ("https://www.youtube.com/watch?v=g3Blu5r05eQ", "g3Blu5r05eQ", "EXPEDICIÓN INKA - Día 3"),
+    ("https://www.youtube.com/watch?v=0ivWpycYBuM", "0ivWpycYBuM", "EXPEDICIÓN INKA - Día 4 (último día)"),
+]
+VIDEO_URL = VIDEOS[0][0]
+VIDEO_ID = VIDEOS[0][1]
+
+
+def day_label(title: str) -> str:
+    """Devuelve una etiqueta corta, por ejemplo «Día 2», desde el título."""
+    match = re.search(r"D[ií]a\s*\d+", title, flags=re.I)
+    return match.group(0).capitalize() if match else title
+
+
+def day_sort_key(label: str) -> tuple[int, str]:
+    match = re.search(r"(\d+)", label or "")
+    return (int(match.group(1)) if match else 99, label or "")
+
 
 ROOT = Path(__file__).resolve().parent.parent
 SCRIPTS = ROOT / "scripts"
@@ -404,6 +422,7 @@ class Message:
     usuario: str
     texto: str
     timestamp: int
+    dia: str = ""
 
 
 @dataclass
@@ -502,34 +521,34 @@ def replace_place(place: Place, **changes: Any) -> Place:
 # ---------------------------------------------------------------------------
 
 
-def download_chat(video_url: str, force: bool = False) -> Path:
+def download_chat(video_url: str, video_id: str, force: bool = False) -> Path:
     CACHE.mkdir(parents=True, exist_ok=True)
-    target = CACHE / "chat.live_chat.json"
+    target = CACHE / f"chat.{video_id}.live_chat.json"
     if target.exists() and not force:
         return target
 
-    print("Descargando el chat con yt-dlp…", file=sys.stderr)
+    print(f"Descargando el chat de {video_id} con yt-dlp…", file=sys.stderr)
     cmd = [
         "yt-dlp", "--no-warnings", "--skip-download",
         "--write-subs", "--sub-langs", "live_chat", "--sub-format", "json",
-        "-o", str(CACHE / "chat.%(ext)s"), video_url,
+        "-o", str(CACHE / f"chat.{video_id}.%(ext)s"), video_url,
     ]
     try:
-        subprocess.run(cmd, check=True)
+        subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     except FileNotFoundError:
         sys.exit("No encontré yt-dlp. Instalalo o pasá el chat con --chat.")
     except subprocess.CalledProcessError as exc:
-        sys.exit(f"yt-dlp falló con código {exc.returncode}.")
+        sys.exit(f"yt-dlp falló con código {exc.returncode} para {video_id}.")
 
-    candidates = sorted(CACHE.glob("chat*.json"), key=lambda p: p.stat().st_mtime, reverse=True)
+    candidates = sorted(CACHE.glob(f"chat.{video_id}*.json"), key=lambda p: p.stat().st_mtime, reverse=True)
     if not candidates:
-        sys.exit("yt-dlp no generó el archivo del chat.")
+        sys.exit("yt-dlp no generó el archivo del chat para " + video_id + ".")
     if candidates[0] != target:
         candidates[0].replace(target)
     return target
 
 
-def parse_chat(path: Path) -> list[Message]:
+def parse_chat(path: Path, dia: str = "") -> list[Message]:
     messages: list[Message] = []
     with path.open(encoding="utf-8") as handle:
         for line in handle:
@@ -562,7 +581,7 @@ def parse_chat(path: Path) -> list[Message]:
                     timestamp = int(renderer.get("timestampUsec", "0")) // 1000
                 except ValueError:
                     timestamp = 0
-                messages.append(Message(author, text, timestamp))
+                messages.append(Message(author, text, timestamp, dia))
 
     messages.sort(key=lambda m: m.timestamp)
     return messages
@@ -1540,17 +1559,48 @@ def build_features(best: dict[str, Match], all_messages: dict[str, list[Message]
             if any(o["Usuario"] == user for o in feature["properties"]["Oyentes"]):
                 continue
 
+            anchor_text = clean_text(anchor.texto)
+            anchor_day = anchor.dia or ""
             others: list[str] = []
+            comments_by_day: dict[str, list[str]] = {}
+            days: list[str] = []
+
             for message in all_messages.get(user, []):
                 text = clean_text(message.texto)
-                if not text or (anchor.texto and text == clean_text(anchor.texto)):
+                if not text:
+                    continue
+                dia = message.dia or anchor_day
+                if dia and dia not in days:
+                    days.append(dia)
+                if anchor_text and text == anchor_text and dia == anchor_day:
                     continue
                 if text not in others:
                     others.append(text)
+                if dia:
+                    bucket = comments_by_day.setdefault(dia, [])
+                    if text not in bucket:
+                        bucket.append(text)
+
+            if anchor_day and anchor_day not in days:
+                days.append(anchor_day)
+            if anchor_text and anchor_day:
+                bucket = comments_by_day.setdefault(anchor_day, [])
+                if anchor_text not in bucket:
+                    bucket.insert(0, anchor_text)
+
+            ordered_days = sorted(days, key=day_sort_key)
+            ordered_comments = {
+                dia: comments_by_day[dia]
+                for dia in sorted(comments_by_day, key=day_sort_key)
+            }
+
             feature["properties"]["Oyentes"].append({
                 "Usuario": user,
-                "Mensaje": clean_text(anchor.texto),
+                "Mensaje": anchor_text,
+                "Dia": anchor_day,
                 "Comentarios": others,
+                "Dias": ordered_days,
+                "ComentariosPorDia": ordered_comments,
             })
 
     feats = list(features.values())
@@ -1566,9 +1616,14 @@ def write_geojson(features: list[dict], output: Path, total_messages: int,
     payload = {
         "type": "FeatureCollection",
         "metadata": {
+            "videos": [
+                {"id": vid, "url": url, "titulo": titulo, "dia": day_label(titulo)}
+                for url, vid, titulo in VIDEOS
+            ],
+            "dias": [day_label(titulo) for _, _, titulo in VIDEOS],
             "video": VIDEO_URL,
             "video_id": VIDEO_ID,
-            "titulo": "Expedición Inka - Día 1",
+            "titulo": "Expedición Inka",
             "generado": datetime.now(timezone.utc).isoformat(timespec="seconds"),
             "comentarios_analizados": total_messages,
             "usuarios_analizados": total_users,
@@ -1631,7 +1686,7 @@ def parse_args() -> argparse.Namespace:
             "  python3 scripts/generar_localidades.py --chat /ruta/chat.live_chat.json\n"
         ),
     )
-    parser.add_argument("--video", default=VIDEO_URL, help="URL del vivo (por defecto el de Mapa Inka).")
+    parser.add_argument("--video", default=None, help="URL de un único vivo a procesar (por defecto se procesan todos los videos del streaming).")
     parser.add_argument("--chat", type=Path, help="Archivo JSONL del chat ya descargado.")
     parser.add_argument("--salida", type=Path, default=DEFAULT_OUTPUT, help="GeoJSON de salida.")
     parser.add_argument("--reporte", type=Path, default=DEFAULT_REPORT, help="CSV de revisión.")
@@ -1663,16 +1718,25 @@ def main() -> None:
     CACHE.mkdir(parents=True, exist_ok=True)
 
     if args.chat:
-        chat_path = args.chat
-        if not chat_path.exists():
-            sys.exit(f"No existe el archivo de chat: {chat_path}")
+        chat_sources = [(args.chat, "Día 1")]
+    elif args.video:
+        vid = args.video.split("v=")[-1].split("&")[0] if "v=" in args.video else args.video.rstrip("/").split("/")[-1]
+        chat_sources = [(download_chat(args.video, vid, force=args.actualizar_chat), "")]
     else:
-        chat_path = download_chat(args.video, force=args.actualizar_chat)
+        chat_sources = [
+            (download_chat(url, vid, force=args.actualizar_chat), day_label(titulo))
+            for url, vid, titulo in VIDEOS
+        ]
 
-    print(f"Leyendo chat: {chat_path}", file=sys.stderr)
-    messages = parse_chat(chat_path)
+    all_messages: list[Message] = []
+    for chat_path, dia in chat_sources:
+        print(f"Leyendo chat: {chat_path}" + (f" ({dia})" if dia else ""), file=sys.stderr)
+        msgs = parse_chat(chat_path, dia)
+        all_messages.extend(msgs)
+        print(f"  {len(msgs)} comentarios", file=sys.stderr)
+    messages = all_messages
     grouped = group_messages(messages)
-    print(f"{len(messages)} comentarios de {len(grouped)} usuarios.", file=sys.stderr)
+    print(f"{len(messages)} comentarios de {len(grouped)} usuarios (todos los videos).", file=sys.stderr)
 
     localidades, provincias = load_reference_data(force=args.actualizar_datos)
     gaz = Gazetteer(localidades, provincias)

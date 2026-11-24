@@ -1,7 +1,7 @@
 'use strict';
 
 const DATA_URL = 'localidades.geojson';
-const STREAM_URL = 'https://www.youtube.com/live/CtAJIkQDiyQ';
+const STREAM_URL = 'https://www.youtube.com/watch?v=CtAJIkQDiyQ';
 const THEME_KEY = 'mapa-inka-theme';
 
 const ui = {
@@ -9,6 +9,7 @@ const ui = {
   toggle: document.getElementById('toggle'),
   search: document.getElementById('search'),
   clear: document.getElementById('clear'),
+  days: document.getElementById('days'),
   list: document.getElementById('list'),
   count: document.getElementById('count'),
   empty: document.getElementById('empty'),
@@ -246,7 +247,8 @@ function fitHomePlaces(animate) {
 }
 
 function fitAllPlaces(animate) {
-  fitPlaces(places, animate);
+  const visible = places.filter((place) => place.onMap);
+  fitPlaces(visible.length ? visible : places, animate);
 }
 
 function zoomForPlace(place) {
@@ -262,6 +264,42 @@ function zoomForPlace(place) {
 let places = [];
 let activePlace = null;
 let totalPeople = 0;
+let activeDay = '';
+
+function personHasDay(person, day) {
+  if (!day) return true;
+  if (Array.isArray(person.dias) && person.dias.length) return person.dias.includes(day);
+  if (person.dia) return person.dia === day;
+  // Datos antiguos sin día: se muestran en todos los filtros.
+  return true;
+}
+
+function placePeople(place) {
+  return place.people.filter((person) => personHasDay(person, activeDay));
+}
+
+function placeKeyForDay(place, day) {
+  if (!day) return place.key;
+  const parts = [place.name, place.province, place.country];
+  for (const person of place.people) {
+    if (!personHasDay(person, day)) continue;
+    parts.push(person.usuario);
+    const comments = person.comentariosPorDia && person.comentariosPorDia[day];
+    if (comments && comments.length) {
+      parts.push(...comments);
+    } else {
+      parts.push(person.mensaje, ...person.comentarios);
+    }
+  }
+  return normalize(parts.join(' '));
+}
+
+function personComments(person) {
+  if (activeDay && person.comentariosPorDia && person.comentariosPorDia[activeDay]) {
+    return person.comentariosPorDia[activeDay];
+  }
+  return person.mensaje ? [person.mensaje, ...person.comentarios] : person.comentarios;
+}
 
 /* ---------------------------------------------------------------------------
  * Datos de oyentes
@@ -274,8 +312,22 @@ function normalizePerson(raw) {
   const comentarios = Array.isArray(raw.Comentarios)
     ? raw.Comentarios.filter((item) => typeof item === 'string' && item.trim()).map((item) => item.trim())
     : [];
+  const dia = typeof raw.Dia === 'string' ? raw.Dia.trim() : '';
+  const dias = Array.isArray(raw.Dias)
+    ? raw.Dias.filter((item) => typeof item === 'string' && item.trim()).map((item) => item.trim())
+    : [];
+  const comentariosPorDia = {};
+  if (raw.ComentariosPorDia && typeof raw.ComentariosPorDia === 'object') {
+    for (const [key, value] of Object.entries(raw.ComentariosPorDia)) {
+      if (!Array.isArray(value)) continue;
+      const items = value
+        .filter((item) => typeof item === 'string' && item.trim())
+        .map((item) => item.trim());
+      if (items.length) comentariosPorDia[key] = items;
+    }
+  }
   if (!usuario && !mensaje && comentarios.length === 0) return null;
-  return { usuario, mensaje, comentarios };
+  return { usuario, mensaje, comentarios, dia, dias, comentariosPorDia };
 }
 
 function readPeople(properties) {
@@ -290,6 +342,9 @@ function readPeople(properties) {
       usuario: typeof properties.Usuario === 'string' ? properties.Usuario : '',
       mensaje: typeof properties.Comentario === 'string' ? properties.Comentario : '',
       comentarios: [],
+      dia: '',
+      dias: [],
+      comentariosPorDia: {},
     });
   }
   return legacy;
@@ -302,6 +357,7 @@ function readPeople(properties) {
 function buildPopup(place) {
   const root = document.createElement('div');
   root.className = 'popup';
+  const peopleList = placePeople(place);
 
   const title = document.createElement('h2');
   title.className = 'popup__title';
@@ -324,15 +380,16 @@ function buildPopup(place) {
 
   const meta = document.createElement('p');
   meta.className = 'popup__meta';
-  if (place.people.length === 0) {
-    meta.textContent = 'Sin oyentes registrados';
+  if (peopleList.length === 0) {
+    meta.textContent = activeDay ? 'Sin oyentes ese día' : 'Sin oyentes registrados';
   } else {
-    meta.textContent = place.people.length + (place.people.length === 1 ? ' oyente del stream' : ' oyentes del stream');
+    meta.textContent = peopleList.length + (peopleList.length === 1 ? ' oyente del stream' : ' oyentes del stream') +
+      (activeDay ? ' · ' + activeDay : '');
   }
 
   const people = document.createElement('div');
   people.className = 'popup__people';
-  for (const person of place.people) {
+  for (const person of peopleList) {
     const block = document.createElement('div');
     block.className = 'person';
 
@@ -341,18 +398,49 @@ function buildPopup(place) {
     user.textContent = person.usuario || 'Anónimo';
     block.appendChild(user);
 
-    if (person.mensaje) {
-      const message = document.createElement('p');
-      message.className = 'person__message';
-      message.textContent = person.mensaje;
-      block.appendChild(message);
-    }
+    if (activeDay) {
+      for (const comment of personComments(person)) {
+        const paragraph = document.createElement('p');
+        paragraph.className = 'person__comment';
+        paragraph.textContent = comment;
+        block.appendChild(paragraph);
+      }
+    } else {
+      const dayKeys = (person.dias && person.dias.length)
+        ? person.dias
+        : Object.keys(person.comentariosPorDia || {});
+      const grouped = dayKeys.length > 1 && Object.keys(person.comentariosPorDia || {}).length > 0;
 
-    for (const comment of person.comentarios) {
-      const paragraph = document.createElement('p');
-      paragraph.className = 'person__comment';
-      paragraph.textContent = comment;
-      block.appendChild(paragraph);
+      if (grouped) {
+        for (const day of dayKeys) {
+          const comments = person.comentariosPorDia[day] || [];
+          if (!comments.length) continue;
+          const heading = document.createElement('p');
+          heading.className = 'person__day';
+          heading.textContent = day;
+          block.appendChild(heading);
+          for (const comment of comments) {
+            const paragraph = document.createElement('p');
+            paragraph.className = 'person__comment';
+            paragraph.textContent = comment;
+            block.appendChild(paragraph);
+          }
+        }
+      } else {
+        if (person.mensaje) {
+          const message = document.createElement('p');
+          message.className = 'person__message';
+          message.textContent = person.mensaje;
+          block.appendChild(message);
+        }
+
+        for (const comment of person.comentarios) {
+          const paragraph = document.createElement('p');
+          paragraph.className = 'person__comment';
+          paragraph.textContent = comment;
+          block.appendChild(paragraph);
+        }
+      }
     }
 
     people.appendChild(block);
@@ -381,17 +469,18 @@ function buildPopup(place) {
   links.append(google, document.createTextNode(' · '), osmLink);
 
   root.append(title, subtitle, meta);
-  if (place.people.length) root.appendChild(people);
+  if (peopleList.length) root.appendChild(people);
   root.append(coords, links);
   return root;
 }
 
 function peopleSummary(place) {
-  if (!place.people.length) return 'Sin oyentes';
-  if (place.people.length <= 2) {
-    return place.people.map((person) => person.usuario || 'Anónimo').join(', ');
+  const peopleList = placePeople(place);
+  if (!peopleList.length) return activeDay ? 'Sin oyentes ese día' : 'Sin oyentes';
+  if (peopleList.length <= 2) {
+    return peopleList.map((person) => person.usuario || 'Anónimo').join(', ');
   }
-  return place.people.length + ' oyentes';
+  return peopleList.length + ' oyentes';
 }
 
 function createRow(place) {
@@ -427,6 +516,8 @@ function createRow(place) {
   }
   metaParts.push(peopleSummary(place));
   meta.textContent = metaParts.join(' · ');
+  place.metaParts = metaParts.slice(0, -1);
+  place.metaEl = meta;
 
   body.append(name, meta);
   button.append(dot, body);
@@ -445,6 +536,12 @@ function createRow(place) {
   place.row = item;
   place.button = button;
   return item;
+}
+
+function updateRow(place) {
+  if (!place.metaEl) return;
+  const parts = (place.metaParts || []).concat(peopleSummary(place));
+  place.metaEl.textContent = parts.join(' · ');
 }
 
 /* ---------------------------------------------------------------------------
@@ -527,11 +624,15 @@ function focusPlace(place) {
 function applyFilter(query) {
   const needle = normalize(query);
   let visible = 0;
+  let visiblePeople = 0;
 
   for (const place of places) {
-    const matches = needle === '' || matchesSearch(place.key, query);
+    const dayMatches = !activeDay || placePeople(place).length > 0;
+    const searchKey = activeDay ? placeKeyForDay(place, activeDay) : place.key;
+    const matches = dayMatches && (needle === '' || matchesSearch(searchKey, query));
     place.row.hidden = !matches;
     place.score = (matches && needle !== '') ? searchScore(place, query) : 0;
+    updateRow(place);
 
     if (matches) {
       if (!place.onMap) {
@@ -539,6 +640,7 @@ function applyFilter(query) {
         place.onMap = true;
       }
       visible += 1;
+      visiblePeople += placePeople(place).length;
     } else if (place.onMap) {
       markers.removeLayer(place.marker);
       place.onMap = false;
@@ -549,8 +651,10 @@ function applyFilter(query) {
     }
   }
 
-  if (needle === '') {
+  if (needle === '' && !activeDay) {
     ui.count.textContent = places.length + ' lugares · ' + totalPeople + ' oyentes';
+  } else if (needle === '') {
+    ui.count.textContent = visible + ' lugares · ' + visiblePeople + ' oyentes · ' + activeDay;
   } else {
     ui.count.textContent = visible + ' de ' + places.length + ' lugares';
   }
@@ -568,6 +672,61 @@ function applyFilter(query) {
 function clearFilter() {
   ui.search.value = '';
   applyFilter('');
+}
+
+function setDay(day) {
+  activeDay = day;
+  ui.days.querySelectorAll('.day').forEach((button) => {
+    const on = button.dataset.day === day;
+    button.classList.toggle('is-active', on);
+    button.setAttribute('aria-pressed', String(on));
+  });
+  applyFilter(ui.search.value);
+  if (activePlace && activePlace.onMap) {
+    activePlace.marker.closePopup();
+    activePlace.marker.openPopup();
+  }
+}
+
+function collectDays() {
+  const seen = new Set();
+  for (const place of places) {
+    for (const person of place.people) {
+      for (const day of (person.dias && person.dias.length ? person.dias : [person.dia])) {
+        if (day) seen.add(day);
+      }
+    }
+  }
+  return Array.from(seen).sort((a, b) => {
+    const na = Number((a.match(/\d+/) || [99])[0]);
+    const nb = Number((b.match(/\d+/) || [99])[0]);
+    return na - nb || a.localeCompare(b, 'es');
+  });
+}
+
+function buildDayFilter(days, videos) {
+  const titles = {};
+  for (const video of videos || []) {
+    if (video && video.dia && video.titulo) titles[video.dia] = video.titulo;
+  }
+
+  ui.days.textContent = '';
+  for (const day of [''].concat(days)) {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'day';
+    button.dataset.day = day;
+    button.textContent = day || 'Todos';
+    if (day && titles[day]) {
+      button.title = titles[day];
+      button.setAttribute('aria-label', 'Filtrar por ' + titles[day]);
+    }
+    const on = day === activeDay;
+    button.classList.toggle('is-active', on);
+    button.setAttribute('aria-pressed', String(on));
+    button.addEventListener('click', () => setDay(day));
+    ui.days.appendChild(button);
+  }
 }
 
 // Mantiene los controles de Leaflet por encima de la hoja inferior en celulares.
@@ -643,6 +802,10 @@ function init(data) {
 
   totalPeople = places.reduce((total, place) => total + place.people.length, 0);
 
+  const metadata = data.metadata && typeof data.metadata === 'object' ? data.metadata : {};
+  const days = Array.isArray(metadata.dias) && metadata.dias.length ? metadata.dias : collectDays();
+  buildDayFilter(days, metadata.videos);
+
   for (const place of places) {
     place.marker = L.circleMarker([place.lat, place.lng], {
       className: 'dot',
@@ -654,7 +817,7 @@ function init(data) {
     });
 
     const padding = popupPadding();
-    place.marker.bindPopup(buildPopup(place), {
+    place.marker.bindPopup(() => buildPopup(place), {
       closeButton: true,
       maxWidth: 330,
       autoPanPaddingTopLeft: padding.topLeft,

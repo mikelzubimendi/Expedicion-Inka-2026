@@ -1,7 +1,7 @@
 # Generador de localidades
 
 Este directorio contiene el proceso manual que arma `localidades.geojson` a partir de los
-comentarios del chat del vivo de YouTube.
+comentarios del chat de los 4 videos del streaming de YouTube (Día 1 a Día 4).
 
 No se ejecuta automáticamente ni en cada deploy: se corre a demanda cuando hay comentarios
 nuevos o cuando se quiere regenerar el mapa.
@@ -20,7 +20,7 @@ nuevos o cuando se quiere regenerar el mapa.
 Desde la raíz del repositorio:
 
 ```bash
-# 1. Descargar el chat y generar solo los reportes de revisión
+# 1. Descargar los chats y generar solo los reportes de revisión
 python3 scripts/generar_localidades.py --solo-reporte
 
 # 2. Revisar los CSV (opcional) y corregir scripts/revision.json
@@ -28,18 +28,21 @@ python3 scripts/generar_localidades.py --solo-reporte
 python3 scripts/generar_localidades.py
 ```
 
-El resultado se escribe en `localidades.geojson`, que es el archivo que consume el mapa.
+Por defecto se procesan los 4 videos del streaming definidos en `VIDEOS` (Día 1 a Día 4) y
+se combinan todos los comentarios. El resultado se escribe en `localidades.geojson`, que es el
+archivo que consume el mapa.
 
-Para volver a descargar el chat de un vivo que sigue sumando mensajes:
+Para procesar un solo video o volver a descargar los chats:
 
 ```bash
+python3 scripts/generar_localidades.py --video "https://www.youtube.com/watch?v=..."
 python3 scripts/generar_localidades.py --actualizar-chat
 ```
 
 ## Opciones
 
 ```text
---video URL           URL del vivo (por defecto, el vivo de Mapa Inka)
+--video URL           Procesar un solo video (por defecto, los 4 del streaming)
 --chat ARCHIVO        Usar un chat JSONL ya descargado
 --salida ARCHIVO      GeoJSON de salida (por defecto: localidades.geojson)
 --reporte ARCHIVO     CSV con todos los usuarios detectados (scripts/reporte.csv)
@@ -58,8 +61,9 @@ python3 scripts/generar_localidades.py --actualizar-chat
 
 ## Cómo detecta las localidades
 
-1. Baja el chat del vivo con `yt-dlp` (`live_chat`) y lo lee línea por línea.
-2. Agrupa los mensajes por usuario.
+1. Baja el chat de cada video con `yt-dlp` (`live_chat`) y los lee línea por línea,
+   conservando el día al que pertenece cada mensaje.
+2. Agrupa los mensajes de todos los videos por usuario.
 3. Busca frases con pistas de ubicación: “desde…”, “soy de…”, “estoy en…”, “saludo desde…”,
    “X presente”, “aguante X”, o mensajes cortos que son solo el nombre del lugar.
 4. Resuelve el lugar con:
@@ -169,7 +173,13 @@ Cada feature es una localidad. Los oyentes y sus comentarios van anidados:
       {
         "Usuario": "@ejemplo",
         "Mensaje": "Saludos desde Córdoba",
-        "Comentarios": ["Qué lindo el vivo", "Aguante la ciencia pública"]
+        "Dia": "Día 1",
+        "Comentarios": ["Qué lindo el vivo", "Aguante la ciencia pública"],
+        "Dias": ["Día 1", "Día 3"],
+        "ComentariosPorDia": {
+          "Día 1": ["Saludos desde Córdoba", "Qué lindo el vivo"],
+          "Día 3": ["Volví a ver el stream"]
+        }
       }
     ]
   },
