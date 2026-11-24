@@ -1,13 +1,29 @@
 {
  "version": 1,
- "actualizado": "2026-11-18T21:35:03+00:00",
+ "actualizado": "2026-11-24T10:15:40+00:00",
  "lugares": {
+  "abrazo desde jujuy": {
+   "Lugar": "San Salvador de Jujuy",
+   "Provincia": "Jujuy",
+   "Pais": "Argentina",
+   "lat": -24.18583,
+   "lon": -65.29948,
+   "Tipo": "localidad"
+  },
   "abrazos desde mardel": {
    "Lugar": "Mar del Plata",
    "Provincia": "Buenos Aires",
    "Pais": "Argentina",
    "lat": -38.00645,
    "lon": -57.54384,
+   "Tipo": "localidad"
+  },
+  "aca desde la plata": {
+   "Lugar": "La Plata",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.9155,
+   "lon": -57.94799,
    "Tipo": "localidad"
   },
   "aca desde mardel": {
@@ -18,12 +34,44 @@
    "lon": -57.54384,
    "Tipo": "localidad"
   },
+  "aca la plata presente": {
+   "Lugar": "La Plata",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.9155,
+   "lon": -57.94799,
+   "Tipo": "localidad"
+  },
+  "achiras": {
+   "Lugar": "Achiras",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -33.17445,
+   "lon": -64.99206,
+   "Tipo": "localidad"
+  },
   "acompanando desde aguilares tucuman": {
    "Lugar": "San Miguel de Tucumán",
    "Provincia": "Tucumán",
    "Pais": "Argentina",
    "lat": -26.83039,
    "lon": -65.20378,
+   "Tipo": "localidad"
+  },
+  "adrogue": {
+   "Lugar": "Adrogué",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.79737,
+   "lon": -58.38845,
+   "Tipo": "localidad"
+  },
+  "aguante argentina aguante catamarca": {
+   "Lugar": "San Fernando del Valle de Catamarca",
+   "Provincia": "Catamarca",
+   "Pais": "Argentina",
+   "lat": -28.46901,
+   "lon": -65.77892,
    "Tipo": "localidad"
   },
   "aguante catamarca": {
@@ -42,6 +90,14 @@
    "lon": -65.20378,
    "Tipo": "localidad"
   },
+  "aimogasta la rioja": {
+   "Lugar": "Aimogasta",
+   "Provincia": "La Rioja",
+   "Pais": "Argentina",
+   "lat": -28.55983,
+   "lon": -66.80618,
+   "Tipo": "localidad"
+  },
   "aldo bonzi": {
    "Lugar": "Aldo Bonzi",
    "Provincia": "Buenos Aires",
@@ -58,12 +114,28 @@
    "lon": -63.71773,
    "Tipo": "localidad"
   },
+  "alemania": {
+   "Lugar": "Alemania",
+   "Provincia": "",
+   "Pais": "Alemania",
+   "lat": 51.1657,
+   "lon": 10.4515,
+   "Tipo": "pais"
+  },
   "alfar": {
    "Lugar": "Mar del Plata",
    "Provincia": "Buenos Aires",
    "Pais": "Argentina",
    "lat": -38.00645,
    "lon": -57.54384,
+   "Tipo": "localidad"
+  },
+  "alli": {
+   "Lugar": "Çarşamba",
+   "Provincia": "Samsun",
+   "Pais": "Turquía",
+   "lat": 41.25796,
+   "lon": 36.72955,
    "Tipo": "localidad"
   },
   "almirante brown": {
@@ -80,6 +152,30 @@
    "Pais": "Argentina",
    "lat": -31.64979,
    "lon": -64.42987,
+   "Tipo": "localidad"
+  },
+  "amaicha del valle": {
+   "Lugar": "Amaicha del Valle",
+   "Provincia": "Tucumán",
+   "Pais": "Argentina",
+   "lat": -26.59366,
+   "lon": -65.92009,
+   "Tipo": "localidad"
+  },
+  "aminga los saluda pabloandrada": {
+   "Lugar": "Aminga",
+   "Provincia": "La Rioja",
+   "Pais": "Argentina",
+   "lat": -28.84777,
+   "lon": -66.9305,
+   "Tipo": "localidad"
+  },
+  "ancasti": {
+   "Lugar": "Ancasti",
+   "Provincia": "Catamarca",
+   "Pais": "Argentina",
+   "lat": -28.81264,
+   "lon": -65.50069,
    "Tipo": "localidad"
   },
   "andalgala": {
@@ -130,6 +226,22 @@
    "lon": -61.60331,
    "Tipo": "localidad"
   },
+  "arrecifes": {
+   "Lugar": "Arrecifes",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.06751,
+   "lon": -60.10869,
+   "Tipo": "localidad"
+  },
+  "arriba aylencita": {
+   "Lugar": "Saint-Gladie-Arrive-Munein",
+   "Provincia": "Nueva Aquitania",
+   "Pais": "Francia",
+   "lat": 43.38098,
+   "lon": -0.93377,
+   "Tipo": "localidad"
+  },
   "arroyito cordoba": {
    "Lugar": "Arroyito",
    "Provincia": "Córdoba",
@@ -146,12 +258,36 @@
    "lon": -64.28534,
    "Tipo": "localidad"
   },
+  "austria": {
+   "Lugar": "Austria",
+   "Provincia": "",
+   "Pais": "Austria",
+   "lat": 47.5162,
+   "lon": 14.5501,
+   "Tipo": "pais"
+  },
   "avellaneda": {
    "Lugar": "Avellaneda",
    "Provincia": "Buenos Aires",
    "Pais": "Argentina",
    "lat": -34.66383,
    "lon": -58.36274,
+   "Tipo": "localidad"
+  },
+  "avellaneda bs as": {
+   "Lugar": "Ciudad Autónoma de Buenos Aires",
+   "Provincia": "Ciudad Autónoma de Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.61444,
+   "lon": -58.44588,
+   "Tipo": "localidad"
+  },
+  "azara": {
+   "Lugar": "Azara",
+   "Provincia": "Misiones",
+   "Pais": "Argentina",
+   "lat": -28.06071,
+   "lon": -55.67707,
    "Tipo": "localidad"
   },
   "azul": {
@@ -170,12 +306,36 @@
    "lon": -62.27274,
    "Tipo": "localidad"
   },
+  "bahia blanca felicitaciones": {
+   "Lugar": "Bahía Blanca",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -38.72277,
+   "lon": -62.27274,
+   "Tipo": "localidad"
+  },
   "bahia blanca mientras cocino": {
    "Lugar": "Bahía Blanca",
    "Provincia": "Buenos Aires",
    "Pais": "Argentina",
    "lat": -38.72277,
    "lon": -62.27274,
+   "Tipo": "localidad"
+  },
+  "baigorrita": {
+   "Lugar": "Baigorrita",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.7478,
+   "lon": -60.98839,
+   "Tipo": "localidad"
+  },
+  "baires": {
+   "Lugar": "Ciudad Autónoma de Buenos Aires",
+   "Provincia": "Ciudad Autónoma de Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.61444,
+   "lon": -58.44588,
    "Tipo": "localidad"
   },
   "balcarce": {
@@ -186,12 +346,28 @@
    "lon": -58.25549,
    "Tipo": "localidad"
   },
+  "balcozna": {
+   "Lugar": "Balcosna",
+   "Provincia": "Catamarca",
+   "Pais": "Argentina",
+   "lat": -27.88263,
+   "lon": -65.72803,
+   "Tipo": "localidad"
+  },
   "balsa las perlas": {
    "Lugar": "Las Perlas",
    "Provincia": "Río Negro",
    "Pais": "Argentina",
    "lat": -38.9869,
    "lon": -68.1389,
+   "Tipo": "localidad"
+  },
+  "balvanera caba": {
+   "Lugar": "Ciudad Autónoma de Buenos Aires",
+   "Provincia": "Ciudad Autónoma de Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.61444,
+   "lon": -58.44588,
    "Tipo": "localidad"
   },
   "banda rio sali": {
@@ -203,6 +379,14 @@
    "Tipo": "localidad"
   },
   "banfield": {
+   "Lugar": "Banfield",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.74471,
+   "lon": -58.39293,
+   "Tipo": "localidad"
+  },
+  "banfield presente": {
    "Lugar": "Banfield",
    "Provincia": "Buenos Aires",
    "Pais": "Argentina",
@@ -227,6 +411,14 @@
    "Tipo": "localidad"
   },
   "bariloche": {
+   "Lugar": "San Carlos de Bariloche",
+   "Provincia": "Río Negro",
+   "Pais": "Argentina",
+   "lat": -41.13581,
+   "lon": -71.30434,
+   "Tipo": "localidad"
+  },
+  "bariloche esperando la transmision": {
    "Lugar": "San Carlos de Bariloche",
    "Provincia": "Río Negro",
    "Pais": "Argentina",
@@ -282,6 +474,22 @@
    "lon": -58.68206,
    "Tipo": "localidad"
   },
+  "bella vista bs as": {
+   "Lugar": "Ciudad Autónoma de Buenos Aires",
+   "Provincia": "Ciudad Autónoma de Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.61444,
+   "lon": -58.44588,
+   "Tipo": "localidad"
+  },
+  "bella vista buenos aires": {
+   "Lugar": "Bella Vista",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.56827,
+   "lon": -58.68206,
+   "Tipo": "localidad"
+  },
   "bella vista corrientes": {
    "Lugar": "Bella Vista",
    "Provincia": "Corrientes",
@@ -306,6 +514,14 @@
    "lon": -58.44588,
    "Tipo": "localidad"
   },
+  "berisso": {
+   "Lugar": "Berisso",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.87029,
+   "lon": -57.88333,
+   "Tipo": "localidad"
+  },
   "berisso buenos aires": {
    "Lugar": "Berisso",
    "Provincia": "Buenos Aires",
@@ -328,6 +544,38 @@
    "Pais": "Birmania",
    "lat": 21.9162,
    "lon": 95.956,
+   "Tipo": "pais"
+  },
+  "boca": {
+   "Lugar": "Boca",
+   "Provincia": "Ciudad Autónoma de Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.63213,
+   "lon": -58.36077,
+   "Tipo": "localidad"
+  },
+  "boca boca boooooooooooooooooooooooooooooooooooooooooooooooooooooooooooocaaaaaaaaaaaa": {
+   "Lugar": "Boca",
+   "Provincia": "Ciudad Autónoma de Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.63213,
+   "lon": -58.36077,
+   "Tipo": "localidad"
+  },
+  "boca y el": {
+   "Lugar": "Boca",
+   "Provincia": "Ciudad Autónoma de Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.63213,
+   "lon": -58.36077,
+   "Tipo": "localidad"
+  },
+  "bolivia pe mano": {
+   "Lugar": "Bolivia",
+   "Provincia": "",
+   "Pais": "Bolivia",
+   "lat": -16.2902,
+   "lon": -63.5887,
    "Tipo": "pais"
   },
   "bragado": {
@@ -363,6 +611,14 @@
    "Tipo": "pais"
   },
   "bs as": {
+   "Lugar": "Ciudad Autónoma de Buenos Aires",
+   "Provincia": "Ciudad Autónoma de Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.61444,
+   "lon": -58.44588,
+   "Tipo": "localidad"
+  },
+  "bs as argentinaaaaaaa": {
    "Lugar": "Ciudad Autónoma de Buenos Aires",
    "Provincia": "Ciudad Autónoma de Buenos Aires",
    "Pais": "Argentina",
@@ -418,6 +674,22 @@
    "lon": -58.44588,
    "Tipo": "localidad"
   },
+  "buenos aires san martin": {
+   "Lugar": "Ciudad del Libertador General San Martín",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.57716,
+   "lon": -58.53772,
+   "Tipo": "localidad"
+  },
+  "buenos dias desde caba": {
+   "Lugar": "Ciudad Autónoma de Buenos Aires",
+   "Provincia": "Ciudad Autónoma de Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.61444,
+   "lon": -58.44588,
+   "Tipo": "localidad"
+  },
   "bulgaria tambien": {
    "Lugar": "Bulgaria",
    "Provincia": "",
@@ -434,7 +706,23 @@
    "lon": -58.39103,
    "Tipo": "localidad"
   },
+  "burzaco aca presente": {
+   "Lugar": "Burzaco",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.82817,
+   "lon": -58.39103,
+   "Tipo": "localidad"
+  },
   "burzaco al mundo": {
+   "Lugar": "Burzaco",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.82817,
+   "lon": -58.39103,
+   "Tipo": "localidad"
+  },
+  "burzaco buenos aires argentina": {
    "Lugar": "Burzaco",
    "Provincia": "Buenos Aires",
    "Pais": "Argentina",
@@ -450,7 +738,23 @@
    "lon": -58.39103,
    "Tipo": "localidad"
   },
+  "caba apoyando al conicet": {
+   "Lugar": "Ciudad Autónoma de Buenos Aires",
+   "Provincia": "Ciudad Autónoma de Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.61444,
+   "lon": -58.44588,
+   "Tipo": "localidad"
+  },
   "caba felicitaciones": {
+   "Lugar": "Ciudad Autónoma de Buenos Aires",
+   "Provincia": "Ciudad Autónoma de Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.61444,
+   "lon": -58.44588,
+   "Tipo": "localidad"
+  },
+  "caba los espero ansioso": {
    "Lugar": "Ciudad Autónoma de Buenos Aires",
    "Provincia": "Ciudad Autónoma de Buenos Aires",
    "Pais": "Argentina",
@@ -464,6 +768,22 @@
    "Pais": "Argentina",
    "lat": -34.61444,
    "lon": -58.44588,
+   "Tipo": "localidad"
+  },
+  "caba uckszu2wh9gy1mb0dv-11ujg g8afy6ywgukuhl0plbia2ae": {
+   "Lugar": "Ciudad Autónoma de Buenos Aires",
+   "Provincia": "Ciudad Autónoma de Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.61444,
+   "lon": -58.44588,
+   "Tipo": "localidad"
+  },
+  "calama": {
+   "Lugar": "Calama",
+   "Provincia": "Región de Antofagasta",
+   "Pais": "Chile",
+   "lat": -22.46239,
+   "lon": -68.92722,
    "Tipo": "localidad"
   },
   "calchaqui": {
@@ -490,7 +810,31 @@
    "lon": -67.52274,
    "Tipo": "localidad"
   },
+  "campana": {
+   "Lugar": "Campana",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.16366,
+   "lon": -58.95868,
+   "Tipo": "localidad"
+  },
+  "campo quijano": {
+   "Lugar": "Campo Quijano",
+   "Provincia": "Salta",
+   "Pais": "Argentina",
+   "lat": -24.90813,
+   "lon": -65.64298,
+   "Tipo": "localidad"
+  },
   "canada": {
+   "Lugar": "Canada",
+   "Provincia": "",
+   "Pais": "Canada",
+   "lat": 56.1304,
+   "lon": -106.3468,
+   "Tipo": "pais"
+  },
+  "canada de gomez": {
    "Lugar": "Canada",
    "Provincia": "",
    "Pais": "Canada",
@@ -514,6 +858,22 @@
    "lon": -58.38879,
    "Tipo": "localidad"
   },
+  "capital federal": {
+   "Lugar": "Ciudad Autónoma de Buenos Aires",
+   "Provincia": "Ciudad Autónoma de Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.61444,
+   "lon": -58.44588,
+   "Tipo": "localidad"
+  },
+  "capitan sarmiento": {
+   "Lugar": "Capitán Sarmiento",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.17128,
+   "lon": -59.7936,
+   "Tipo": "localidad"
+  },
   "carhue": {
    "Lugar": "Carhué",
    "Provincia": "Buenos Aires",
@@ -522,12 +882,28 @@
    "lon": -62.75999,
    "Tipo": "localidad"
   },
+  "carlos casares": {
+   "Lugar": "Carlos Casares",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -35.62247,
+   "lon": -61.3655,
+   "Tipo": "localidad"
+  },
   "carmen de patagones": {
    "Lugar": "Carmen de Patagones",
    "Provincia": "Buenos Aires",
    "Pais": "Argentina",
    "lat": -40.80252,
    "lon": -62.9836,
+   "Tipo": "localidad"
+  },
+  "casas viejas": {
+   "Lugar": "Casas",
+   "Provincia": "Santa Fe",
+   "Pais": "Argentina",
+   "lat": -32.12563,
+   "lon": -61.53984,
    "Tipo": "localidad"
   },
   "casilda santa fe": {
@@ -546,6 +922,14 @@
    "lon": -61.1642,
    "Tipo": "localidad"
   },
+  "casilda sta fe": {
+   "Lugar": "Santa Fe",
+   "Provincia": "Santa Fe",
+   "Pais": "Argentina",
+   "lat": -31.65747,
+   "lon": -60.71048,
+   "Tipo": "localidad"
+  },
   "catamarca": {
    "Lugar": "San Fernando del Valle de Catamarca",
    "Provincia": "Catamarca",
@@ -562,7 +946,39 @@
    "lon": -65.77892,
    "Tipo": "localidad"
   },
+  "catamarca es bellisima": {
+   "Lugar": "San Fernando del Valle de Catamarca",
+   "Provincia": "Catamarca",
+   "Pais": "Argentina",
+   "lat": -28.46901,
+   "lon": -65.77892,
+   "Tipo": "localidad"
+  },
+  "catamarca es hermoso": {
+   "Lugar": "San Fernando del Valle de Catamarca",
+   "Provincia": "Catamarca",
+   "Pais": "Argentina",
+   "lat": -28.46901,
+   "lon": -65.77892,
+   "Tipo": "localidad"
+  },
   "catamarca hay que cuidarla": {
+   "Lugar": "San Fernando del Valle de Catamarca",
+   "Provincia": "Catamarca",
+   "Pais": "Argentina",
+   "lat": -28.46901,
+   "lon": -65.77892,
+   "Tipo": "localidad"
+  },
+  "catamarca hermosa provincia": {
+   "Lugar": "San Fernando del Valle de Catamarca",
+   "Provincia": "Catamarca",
+   "Pais": "Argentina",
+   "lat": -28.46901,
+   "lon": -65.77892,
+   "Tipo": "localidad"
+  },
+  "catamarca jdasjdas": {
    "Lugar": "San Fernando del Valle de Catamarca",
    "Provincia": "Catamarca",
    "Pais": "Argentina",
@@ -626,6 +1042,22 @@
    "lon": -57.98179,
    "Tipo": "localidad"
   },
+  "chajari entre rios": {
+   "Lugar": "Chajarí",
+   "Provincia": "Entre Ríos",
+   "Pais": "Argentina",
+   "lat": -30.75472,
+   "lon": -57.98179,
+   "Tipo": "localidad"
+  },
+  "chapadmalal": {
+   "Lugar": "Chapadmalal",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -38.17095,
+   "lon": -57.63977,
+   "Tipo": "localidad"
+  },
   "chaquiago": {
    "Lugar": "Chaquiago",
    "Provincia": "Catamarca",
@@ -640,6 +1072,22 @@
    "Pais": "Argentina",
    "lat": -35.57421,
    "lon": -58.01128,
+   "Tipo": "localidad"
+  },
+  "chascomus los estoy viendo": {
+   "Lugar": "Chascomús",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -35.57421,
+   "lon": -58.01128,
+   "Tipo": "localidad"
+  },
+  "chicago": {
+   "Lugar": "Chicago",
+   "Provincia": "Illinois",
+   "Pais": "Estados Unidos de América",
+   "lat": 41.87556,
+   "lon": -87.62442,
    "Tipo": "localidad"
   },
   "chile": {
@@ -658,12 +1106,36 @@
    "lon": -67.49931,
    "Tipo": "localidad"
   },
+  "chilecito la rioja": {
+   "Lugar": "Chilecito",
+   "Provincia": "La Rioja",
+   "Pais": "Argentina",
+   "lat": -29.16239,
+   "lon": -67.49931,
+   "Tipo": "localidad"
+  },
   "chivilcoy buenos aires": {
    "Lugar": "Chivilcoy",
    "Provincia": "Buenos Aires",
    "Pais": "Argentina",
    "lat": -34.8969,
    "lon": -60.01909,
+   "Tipo": "localidad"
+  },
+  "choele": {
+   "Lugar": "Choele Choel",
+   "Provincia": "Río Negro",
+   "Pais": "Argentina",
+   "lat": -39.29324,
+   "lon": -65.66158,
+   "Tipo": "localidad"
+  },
+  "cipolletti": {
+   "Lugar": "Cipolletti",
+   "Provincia": "Río Negro",
+   "Pais": "Argentina",
+   "lat": -38.93477,
+   "lon": -68.00179,
    "Tipo": "localidad"
   },
   "cipolletti rio negro": {
@@ -690,6 +1162,22 @@
    "lon": -58.37213,
    "Tipo": "localidad"
   },
+  "ciudad de cordoba": {
+   "Lugar": "Córdoba",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -31.41505,
+   "lon": -64.17911,
+   "Tipo": "localidad"
+  },
+  "ciudad de la plata": {
+   "Lugar": "La Plata",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.9155,
+   "lon": -57.94799,
+   "Tipo": "localidad"
+  },
   "ciudad de santa fe": {
    "Lugar": "Santa Fe",
    "Provincia": "Santa Fe",
@@ -705,6 +1193,30 @@
    "lat": -34.63792,
    "lon": -58.53934,
    "Tipo": "localidad"
+  },
+  "ciudadela buenos aires": {
+   "Lugar": "Ciudadela",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.63792,
+   "lon": -58.53934,
+   "Tipo": "localidad"
+  },
+  "coghlan": {
+   "Lugar": "Coghlan",
+   "Provincia": "Ciudad Autónoma de Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.55892,
+   "lon": -58.47438,
+   "Tipo": "localidad"
+  },
+  "colombia": {
+   "Lugar": "Colombia",
+   "Provincia": "",
+   "Pais": "Colombia",
+   "lat": 4.5709,
+   "lon": -74.2973,
+   "Tipo": "pais"
   },
   "comandante nicanor otamendi": {
    "Lugar": "Comandante Nicanor Otamendi",
@@ -738,6 +1250,14 @@
    "lon": -73.05021,
    "Tipo": "localidad"
   },
+  "concepcion del uruguay": {
+   "Lugar": "Concepción del Uruguay",
+   "Provincia": "Entre Ríos",
+   "Pais": "Argentina",
+   "lat": -32.48518,
+   "lon": -58.23202,
+   "Tipo": "localidad"
+  },
   "concepcion-tucuman": {
    "Lugar": "San Miguel de Tucumán",
    "Provincia": "Tucumán",
@@ -752,6 +1272,30 @@
    "Pais": "Argentina",
    "lat": -31.39745,
    "lon": -58.0172,
+   "Tipo": "localidad"
+  },
+  "concordia e r": {
+   "Lugar": "Concordia",
+   "Provincia": "Entre Ríos",
+   "Pais": "Argentina",
+   "lat": -31.39745,
+   "lon": -58.0172,
+   "Tipo": "localidad"
+  },
+  "concordia entre rios": {
+   "Lugar": "Concordia",
+   "Provincia": "Entre Ríos",
+   "Pais": "Argentina",
+   "lat": -31.39745,
+   "lon": -58.0172,
+   "Tipo": "localidad"
+  },
+  "corcoba": {
+   "Lugar": "La Córcoba",
+   "Provincia": "Asturias",
+   "Pais": "España",
+   "lat": 43.1915,
+   "lon": -5.21114,
    "Tipo": "localidad"
   },
   "cordoba": {
@@ -794,6 +1338,14 @@
    "lon": -64.17911,
    "Tipo": "localidad"
   },
+  "cordoba mirando": {
+   "Lugar": "Córdoba",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -31.41505,
+   "lon": -64.17911,
+   "Tipo": "localidad"
+  },
   "cordoba presente": {
    "Lugar": "Córdoba",
    "Provincia": "Córdoba",
@@ -810,12 +1362,76 @@
    "lon": -64.17911,
    "Tipo": "localidad"
   },
+  "cordoba siguiendo excelente teabajo": {
+   "Lugar": "Córdoba",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -31.41505,
+   "lon": -64.17911,
+   "Tipo": "localidad"
+  },
+  "cordoba unc": {
+   "Lugar": "Córdoba",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -31.41505,
+   "lon": -64.17911,
+   "Tipo": "localidad"
+  },
+  "cordobaaaa": {
+   "Lugar": "Córdoba",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -31.41505,
+   "lon": -64.17911,
+   "Tipo": "localidad"
+  },
+  "cordobaaaaaaa": {
+   "Lugar": "Córdoba",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -31.41505,
+   "lon": -64.17911,
+   "Tipo": "localidad"
+  },
+  "coronel moldes": {
+   "Lugar": "Coronel Moldes",
+   "Provincia": "Salta",
+   "Pais": "Argentina",
+   "lat": -25.28004,
+   "lon": -65.47846,
+   "Tipo": "localidad"
+  },
+  "coronel moldes cordoba": {
+   "Lugar": "Coronel Moldes",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -33.62273,
+   "lon": -64.59705,
+   "Tipo": "localidad"
+  },
+  "coronel pringles": {
+   "Lugar": "Coronel Pringles",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -37.98567,
+   "lon": -61.3504,
+   "Tipo": "localidad"
+  },
   "coronel suarez": {
    "Lugar": "Coronel Suárez",
    "Provincia": "Buenos Aires",
    "Pais": "Argentina",
    "lat": -37.45853,
    "lon": -61.93289,
+   "Tipo": "localidad"
+  },
+  "corral de bustos": {
+   "Lugar": "Corral de Bustos",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -33.28309,
+   "lon": -62.18654,
    "Tipo": "localidad"
   },
   "corrientes": {
@@ -858,12 +1474,28 @@
    "lon": -83.7534,
    "Tipo": "pais"
   },
+  "cruz alta cor": {
+   "Lugar": "Cruz Alta",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -33.0084,
+   "lon": -61.80578,
+   "Tipo": "localidad"
+  },
   "cruz alta cordoba": {
    "Lugar": "Cruz Alta",
    "Provincia": "Córdoba",
    "Pais": "Argentina",
    "lat": -33.0084,
    "lon": -61.80578,
+   "Tipo": "localidad"
+  },
+  "cruz del eje": {
+   "Lugar": "Cruz del Eje",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -30.74393,
+   "lon": -64.79078,
    "Tipo": "localidad"
   },
   "curuzu cuatia": {
@@ -874,6 +1506,30 @@
    "lon": -58.04986,
    "Tipo": "localidad"
   },
+  "cusco": {
+   "Lugar": "Cuzco",
+   "Provincia": "Cusco",
+   "Pais": "Perú",
+   "lat": -13.51709,
+   "lon": -71.97854,
+   "Tipo": "localidad"
+  },
+  "de catamarca super orgullosa": {
+   "Lugar": "San Fernando del Valle de Catamarca",
+   "Provincia": "Catamarca",
+   "Pais": "Argentina",
+   "lat": -28.46901,
+   "lon": -65.77892,
+   "Tipo": "localidad"
+  },
+  "de la plata": {
+   "Lugar": "La Plata",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.9155,
+   "lon": -57.94799,
+   "Tipo": "localidad"
+  },
   "del shincal": {
    "Lugar": "El Shincal",
    "Provincia": "Catamarca",
@@ -882,7 +1538,23 @@
    "lon": -67.1769,
    "Tipo": "localidad"
   },
+  "desde bariloche": {
+   "Lugar": "San Carlos de Bariloche",
+   "Provincia": "Río Negro",
+   "Pais": "Argentina",
+   "lat": -41.13581,
+   "lon": -71.30434,
+   "Tipo": "localidad"
+  },
   "desde bs as": {
+   "Lugar": "Ciudad Autónoma de Buenos Aires",
+   "Provincia": "Ciudad Autónoma de Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.61444,
+   "lon": -58.44588,
+   "Tipo": "localidad"
+  },
+  "desde caba": {
    "Lugar": "Ciudad Autónoma de Buenos Aires",
    "Provincia": "Ciudad Autónoma de Buenos Aires",
    "Pais": "Argentina",
@@ -904,6 +1576,22 @@
    "Pais": "Argentina",
    "lat": -40.80252,
    "lon": -62.9836,
+   "Tipo": "localidad"
+  },
+  "desde florencio varela": {
+   "Lugar": "Florencio Varela",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.80444,
+   "lon": -58.27925,
+   "Tipo": "localidad"
+  },
+  "desde jujuy": {
+   "Lugar": "San Salvador de Jujuy",
+   "Provincia": "Jujuy",
+   "Pais": "Argentina",
+   "lat": -24.18583,
+   "lon": -65.29948,
    "Tipo": "localidad"
   },
   "desde la plata": {
@@ -930,12 +1618,36 @@
    "lon": -57.54384,
    "Tipo": "localidad"
   },
+  "desde palermo caba": {
+   "Lugar": "Ciudad Autónoma de Buenos Aires",
+   "Provincia": "Ciudad Autónoma de Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.61444,
+   "lon": -58.44588,
+   "Tipo": "localidad"
+  },
   "desde quilmes bsas": {
    "Lugar": "Ciudad Autónoma de Buenos Aires",
    "Provincia": "Ciudad Autónoma de Buenos Aires",
    "Pais": "Argentina",
    "lat": -34.61444,
    "lon": -58.44588,
+   "Tipo": "localidad"
+  },
+  "desde rio cuarto": {
+   "Lugar": "Río Cuarto",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -33.12384,
+   "lon": -64.349,
+   "Tipo": "localidad"
+  },
+  "desde rio grande": {
+   "Lugar": "Río Grande",
+   "Provincia": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+   "Pais": "Argentina",
+   "lat": -53.78633,
+   "lon": -67.69633,
    "Tipo": "localidad"
   },
   "desde santa maria catamarca": {
@@ -954,12 +1666,36 @@
    "lon": -64.25967,
    "Tipo": "localidad"
   },
+  "desde sfv de catamarca": {
+   "Lugar": "San Fernando del Valle de Catamarca",
+   "Provincia": "Catamarca",
+   "Pais": "Argentina",
+   "lat": -28.46901,
+   "lon": -65.77892,
+   "Tipo": "localidad"
+  },
+  "desde sgo del estero": {
+   "Lugar": "Santiago del Estero",
+   "Provincia": "Santiago del Estero",
+   "Pais": "Argentina",
+   "lat": -27.78768,
+   "lon": -64.25967,
+   "Tipo": "localidad"
+  },
   "desde sierras de cordoba": {
    "Lugar": "Córdoba",
    "Provincia": "Córdoba",
    "Pais": "Argentina",
    "lat": -31.41505,
    "lon": -64.17911,
+   "Tipo": "localidad"
+  },
+  "desde simoca tucuman": {
+   "Lugar": "San Miguel de Tucumán",
+   "Provincia": "Tucumán",
+   "Pais": "Argentina",
+   "lat": -26.83039,
+   "lon": -65.20378,
    "Tipo": "localidad"
   },
   "desde tucuman": {
@@ -970,12 +1706,60 @@
    "lon": -65.20378,
    "Tipo": "localidad"
   },
+  "despenaderos": {
+   "Lugar": "Despeñaderos",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -31.81428,
+   "lon": -64.29478,
+   "Tipo": "localidad"
+  },
   "despenaderos cordoba": {
    "Lugar": "Despeñaderos",
    "Provincia": "Córdoba",
    "Pais": "Argentina",
    "lat": -31.81428,
    "lon": -64.29478,
+   "Tipo": "localidad"
+  },
+  "despues de la plata": {
+   "Lugar": "La Plata",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.9155,
+   "lon": -57.94799,
+   "Tipo": "localidad"
+  },
+  "diamante": {
+   "Lugar": "Diamante",
+   "Provincia": "Entre Ríos",
+   "Pais": "Argentina",
+   "lat": -32.06713,
+   "lon": -60.64265,
+   "Tipo": "localidad"
+  },
+  "disfrutando desde capital federal": {
+   "Lugar": "Ciudad Autónoma de Buenos Aires",
+   "Provincia": "Ciudad Autónoma de Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.61444,
+   "lon": -58.44588,
+   "Tipo": "localidad"
+  },
+  "don orione buenos aires": {
+   "Lugar": "Don Orione",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.81929,
+   "lon": -58.34185,
+   "Tipo": "localidad"
+  },
+  "don torcuato": {
+   "Lugar": "Don Torcuato",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.48866,
+   "lon": -58.62665,
    "Tipo": "localidad"
   },
   "don torcuato bs as": {
@@ -994,12 +1778,60 @@
    "lon": -78.1834,
    "Tipo": "pais"
   },
+  "ecuador colombia tambien": {
+   "Lugar": "Ecuador",
+   "Provincia": "",
+   "Pais": "Ecuador",
+   "lat": -1.8312,
+   "lon": -78.1834,
+   "Tipo": "pais"
+  },
+  "el alfarero mina clavero": {
+   "Lugar": "Ellis County",
+   "Provincia": "Kansas",
+   "Pais": "Estados Unidos de América",
+   "lat": 38.9153,
+   "lon": -99.31725,
+   "Tipo": "localidad"
+  },
+  "el bolson rio negro": {
+   "Lugar": "El Bolsón",
+   "Provincia": "Río Negro",
+   "Pais": "Argentina",
+   "lat": -41.96502,
+   "lon": -71.53436,
+   "Tipo": "localidad"
+  },
   "el calafate": {
    "Lugar": "El Calafate",
    "Provincia": "Santa Cruz",
    "Pais": "Argentina",
    "lat": -50.33803,
    "lon": -72.26067,
+   "Tipo": "localidad"
+  },
+  "el corazon de bariloche": {
+   "Lugar": "San Carlos de Bariloche",
+   "Provincia": "Río Negro",
+   "Pais": "Argentina",
+   "lat": -41.13581,
+   "lon": -71.30434,
+   "Tipo": "localidad"
+  },
+  "el cusco": {
+   "Lugar": "el Cuscó",
+   "Provincia": "Cataluña",
+   "Pais": "España",
+   "lat": 41.32341,
+   "lon": 1.59612,
+   "Tipo": "localidad"
+  },
+  "el ires catamarca": {
+   "Lugar": "San Fernando del Valle de Catamarca",
+   "Provincia": "Catamarca",
+   "Pais": "Argentina",
+   "lat": -28.46901,
+   "lon": -65.77892,
    "Tipo": "localidad"
   },
   "el jaguel monte grande": {
@@ -1010,12 +1842,84 @@
    "lon": -58.49488,
    "Tipo": "localidad"
   },
+  "el jardin": {
+   "Lugar": "El Jardín",
+   "Provincia": "Salta",
+   "Pais": "Argentina",
+   "lat": -26.07957,
+   "lon": -65.39309,
+   "Tipo": "localidad"
+  },
+  "el lobo": {
+   "Lugar": "Soplin",
+   "Provincia": "Loreto",
+   "Pais": "Perú",
+   "lat": -6.32536,
+   "lon": -73.61417,
+   "Tipo": "localidad"
+  },
+  "el metal": {
+   "Lugar": "El Metal",
+   "Provincia": "Asturias",
+   "Pais": "España",
+   "lat": 43.49075,
+   "lon": -5.28255,
+   "Tipo": "localidad"
+  },
+  "el pato culon": {
+   "Lugar": "El Pato",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.88483,
+   "lon": -58.17385,
+   "Tipo": "localidad"
+  },
   "el pichao tucuman": {
    "Lugar": "San Miguel de Tucumán",
    "Provincia": "Tucumán",
    "Pais": "Argentina",
    "lat": -26.83039,
    "lon": -65.20378,
+   "Tipo": "localidad"
+  },
+  "el pingo": {
+   "Lugar": "El Pingo",
+   "Provincia": "Entre Ríos",
+   "Pais": "Argentina",
+   "lat": -31.58297,
+   "lon": -59.89085,
+   "Tipo": "localidad"
+  },
+  "el rodeo": {
+   "Lugar": "El Rodeo",
+   "Provincia": "Catamarca",
+   "Pais": "Argentina",
+   "lat": -28.2127,
+   "lon": -65.87649,
+   "Tipo": "localidad"
+  },
+  "el shincal": {
+   "Lugar": "El Shincal",
+   "Provincia": "Catamarca",
+   "Pais": "Argentina",
+   "lat": -27.6847,
+   "lon": -67.1769,
+   "Tipo": "localidad"
+  },
+  "el shincal-londres-catamarca": {
+   "Lugar": "San Fernando del Valle de Catamarca",
+   "Provincia": "Catamarca",
+   "Pais": "Argentina",
+   "lat": -28.46901,
+   "lon": -65.77892,
+   "Tipo": "localidad"
+  },
+  "el tala catamarca": {
+   "Lugar": "San Fernando del Valle de Catamarca",
+   "Provincia": "Catamarca",
+   "Pais": "Argentina",
+   "lat": -28.46901,
+   "lon": -65.77892,
    "Tipo": "localidad"
   },
   "el trebol santa fe": {
@@ -1027,6 +1931,14 @@
    "Tipo": "localidad"
   },
   "el valle calchaqui": {
+   "Lugar": "El Valle",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -31.94517,
+   "lon": -65.06449,
+   "Tipo": "localidad"
+  },
+  "el valle yokavil": {
    "Lugar": "El Valle",
    "Provincia": "Córdoba",
    "Pais": "Argentina",
@@ -1050,6 +1962,22 @@
    "lon": -71.37106,
    "Tipo": "localidad"
   },
+  "es espectacular catamarca": {
+   "Lugar": "San Fernando del Valle de Catamarca",
+   "Provincia": "Catamarca",
+   "Pais": "Argentina",
+   "lat": -28.46901,
+   "lon": -65.77892,
+   "Tipo": "localidad"
+  },
+  "escobar buenos aires": {
+   "Lugar": "Escobar",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.34605,
+   "lon": -58.79442,
+   "Tipo": "localidad"
+  },
   "espana": {
    "Lugar": "España",
    "Provincia": "",
@@ -1058,12 +1986,36 @@
    "lon": -4.83798,
    "Tipo": "pais"
   },
+  "espana aguante el conicet": {
+   "Lugar": "España",
+   "Provincia": "",
+   "Pais": "España",
+   "lat": 39.32607,
+   "lon": -4.83798,
+   "Tipo": "pais"
+  },
+  "esperanza": {
+   "Lugar": "Esperanza",
+   "Provincia": "Santa Fe",
+   "Pais": "Argentina",
+   "lat": -31.44889,
+   "lon": -60.93015,
+   "Tipo": "localidad"
+  },
   "esquel": {
    "Lugar": "Esquel",
    "Provincia": "Chubut",
    "Pais": "Argentina",
    "lat": -42.91732,
    "lon": -71.32157,
+   "Tipo": "localidad"
+  },
+  "esta aventura": {
+   "Lugar": "Esta",
+   "Provincia": "",
+   "Pais": "Suecia",
+   "lat": 58.89423,
+   "lon": 17.2452,
    "Tipo": "localidad"
   },
   "exelente saludos desde tucuman": {
@@ -1090,6 +2042,14 @@
    "lon": -58.52476,
    "Tipo": "localidad"
   },
+  "famatina la rioja": {
+   "Lugar": "Famatina",
+   "Provincia": "La Rioja",
+   "Pais": "Argentina",
+   "lat": -28.92505,
+   "lon": -67.51959,
+   "Tipo": "localidad"
+  },
   "federacion entre rios": {
    "Lugar": "Federación",
    "Provincia": "Entre Ríos",
@@ -1098,12 +2058,68 @@
    "lon": -57.91776,
    "Tipo": "localidad"
   },
+  "felicitaciones de catamarca capital": {
+   "Lugar": "San Fernando del Valle de Catamarca",
+   "Provincia": "Catamarca",
+   "Pais": "Argentina",
+   "lat": -28.46901,
+   "lon": -65.77892,
+   "Tipo": "localidad"
+  },
   "felicitaciones desde caba": {
    "Lugar": "Ciudad Autónoma de Buenos Aires",
    "Provincia": "Ciudad Autónoma de Buenos Aires",
    "Pais": "Argentina",
    "lat": -34.61444,
    "lon": -58.44588,
+   "Tipo": "localidad"
+  },
+  "fiambala": {
+   "Lugar": "Fiambalá",
+   "Provincia": "Catamarca",
+   "Pais": "Argentina",
+   "lat": -27.68946,
+   "lon": -67.61915,
+   "Tipo": "localidad"
+  },
+  "fiambala catamarca": {
+   "Lugar": "San Fernando del Valle de Catamarca",
+   "Provincia": "Catamarca",
+   "Pais": "Argentina",
+   "lat": -28.46901,
+   "lon": -65.77892,
+   "Tipo": "localidad"
+  },
+  "fines desde mardel": {
+   "Lugar": "Mar del Plata",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -38.00645,
+   "lon": -57.54384,
+   "Tipo": "localidad"
+  },
+  "fines mirando en vivo": {
+   "Lugar": "Fines",
+   "Provincia": "Andalucía",
+   "Pais": "España",
+   "lat": 37.36,
+   "lon": -2.26329,
+   "Tipo": "localidad"
+  },
+  "florenciaaaaaa": {
+   "Lugar": "Florencia",
+   "Provincia": "Santa Fe",
+   "Pais": "Argentina",
+   "lat": -28.04063,
+   "lon": -59.21801,
+   "Tipo": "localidad"
+  },
+  "florencio varela": {
+   "Lugar": "Florencio Varela",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.80444,
+   "lon": -58.27925,
    "Tipo": "localidad"
   },
   "florencio varela esta": {
@@ -1120,6 +2136,14 @@
    "Pais": "Argentina",
    "lat": -34.80444,
    "lon": -58.27925,
+   "Tipo": "localidad"
+  },
+  "florentino ameghino": {
+   "Lugar": "Florentino Ameghino",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.84537,
+   "lon": -62.46716,
    "Tipo": "localidad"
   },
   "flores": {
@@ -1170,6 +2194,30 @@
    "lon": -65.77892,
    "Tipo": "localidad"
   },
+  "frias": {
+   "Lugar": "Frías",
+   "Provincia": "Santiago del Estero",
+   "Pais": "Argentina",
+   "lat": -28.63754,
+   "lon": -65.12873,
+   "Tipo": "localidad"
+  },
+  "general deheza": {
+   "Lugar": "General Deheza",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -32.75633,
+   "lon": -63.78913,
+   "Tipo": "localidad"
+  },
+  "general pacheco": {
+   "Lugar": "General Pacheco",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.45492,
+   "lon": -58.63415,
+   "Tipo": "localidad"
+  },
   "general pico": {
    "Lugar": "General Pico",
    "Provincia": "La Pampa",
@@ -1186,12 +2234,52 @@
    "lon": -67.57799,
    "Tipo": "localidad"
   },
+  "gobernador gregores": {
+   "Lugar": "Gobernador Gregores",
+   "Provincia": "Santa Cruz",
+   "Pais": "Argentina",
+   "lat": -48.7509,
+   "lon": -70.24852,
+   "Tipo": "localidad"
+  },
+  "godoy cruz": {
+   "Lugar": "Godoy Cruz",
+   "Provincia": "Mendoza",
+   "Pais": "Argentina",
+   "lat": -32.92533,
+   "lon": -68.84428,
+   "Tipo": "localidad"
+  },
+  "goya ctes": {
+   "Lugar": "Goya",
+   "Provincia": "Corrientes",
+   "Pais": "Argentina",
+   "lat": -29.14008,
+   "lon": -59.25989,
+   "Tipo": "localidad"
+  },
   "gral villegas": {
    "Lugar": "General Villegas",
    "Provincia": "Buenos Aires",
    "Pais": "Argentina",
    "lat": -35.03263,
    "lon": -63.01503,
+   "Tipo": "localidad"
+  },
+  "granadero baigorria": {
+   "Lugar": "Granadero Baigorria",
+   "Provincia": "Santa Fe",
+   "Pais": "Argentina",
+   "lat": -32.86183,
+   "lon": -60.70633,
+   "Tipo": "localidad"
+  },
+  "gualeguay": {
+   "Lugar": "Gualeguay",
+   "Provincia": "Entre Ríos",
+   "Pais": "Argentina",
+   "lat": -33.15043,
+   "lon": -59.31058,
    "Tipo": "localidad"
   },
   "gualeguaychu": {
@@ -1218,6 +2306,46 @@
    "lon": -58.38216,
    "Tipo": "localidad"
   },
+  "haciendo ingenieria en caba": {
+   "Lugar": "Ciudad Autónoma de Buenos Aires",
+   "Provincia": "Ciudad Autónoma de Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.61444,
+   "lon": -58.44588,
+   "Tipo": "localidad"
+  },
+  "haedo": {
+   "Lugar": "Haedo",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.64361,
+   "lon": -58.59452,
+   "Tipo": "localidad"
+  },
+  "helvecia": {
+   "Lugar": "Helvecia",
+   "Provincia": "Santa Fe",
+   "Pais": "Argentina",
+   "lat": -31.10236,
+   "lon": -60.08889,
+   "Tipo": "localidad"
+  },
+  "hermosillo": {
+   "Lugar": "Hermosillo",
+   "Provincia": "Sonora",
+   "Pais": "México",
+   "lat": 29.09482,
+   "lon": -110.96922,
+   "Tipo": "localidad"
+  },
+  "hermoso programa del tucuman": {
+   "Lugar": "San Miguel de Tucumán",
+   "Provincia": "Tucumán",
+   "Pais": "Argentina",
+   "lat": -26.83039,
+   "lon": -65.20378,
+   "Tipo": "localidad"
+  },
   "hola desde tucuman 3": {
    "Lugar": "San Miguel de Tucumán",
    "Provincia": "Tucumán",
@@ -1226,12 +2354,28 @@
    "lon": -65.20378,
    "Tipo": "localidad"
   },
+  "holanda": {
+   "Lugar": "Países Bajos",
+   "Provincia": "",
+   "Pais": "Países Bajos",
+   "lat": 52.2435,
+   "lon": 5.63432,
+   "Tipo": "pais"
+  },
   "humahuaca jujuy": {
    "Lugar": "San Salvador de Jujuy",
    "Provincia": "Jujuy",
    "Pais": "Argentina",
    "lat": -24.18583,
    "lon": -65.29948,
+   "Tipo": "localidad"
+  },
+  "isidro casanova": {
+   "Lugar": "Isidro Casanova",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.71097,
+   "lon": -58.58581,
    "Tipo": "localidad"
   },
   "italia": {
@@ -1242,12 +2386,60 @@
    "lon": 12.5674,
    "Tipo": "pais"
   },
+  "italia haciendo el aguante": {
+   "Lugar": "Italia",
+   "Provincia": "",
+   "Pais": "Italia",
+   "lat": 41.8719,
+   "lon": 12.5674,
+   "Tipo": "pais"
+  },
+  "ituzaingo": {
+   "Lugar": "Ituzaingó",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.66039,
+   "lon": -58.66617,
+   "Tipo": "localidad"
+  },
+  "japon": {
+   "Lugar": "Japon",
+   "Provincia": "",
+   "Pais": "Japon",
+   "lat": 36.2048,
+   "lon": 138.2529,
+   "Tipo": "pais"
+  },
+  "jarilla para el asado": {
+   "Lugar": "Jarilla",
+   "Provincia": "San Luis",
+   "Pais": "Argentina",
+   "lat": -33.39645,
+   "lon": -67.02658,
+   "Tipo": "localidad"
+  },
   "jesus maria": {
    "Lugar": "Jesús María",
    "Provincia": "Córdoba",
    "Pais": "Argentina",
    "lat": -30.97613,
    "lon": -64.09579,
+   "Tipo": "localidad"
+  },
+  "joao pessoa": {
+   "Lugar": "João Pessoa",
+   "Provincia": "Paraíba",
+   "Pais": "Brasil",
+   "lat": -7.1216,
+   "lon": -34.88203,
+   "Tipo": "localidad"
+  },
+  "jose c paz": {
+   "Lugar": "José C. Paz",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.52175,
+   "lon": -58.75537,
    "Tipo": "localidad"
   },
   "jose hernandez": {
@@ -1259,6 +2451,14 @@
    "Tipo": "localidad"
   },
   "jujuy": {
+   "Lugar": "San Salvador de Jujuy",
+   "Provincia": "Jujuy",
+   "Pais": "Argentina",
+   "lat": -24.18583,
+   "lon": -65.29948,
+   "Tipo": "localidad"
+  },
+  "jujuy los saludo chicos": {
    "Lugar": "San Salvador de Jujuy",
    "Provincia": "Jujuy",
    "Pais": "Argentina",
@@ -1282,6 +2482,14 @@
    "lon": -65.29948,
    "Tipo": "localidad"
   },
+  "jujuy se saluda": {
+   "Lugar": "San Salvador de Jujuy",
+   "Provincia": "Jujuy",
+   "Pais": "Argentina",
+   "lat": -24.18583,
+   "lon": -65.29948,
+   "Tipo": "localidad"
+  },
   "julio de la plata": {
    "Lugar": "La Plata",
    "Provincia": "Buenos Aires",
@@ -1296,6 +2504,30 @@
    "Pais": "Argentina",
    "lat": -34.61444,
    "lon": -58.44588,
+   "Tipo": "localidad"
+  },
+  "junin de los andes": {
+   "Lugar": "Junín de los Andes",
+   "Provincia": "Neuquén",
+   "Pais": "Argentina",
+   "lat": -39.95088,
+   "lon": -71.07086,
+   "Tipo": "localidad"
+  },
+  "kipus en la plata": {
+   "Lugar": "La Plata",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.9155,
+   "lon": -57.94799,
+   "Tipo": "localidad"
+  },
+  "kloten suiza": {
+   "Lugar": "Kloten",
+   "Provincia": "Zúrich",
+   "Pais": "Suiza",
+   "lat": 47.45251,
+   "lon": 8.58615,
    "Tipo": "localidad"
   },
   "la arqueologia de catamarca": {
@@ -1322,12 +2554,68 @@
    "lon": -65.77892,
    "Tipo": "localidad"
   },
+  "la chamba": {
+   "Lugar": "La Chamba",
+   "Provincia": "Auvergne-Rhône-Alpes",
+   "Pais": "Francia",
+   "lat": 45.75565,
+   "lon": 3.75771,
+   "Tipo": "localidad"
+  },
+  "la cocha": {
+   "Lugar": "La Cocha",
+   "Provincia": "Tucumán",
+   "Pais": "Argentina",
+   "lat": -27.77001,
+   "lon": -65.58844,
+   "Tipo": "localidad"
+  },
+  "la cocha tuc": {
+   "Lugar": "La Cocha",
+   "Provincia": "Tucumán",
+   "Pais": "Argentina",
+   "lat": -27.77001,
+   "lon": -65.58844,
+   "Tipo": "localidad"
+  },
+  "la cocha tucuman": {
+   "Lugar": "San Miguel de Tucumán",
+   "Provincia": "Tucumán",
+   "Pais": "Argentina",
+   "lat": -26.83039,
+   "lon": -65.20378,
+   "Tipo": "localidad"
+  },
+  "la cochaaa saludooo": {
+   "Lugar": "La Cocha",
+   "Provincia": "Tucumán",
+   "Pais": "Argentina",
+   "lat": -27.77001,
+   "lon": -65.58844,
+   "Tipo": "localidad"
+  },
+  "la comodoro rivadavia": {
+   "Lugar": "Comodoro Rivadavia",
+   "Provincia": "Chubut",
+   "Pais": "Argentina",
+   "lat": -45.86256,
+   "lon": -67.494,
+   "Tipo": "localidad"
+  },
   "la consulta mendoza": {
    "Lugar": "La Consulta",
    "Provincia": "Mendoza",
    "Pais": "Argentina",
    "lat": -33.73385,
    "lon": -69.11989,
+   "Tipo": "localidad"
+  },
+  "la cumbre": {
+   "Lugar": "La Cumbre",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -30.98213,
+   "lon": -64.4942,
    "Tipo": "localidad"
   },
   "la falda": {
@@ -1370,6 +2658,46 @@
    "lon": -65.77892,
    "Tipo": "localidad"
   },
+  "la mismisima la plata": {
+   "Lugar": "La Plata",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.9155,
+   "lon": -57.94799,
+   "Tipo": "localidad"
+  },
+  "la pala verde": {
+   "Lugar": "La Pala",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -36.66392,
+   "lon": -63.36647,
+   "Tipo": "localidad"
+  },
+  "la pampa gringa": {
+   "Lugar": "La Pampa",
+   "Provincia": "La Pampa",
+   "Pais": "Argentina",
+   "lat": -37.13507,
+   "lon": -65.44764,
+   "Tipo": "provincia"
+  },
+  "la pampa maravilloso lugar": {
+   "Lugar": "La Pampa",
+   "Provincia": "La Pampa",
+   "Pais": "Argentina",
+   "lat": -37.13507,
+   "lon": -65.44764,
+   "Tipo": "provincia"
+  },
+  "la pampa saludos": {
+   "Lugar": "La Pampa",
+   "Provincia": "La Pampa",
+   "Pais": "Argentina",
+   "lat": -37.13507,
+   "lon": -65.44764,
+   "Tipo": "provincia"
+  },
   "la pla": {
    "Lugar": "Pla",
    "Provincia": "Buenos Aires",
@@ -1386,7 +2714,23 @@
    "lon": -57.94799,
    "Tipo": "localidad"
   },
+  "la plata los aludamos": {
+   "Lugar": "La Plata",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.9155,
+   "lon": -57.94799,
+   "Tipo": "localidad"
+  },
   "la plata presente": {
+   "Lugar": "La Plata",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.9155,
+   "lon": -57.94799,
+   "Tipo": "localidad"
+  },
+  "la plataaa": {
    "Lugar": "La Plata",
    "Provincia": "Buenos Aires",
    "Pais": "Argentina",
@@ -1400,6 +2744,14 @@
    "Pais": "Argentina",
    "lat": -34.9155,
    "lon": -57.94799,
+   "Tipo": "localidad"
+  },
+  "la punta": {
+   "Lugar": "La Punta",
+   "Provincia": "San Luis",
+   "Pais": "Argentina",
+   "lat": -33.18368,
+   "lon": -66.31248,
    "Tipo": "localidad"
   },
   "la resistencia originaria": {
@@ -1426,12 +2778,52 @@
    "lon": -66.85583,
    "Tipo": "localidad"
   },
+  "la rioja capital saludos": {
+   "Lugar": "La Rioja",
+   "Provincia": "La Rioja",
+   "Pais": "Argentina",
+   "lat": -29.41288,
+   "lon": -66.85583,
+   "Tipo": "localidad"
+  },
   "la rioja presente": {
    "Lugar": "La Rioja",
    "Provincia": "La Rioja",
    "Pais": "Argentina",
    "lat": -29.41288,
    "lon": -66.85583,
+   "Tipo": "localidad"
+  },
+  "la riojaaaa": {
+   "Lugar": "La Rioja",
+   "Provincia": "La Rioja",
+   "Pais": "Argentina",
+   "lat": -29.41288,
+   "lon": -66.85583,
+   "Tipo": "localidad"
+  },
+  "lago matiro": {
+   "Lugar": "Lago",
+   "Provincia": "Calabria",
+   "Pais": "Italia",
+   "lat": 39.16594,
+   "lon": 16.16435,
+   "Tipo": "localidad"
+  },
+  "lago puelo": {
+   "Lugar": "Lago Puelo",
+   "Provincia": "Chubut",
+   "Pais": "Argentina",
+   "lat": -42.06013,
+   "lon": -71.59714,
+   "Tipo": "localidad"
+  },
+  "laguna paiva santa fe": {
+   "Lugar": "Laguna Paiva",
+   "Provincia": "Santa Fe",
+   "Pais": "Argentina",
+   "lat": -31.30736,
+   "lon": -60.65992,
    "Tipo": "localidad"
   },
   "lanus": {
@@ -1450,6 +2842,22 @@
    "lon": -58.44588,
    "Tipo": "localidad"
   },
+  "lanus buenos aires": {
+   "Lugar": "Lanús",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.70756,
+   "lon": -58.39113,
+   "Tipo": "localidad"
+  },
+  "lanus monte chingolo": {
+   "Lugar": "Lanús",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.70756,
+   "lon": -58.39113,
+   "Tipo": "localidad"
+  },
   "laplata": {
    "Lugar": "La Plata",
    "Provincia": "Buenos Aires",
@@ -1458,12 +2866,52 @@
    "lon": -57.94799,
    "Tipo": "localidad"
   },
+  "las brenas chaco": {
+   "Lugar": "Las Breñas",
+   "Provincia": "Chaco",
+   "Pais": "Argentina",
+   "lat": -27.08644,
+   "lon": -61.08582,
+   "Tipo": "localidad"
+  },
+  "las heras santa cruz": {
+   "Lugar": "Las Heras",
+   "Provincia": "Santa Cruz",
+   "Pais": "Argentina",
+   "lat": -46.54131,
+   "lon": -68.93227,
+   "Tipo": "localidad"
+  },
+  "las lajas neuquen": {
+   "Lugar": "Las Lajas",
+   "Provincia": "Neuquén",
+   "Pais": "Argentina",
+   "lat": -38.52341,
+   "lon": -70.36164,
+   "Tipo": "localidad"
+  },
+  "las malvinas son argentinas": {
+   "Lugar": "Las Malvinas",
+   "Provincia": "Mendoza",
+   "Pais": "Argentina",
+   "lat": -34.8351,
+   "lon": -68.24863,
+   "Tipo": "localidad"
+  },
   "las sierras de cordoba": {
    "Lugar": "Córdoba",
    "Provincia": "Córdoba",
    "Pais": "Argentina",
    "lat": -31.41505,
    "lon": -64.17911,
+   "Tipo": "localidad"
+  },
+  "las yungas de jujuy": {
+   "Lugar": "San Salvador de Jujuy",
+   "Provincia": "Jujuy",
+   "Pais": "Argentina",
+   "lat": -24.18583,
+   "lon": -65.29948,
    "Tipo": "localidad"
   },
   "lastima catamarca": {
@@ -1482,12 +2930,28 @@
    "lon": -68.59,
    "Tipo": "localidad"
   },
+  "lima": {
+   "Lugar": "Lima",
+   "Provincia": "Lima",
+   "Pais": "Perú",
+   "lat": -12.0464,
+   "lon": -77.0428,
+   "Tipo": "localidad"
+  },
   "liniers": {
    "Lugar": "Liniers",
    "Provincia": "Ciudad Autónoma de Buenos Aires",
    "Pais": "Argentina",
    "lat": -34.63871,
    "lon": -58.52124,
+   "Tipo": "localidad"
+  },
+  "little horse": {
+   "Lugar": "Little",
+   "Provincia": "Kentucky",
+   "Pais": "Estados Unidos de América",
+   "lat": 37.43981,
+   "lon": -83.36185,
    "Tipo": "localidad"
   },
   "lomas de zamora": {
@@ -1522,12 +2986,68 @@
    "lon": -65.77892,
    "Tipo": "localidad"
   },
+  "londresss": {
+   "Lugar": "Londres",
+   "Provincia": "Catamarca",
+   "Pais": "Argentina",
+   "lat": -27.71257,
+   "lon": -67.13551,
+   "Tipo": "localidad"
+  },
   "longchamps": {
    "Lugar": "Longchamps",
    "Provincia": "Buenos Aires",
    "Pais": "Argentina",
    "lat": -34.86073,
    "lon": -58.38918,
+   "Tipo": "localidad"
+  },
+  "loreto": {
+   "Lugar": "Loreto",
+   "Provincia": "Santiago del Estero",
+   "Pais": "Argentina",
+   "lat": -28.30115,
+   "lon": -64.18404,
+   "Tipo": "localidad"
+  },
+  "los arqueologos de catamarca": {
+   "Lugar": "San Fernando del Valle de Catamarca",
+   "Provincia": "Catamarca",
+   "Pais": "Argentina",
+   "lat": -28.46901,
+   "lon": -65.77892,
+   "Tipo": "localidad"
+  },
+  "los barriales": {
+   "Lugar": "Los Barriales",
+   "Provincia": "Mendoza",
+   "Pais": "Argentina",
+   "lat": -33.09968,
+   "lon": -68.56881,
+   "Tipo": "localidad"
+  },
+  "los cientificos argentinos": {
+   "Lugar": "Los",
+   "Provincia": "",
+   "Pais": "Suecia",
+   "lat": 61.73651,
+   "lon": 15.16921,
+   "Tipo": "localidad"
+  },
+  "los menucos rio negro": {
+   "Lugar": "Los Menucos",
+   "Provincia": "Río Negro",
+   "Pais": "Argentina",
+   "lat": -40.84281,
+   "lon": -68.08592,
+   "Tipo": "localidad"
+  },
+  "los reartes": {
+   "Lugar": "Los Reartes",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -31.91831,
+   "lon": -64.57582,
    "Tipo": "localidad"
   },
   "los surgentes": {
@@ -1546,6 +3066,14 @@
    "lon": -62.02187,
    "Tipo": "localidad"
   },
+  "los varela": {
+   "Lugar": "Los Varela",
+   "Provincia": "Catamarca",
+   "Pais": "Argentina",
+   "lat": -27.93147,
+   "lon": -65.87202,
+   "Tipo": "localidad"
+  },
   "los veo desde jujuy": {
    "Lugar": "San Salvador de Jujuy",
    "Provincia": "Jujuy",
@@ -1560,6 +3088,22 @@
    "Pais": "Argentina",
    "lat": -34.9155,
    "lon": -57.94799,
+   "Tipo": "localidad"
+  },
+  "luis palacios": {
+   "Lugar": "Luis Palacios",
+   "Provincia": "Santa Fe",
+   "Pais": "Argentina",
+   "lat": -32.78234,
+   "lon": -60.90458,
+   "Tipo": "localidad"
+  },
+  "macachin la pampa": {
+   "Lugar": "Macachín",
+   "Provincia": "La Pampa",
+   "Pais": "Argentina",
+   "lat": -37.13698,
+   "lon": -63.66674,
    "Tipo": "localidad"
   },
   "madrid": {
@@ -1578,6 +3122,30 @@
    "lon": -58.44588,
    "Tipo": "localidad"
   },
+  "maggiolo": {
+   "Lugar": "Maggiolo",
+   "Provincia": "Santa Fe",
+   "Pais": "Argentina",
+   "lat": -33.7211,
+   "lon": -62.24625,
+   "Tipo": "localidad"
+  },
+  "maipu bs as": {
+   "Lugar": "Ciudad Autónoma de Buenos Aires",
+   "Provincia": "Ciudad Autónoma de Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.61444,
+   "lon": -58.44588,
+   "Tipo": "localidad"
+  },
+  "malagueno cordoba": {
+   "Lugar": "Malagueño",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -31.4674,
+   "lon": -64.35902,
+   "Tipo": "localidad"
+  },
   "malargue": {
    "Lugar": "Malargüe",
    "Provincia": "Mendoza",
@@ -1594,7 +3162,39 @@
    "lon": -69.58471,
    "Tipo": "localidad"
   },
+  "malena para emilio": {
+   "Lugar": "Malena",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -33.49041,
+   "lon": -64.43088,
+   "Tipo": "localidad"
+  },
+  "man i love catamarca": {
+   "Lugar": "San Fernando del Valle de Catamarca",
+   "Provincia": "Catamarca",
+   "Pais": "Argentina",
+   "lat": -28.46901,
+   "lon": -65.77892,
+   "Tipo": "localidad"
+  },
+  "mar de ajo": {
+   "Lugar": "Mar de Ajó",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -36.72956,
+   "lon": -56.6773,
+   "Tipo": "localidad"
+  },
   "mar del plata": {
+   "Lugar": "Mar del Plata",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -38.00645,
+   "lon": -57.54384,
+   "Tipo": "localidad"
+  },
+  "mar del plata gracias": {
    "Lugar": "Mar del Plata",
    "Provincia": "Buenos Aires",
    "Pais": "Argentina",
@@ -1642,7 +3242,55 @@
    "lon": -57.54384,
    "Tipo": "localidad"
   },
+  "mataderos": {
+   "Lugar": "Mataderos",
+   "Provincia": "Ciudad Autónoma de Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.66011,
+   "lon": -58.50293,
+   "Tipo": "localidad"
+  },
+  "melincue": {
+   "Lugar": "Melincué",
+   "Provincia": "Santa Fe",
+   "Pais": "Argentina",
+   "lat": -33.66114,
+   "lon": -61.45699,
+   "Tipo": "localidad"
+  },
+  "melincue presente": {
+   "Lugar": "Melincué",
+   "Provincia": "Santa Fe",
+   "Pais": "Argentina",
+   "lat": -33.66114,
+   "lon": -61.45699,
+   "Tipo": "localidad"
+  },
+  "melincue santa fe": {
+   "Lugar": "Melincué",
+   "Provincia": "Santa Fe",
+   "Pais": "Argentina",
+   "lat": -33.66114,
+   "lon": -61.45699,
+   "Tipo": "localidad"
+  },
   "mendoza": {
+   "Lugar": "Mendoza",
+   "Provincia": "Mendoza",
+   "Pais": "Argentina",
+   "lat": -32.88973,
+   "lon": -68.84444,
+   "Tipo": "localidad"
+  },
+  "mendoza los vemos": {
+   "Lugar": "Mendoza",
+   "Provincia": "Mendoza",
+   "Pais": "Argentina",
+   "lat": -32.88973,
+   "lon": -68.84444,
+   "Tipo": "localidad"
+  },
+  "mendoza presente": {
    "Lugar": "Mendoza",
    "Provincia": "Mendoza",
    "Pais": "Argentina",
@@ -1656,6 +3304,14 @@
    "Pais": "Argentina",
    "lat": -32.88973,
    "lon": -68.84444,
+   "Tipo": "localidad"
+  },
+  "mercedes": {
+   "Lugar": "Mercedes",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.65073,
+   "lon": -59.43139,
    "Tipo": "localidad"
   },
   "merlo": {
@@ -1690,6 +3346,30 @@
    "lon": -102.5528,
    "Tipo": "pais"
   },
+  "mina clavero": {
+   "Lugar": "Mina Clavero",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -31.72943,
+   "lon": -65.005,
+   "Tipo": "localidad"
+  },
+  "miramar": {
+   "Lugar": "Miramar",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -38.27046,
+   "lon": -57.83985,
+   "Tipo": "localidad"
+  },
+  "misones": {
+   "Lugar": "Los Misones",
+   "Provincia": "Castilla y León",
+   "Pais": "España",
+   "lat": 42.6785,
+   "lon": -6.41775,
+   "Tipo": "localidad"
+  },
   "mocoreta": {
    "Lugar": "Mocoretá",
    "Provincia": "Corrientes",
@@ -1704,6 +3384,30 @@
    "Pais": "Argentina",
    "lat": -30.61668,
    "lon": -57.97536,
+   "Tipo": "localidad"
+  },
+  "monte grande": {
+   "Lugar": "Monte Grande",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.81636,
+   "lon": -58.46826,
+   "Tipo": "localidad"
+  },
+  "monteros": {
+   "Lugar": "Monteros",
+   "Provincia": "Tucumán",
+   "Pais": "Argentina",
+   "lat": -27.16529,
+   "lon": -65.49722,
+   "Tipo": "localidad"
+  },
+  "montevideo uruguay": {
+   "Lugar": "Montevideo",
+   "Provincia": "Montevideo",
+   "Pais": "Uruguay",
+   "lat": -34.9011,
+   "lon": -56.1645,
    "Tipo": "localidad"
   },
   "moreno": {
@@ -1778,6 +3482,46 @@
    "lon": -68.05918,
    "Tipo": "localidad"
   },
+  "neuquen capital": {
+   "Lugar": "Neuquén",
+   "Provincia": "Neuquén",
+   "Pais": "Argentina",
+   "lat": -38.95183,
+   "lon": -68.05918,
+   "Tipo": "localidad"
+  },
+  "neuquen patagonia argentinauckszu2wh9gy1mb0dv-11ujg g8afy6ywgukuhl0plbia2ae": {
+   "Lugar": "Neuquén",
+   "Provincia": "Neuquén",
+   "Pais": "Argentina",
+   "lat": -38.95183,
+   "lon": -68.05918,
+   "Tipo": "localidad"
+  },
+  "nono cordoba": {
+   "Lugar": "Nono",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -31.7972,
+   "lon": -65.0025,
+   "Tipo": "localidad"
+  },
+  "nono cordobaaaa": {
+   "Lugar": "Nono",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -31.7972,
+   "lon": -65.0025,
+   "Tipo": "localidad"
+  },
+  "nono no se vaynnnnmm": {
+   "Lugar": "Nono",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -31.7972,
+   "lon": -65.0025,
+   "Tipo": "localidad"
+  },
   "olavarria": {
    "Lugar": "Olavarría",
    "Provincia": "Buenos Aires",
@@ -1786,12 +3530,52 @@
    "lon": -60.32319,
    "Tipo": "localidad"
   },
+  "olivos": {
+   "Lugar": "Olivos",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.50932,
+   "lon": -58.4814,
+   "Tipo": "localidad"
+  },
+  "oncativo": {
+   "Lugar": "Oncativo",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -31.91343,
+   "lon": -63.68202,
+   "Tipo": "localidad"
+  },
+  "oriente": {
+   "Lugar": "Oriente",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -38.7444,
+   "lon": -60.60936,
+   "Tipo": "localidad"
+  },
   "pais vasco": {
    "Lugar": "País Vasco",
    "Provincia": "",
    "Pais": "España",
    "lat": 42.9912,
    "lon": -2.5543,
+   "Tipo": "localidad"
+  },
+  "palermo caba": {
+   "Lugar": "Ciudad Autónoma de Buenos Aires",
+   "Provincia": "Ciudad Autónoma de Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.61444,
+   "lon": -58.44588,
+   "Tipo": "localidad"
+  },
+  "palermo canitas": {
+   "Lugar": "Palermo",
+   "Provincia": "Ciudad Autónoma de Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.58124,
+   "lon": -58.42102,
    "Tipo": "localidad"
   },
   "parana": {
@@ -1816,6 +3600,14 @@
    "Pais": "Argentina",
    "lat": -31.74016,
    "lon": -60.52743,
+   "Tipo": "localidad"
+  },
+  "parque chacabuco": {
+   "Lugar": "Parque Chacabuco",
+   "Provincia": "Ciudad Autónoma de Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.63528,
+   "lon": -58.43903,
    "Tipo": "localidad"
   },
   "parque patricios": {
@@ -1858,6 +3650,14 @@
    "lon": -63.34174,
    "Tipo": "localidad"
   },
+  "paso de los libres": {
+   "Lugar": "Paso de los Libres",
+   "Provincia": "Corrientes",
+   "Pais": "Argentina",
+   "lat": -29.71371,
+   "lon": -57.08541,
+   "Tipo": "localidad"
+  },
   "patagones": {
    "Lugar": "Carmen de Patagones",
    "Provincia": "Buenos Aires",
@@ -1866,12 +3666,28 @@
    "lon": -62.9836,
    "Tipo": "localidad"
   },
+  "patquia la rioja": {
+   "Lugar": "Patquía",
+   "Provincia": "La Rioja",
+   "Pais": "Argentina",
+   "lat": -30.04815,
+   "lon": -66.87972,
+   "Tipo": "localidad"
+  },
   "paula esposito": {
    "Lugar": "Paula",
    "Provincia": "Buenos Aires",
    "Pais": "Argentina",
    "lat": -36.50357,
    "lon": -61.02483,
+   "Tipo": "localidad"
+  },
+  "payogasta": {
+   "Lugar": "Payogasta",
+   "Provincia": "Salta",
+   "Pais": "Argentina",
+   "lat": -25.05143,
+   "lon": -66.10295,
    "Tipo": "localidad"
   },
   "pergamino": {
@@ -1890,12 +3706,52 @@
    "lon": -75.0152,
    "Tipo": "pais"
   },
+  "peru 3": {
+   "Lugar": "Peru",
+   "Provincia": "",
+   "Pais": "Peru",
+   "lat": -9.19,
+   "lon": -75.0152,
+   "Tipo": "pais"
+  },
+  "peru manoo": {
+   "Lugar": "Peru",
+   "Provincia": "",
+   "Pais": "Peru",
+   "lat": -9.19,
+   "lon": -75.0152,
+   "Tipo": "pais"
+  },
+  "philadelphia": {
+   "Lugar": "Filadelfia",
+   "Provincia": "Pensilvania",
+   "Pais": "Estados Unidos de América",
+   "lat": 39.95272,
+   "lon": -75.16353,
+   "Tipo": "localidad"
+  },
+  "pico truncado": {
+   "Lugar": "Pico Truncado",
+   "Provincia": "Santa Cruz",
+   "Pais": "Argentina",
+   "lat": -46.79942,
+   "lon": -67.95785,
+   "Tipo": "localidad"
+  },
   "pico truncado santa cruz": {
    "Lugar": "Pico Truncado",
    "Provincia": "Santa Cruz",
    "Pais": "Argentina",
    "lat": -46.79942,
    "lon": -67.95785,
+   "Tipo": "localidad"
+  },
+  "pilar": {
+   "Lugar": "Pilar",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.45698,
+   "lon": -58.91391,
    "Tipo": "localidad"
   },
   "pilar bs as": {
@@ -1912,6 +3768,14 @@
    "Pais": "Argentina",
    "lat": -31.68127,
    "lon": -63.8824,
+   "Tipo": "localidad"
+  },
+  "pinamar": {
+   "Lugar": "Pinamar",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -37.11382,
+   "lon": -56.85808,
    "Tipo": "localidad"
   },
   "pirane formosa": {
@@ -1954,12 +3818,36 @@
    "lon": -69.20778,
    "Tipo": "localidad"
   },
+  "plottier": {
+   "Lugar": "Plottier",
+   "Provincia": "Neuquén",
+   "Pais": "Argentina",
+   "lat": -38.95235,
+   "lon": -68.22715,
+   "Tipo": "localidad"
+  },
   "plottier neuquen": {
    "Lugar": "Plottier",
    "Provincia": "Neuquén",
    "Pais": "Argentina",
    "lat": -38.95235,
    "lon": -68.22715,
+   "Tipo": "localidad"
+  },
+  "posadas misiones": {
+   "Lugar": "Posadas",
+   "Provincia": "Misiones",
+   "Pais": "Argentina",
+   "lat": -27.36643,
+   "lon": -55.89398,
+   "Tipo": "localidad"
+  },
+  "prov de bsas abrazos": {
+   "Lugar": "Ciudad Autónoma de Buenos Aires",
+   "Provincia": "Ciudad Autónoma de Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.61444,
+   "lon": -58.44588,
    "Tipo": "localidad"
   },
   "pueblo andino": {
@@ -1978,12 +3866,28 @@
    "lon": -54.6152,
    "Tipo": "localidad"
   },
+  "puerto iguazu": {
+   "Lugar": "Puerto Iguazú",
+   "Provincia": "Misiones",
+   "Pais": "Argentina",
+   "lat": -25.59721,
+   "lon": -54.57722,
+   "Tipo": "localidad"
+  },
   "puerto madryn": {
    "Lugar": "Puerto Madryn",
    "Provincia": "Chubut",
    "Pais": "Argentina",
    "lat": -42.76728,
    "lon": -65.03668,
+   "Tipo": "localidad"
+  },
+  "puerto san martin": {
+   "Lugar": "Puerto General San Martín",
+   "Provincia": "Santa Fe",
+   "Pais": "Argentina",
+   "lat": -32.71162,
+   "lon": -60.73412,
    "Tipo": "localidad"
   },
   "punta del indio": {
@@ -2002,12 +3906,28 @@
    "lon": -65.77892,
    "Tipo": "localidad"
   },
+  "quebrada de luna dordoba": {
+   "Lugar": "Camuy",
+   "Provincia": "Puerto Rico",
+   "Pais": "Estados Unidos de América",
+   "lat": 18.3712,
+   "lon": -66.83715,
+   "Tipo": "localidad"
+  },
   "quenuma": {
    "Lugar": "Quenumá",
    "Provincia": "Buenos Aires",
    "Pais": "Argentina",
    "lat": -36.56934,
    "lon": -63.08811,
+   "Tipo": "localidad"
+  },
+  "quequen": {
+   "Lugar": "Quequén",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -38.56611,
+   "lon": -58.70618,
    "Tipo": "localidad"
   },
   "quequen la costa argentina": {
@@ -2042,12 +3962,28 @@
    "lon": -58.25435,
    "Tipo": "localidad"
   },
+  "quilmes bs as": {
+   "Lugar": "Ciudad Autónoma de Buenos Aires",
+   "Provincia": "Ciudad Autónoma de Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.61444,
+   "lon": -58.44588,
+   "Tipo": "localidad"
+  },
   "quilmes bsas": {
    "Lugar": "Ciudad Autónoma de Buenos Aires",
    "Provincia": "Ciudad Autónoma de Buenos Aires",
    "Pais": "Argentina",
    "lat": -34.61444,
    "lon": -58.44588,
+   "Tipo": "localidad"
+  },
+  "quilmes de buenos aires": {
+   "Lugar": "Quilmes",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.72007,
+   "lon": -58.25435,
    "Tipo": "localidad"
   },
   "quilmes haciendo el aguante": {
@@ -2154,6 +4090,14 @@
    "lon": -60.71048,
    "Tipo": "localidad"
   },
+  "resistencia": {
+   "Lugar": "Resistencia",
+   "Provincia": "Chaco",
+   "Pais": "Argentina",
+   "lat": -27.45108,
+   "lon": -58.98648,
+   "Tipo": "localidad"
+  },
   "resistencia indigena": {
    "Lugar": "Resistencia",
    "Provincia": "Chaco",
@@ -2202,7 +4146,23 @@
    "lon": -69.21586,
    "Tipo": "localidad"
   },
+  "rio gallegos santa cruz": {
+   "Lugar": "Río Gallegos",
+   "Provincia": "Santa Cruz",
+   "Pais": "Argentina",
+   "lat": -51.62346,
+   "lon": -69.21586,
+   "Tipo": "localidad"
+  },
   "rio grande": {
+   "Lugar": "Río Grande",
+   "Provincia": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+   "Pais": "Argentina",
+   "lat": -53.78633,
+   "lon": -67.69633,
+   "Tipo": "localidad"
+  },
+  "rio grande tdf": {
    "Lugar": "Río Grande",
    "Provincia": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
    "Pais": "Argentina",
@@ -2216,6 +4176,14 @@
    "Pais": "Argentina",
    "lat": -53.78633,
    "lon": -67.69633,
+   "Tipo": "localidad"
+  },
+  "rio tercero cordoba": {
+   "Lugar": "Río Tercero",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -32.17674,
+   "lon": -64.11296,
    "Tipo": "localidad"
   },
   "rojas": {
@@ -2234,6 +4202,14 @@
    "lon": -60.90965,
    "Tipo": "localidad"
   },
+  "roque saenz pena": {
+   "Lugar": "Río Cuarto",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -33.12729,
+   "lon": -64.3722,
+   "Tipo": "localidad"
+  },
   "rosario": {
    "Lugar": "Rosario",
    "Provincia": "Santa Fe",
@@ -2250,12 +4226,100 @@
    "lon": -60.63318,
    "Tipo": "localidad"
   },
+  "rosario de la frontera": {
+   "Lugar": "Rosario de la Frontera",
+   "Provincia": "Salta",
+   "Pais": "Argentina",
+   "lat": -25.79856,
+   "lon": -64.97386,
+   "Tipo": "localidad"
+  },
+  "rosario exlen": {
+   "Lugar": "Rosario",
+   "Provincia": "Santa Fe",
+   "Pais": "Argentina",
+   "lat": -32.94721,
+   "lon": -60.63318,
+   "Tipo": "localidad"
+  },
   "rosario santa fe": {
    "Lugar": "Rosario",
    "Provincia": "Santa Fe",
    "Pais": "Argentina",
    "lat": -32.94721,
    "lon": -60.63318,
+   "Tipo": "localidad"
+  },
+  "rosario santa fe gracias": {
+   "Lugar": "Rosario",
+   "Provincia": "Santa Fe",
+   "Pais": "Argentina",
+   "lat": -32.94721,
+   "lon": -60.63318,
+   "Tipo": "localidad"
+  },
+  "rosarioooo": {
+   "Lugar": "Rosario",
+   "Provincia": "Santa Fe",
+   "Pais": "Argentina",
+   "lat": -32.94721,
+   "lon": -60.63318,
+   "Tipo": "localidad"
+  },
+  "rosarioooooo": {
+   "Lugar": "Rosario",
+   "Provincia": "Santa Fe",
+   "Pais": "Argentina",
+   "lat": -32.94721,
+   "lon": -60.63318,
+   "Tipo": "localidad"
+  },
+  "rufino santa fe": {
+   "Lugar": "Rufino",
+   "Provincia": "Santa Fe",
+   "Pais": "Argentina",
+   "lat": -34.26187,
+   "lon": -62.71107,
+   "Tipo": "localidad"
+  },
+  "s jose": {
+   "Lugar": "San José",
+   "Provincia": "California",
+   "Pais": "Estados Unidos de América",
+   "lat": 37.33617,
+   "lon": -121.89059,
+   "Tipo": "localidad"
+  },
+  "saldan cordoba": {
+   "Lugar": "Saldán",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -31.31531,
+   "lon": -64.30353,
+   "Tipo": "localidad"
+  },
+  "salliquelo": {
+   "Lugar": "Salliqueló",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -36.75151,
+   "lon": -62.95913,
+   "Tipo": "localidad"
+  },
+  "salliquelo los acompanamos": {
+   "Lugar": "Salliqueló",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -36.75151,
+   "lon": -62.95913,
+   "Tipo": "localidad"
+  },
+  "salsipuedes": {
+   "Lugar": "Salsipuedes",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -31.13788,
+   "lon": -64.29277,
    "Tipo": "localidad"
   },
   "salta": {
@@ -2267,6 +4331,38 @@
    "Tipo": "localidad"
   },
   "salta capital": {
+   "Lugar": "Salta",
+   "Provincia": "Salta",
+   "Pais": "Argentina",
+   "lat": -24.7832,
+   "lon": -65.41025,
+   "Tipo": "localidad"
+  },
+  "salta genios": {
+   "Lugar": "Salta",
+   "Provincia": "Salta",
+   "Pais": "Argentina",
+   "lat": -24.7832,
+   "lon": -65.41025,
+   "Tipo": "localidad"
+  },
+  "salta la linda": {
+   "Lugar": "Salta",
+   "Provincia": "Salta",
+   "Pais": "Argentina",
+   "lat": -24.7832,
+   "lon": -65.41025,
+   "Tipo": "localidad"
+  },
+  "salta presente": {
+   "Lugar": "Salta",
+   "Provincia": "Salta",
+   "Pais": "Argentina",
+   "lat": -24.7832,
+   "lon": -65.41025,
+   "Tipo": "localidad"
+  },
+  "saltaaaa": {
    "Lugar": "Salta",
    "Provincia": "Salta",
    "Pais": "Argentina",
@@ -2304,6 +4400,22 @@
    "Pais": "Argentina",
    "lat": -26.83039,
    "lon": -65.20378,
+   "Tipo": "localidad"
+  },
+  "saludos desde baires": {
+   "Lugar": "Ciudad Autónoma de Buenos Aires",
+   "Provincia": "Ciudad Autónoma de Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.61444,
+   "lon": -58.44588,
+   "Tipo": "localidad"
+  },
+  "saludos desde balvanera caba": {
+   "Lugar": "Ciudad Autónoma de Buenos Aires",
+   "Provincia": "Ciudad Autónoma de Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.61444,
+   "lon": -58.44588,
    "Tipo": "localidad"
   },
   "saludos desde bariloche": {
@@ -2346,6 +4458,22 @@
    "lon": -65.77892,
    "Tipo": "localidad"
   },
+  "saludos desde el shincal-londres-catamarca": {
+   "Lugar": "San Fernando del Valle de Catamarca",
+   "Provincia": "Catamarca",
+   "Pais": "Argentina",
+   "lat": -28.46901,
+   "lon": -65.77892,
+   "Tipo": "localidad"
+  },
+  "saludos desde florencio varela": {
+   "Lugar": "Florencio Varela",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.80444,
+   "lon": -58.27925,
+   "Tipo": "localidad"
+  },
   "saludos desde gral villegas": {
    "Lugar": "General Villegas",
    "Provincia": "Buenos Aires",
@@ -2378,6 +4506,14 @@
    "lon": -57.94799,
    "Tipo": "localidad"
   },
+  "saludos desde rio grande": {
+   "Lugar": "Río Grande",
+   "Provincia": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+   "Pais": "Argentina",
+   "lat": -53.78633,
+   "lon": -67.69633,
+   "Tipo": "localidad"
+  },
   "saludos desde tinogasta-catamarca": {
    "Lugar": "San Fernando del Valle de Catamarca",
    "Provincia": "Catamarca",
@@ -2392,6 +4528,22 @@
    "Pais": "Argentina",
    "lat": -26.83039,
    "lon": -65.20378,
+   "Tipo": "localidad"
+  },
+  "saludos desre mardel": {
+   "Lugar": "Mar del Plata",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -38.00645,
+   "lon": -57.54384,
+   "Tipo": "localidad"
+  },
+  "saluuuuudos desde la plata": {
+   "Lugar": "La Plata",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.9155,
+   "lon": -57.94799,
    "Tipo": "localidad"
   },
   "san antonio de arredondo": {
@@ -2410,6 +4562,22 @@
    "lon": -53.73412,
    "Tipo": "localidad"
   },
+  "san benito entre rios": {
+   "Lugar": "San Benito",
+   "Provincia": "Entre Ríos",
+   "Pais": "Argentina",
+   "lat": -31.78302,
+   "lon": -60.44146,
+   "Tipo": "localidad"
+  },
+  "san bernardo": {
+   "Lugar": "San Bernardo",
+   "Provincia": "Chaco",
+   "Pais": "Argentina",
+   "lat": -27.28672,
+   "lon": -60.71285,
+   "Tipo": "localidad"
+  },
   "san carlos": {
    "Lugar": "San Carlos",
    "Provincia": "Mendoza",
@@ -2426,6 +4594,54 @@
    "lon": -61.10058,
    "Tipo": "localidad"
   },
+  "san fernando": {
+   "Lugar": "San Fernando",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.44366,
+   "lon": -58.55865,
+   "Tipo": "localidad"
+  },
+  "san fernando bs as": {
+   "Lugar": "Ciudad Autónoma de Buenos Aires",
+   "Provincia": "Ciudad Autónoma de Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.61444,
+   "lon": -58.44588,
+   "Tipo": "localidad"
+  },
+  "san fernando buenos aires": {
+   "Lugar": "San Fernando",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.44366,
+   "lon": -58.55865,
+   "Tipo": "localidad"
+  },
+  "san francisco": {
+   "Lugar": "San Francisco",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -31.42494,
+   "lon": -62.08388,
+   "Tipo": "localidad"
+  },
+  "san francisco cba": {
+   "Lugar": "San Francisco",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -31.42494,
+   "lon": -62.08388,
+   "Tipo": "localidad"
+  },
+  "san francisco cordoba": {
+   "Lugar": "San Francisco",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -31.42494,
+   "lon": -62.08388,
+   "Tipo": "localidad"
+  },
   "san francisco solano": {
    "Lugar": "San Francisco Solano",
    "Provincia": "Buenos Aires",
@@ -2434,7 +4650,23 @@
    "lon": -58.31957,
    "Tipo": "localidad"
   },
+  "san isidro": {
+   "Lugar": "San Isidro",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.46988,
+   "lon": -58.51129,
+   "Tipo": "localidad"
+  },
   "san juan": {
+   "Lugar": "San Juan",
+   "Provincia": "San Juan",
+   "Pais": "Argentina",
+   "lat": -31.53726,
+   "lon": -68.52502,
+   "Tipo": "localidad"
+  },
+  "san juan angaco": {
    "Lugar": "San Juan",
    "Provincia": "San Juan",
    "Pais": "Argentina",
@@ -2450,12 +4682,28 @@
    "lon": -68.52502,
    "Tipo": "localidad"
   },
+  "san juan presente": {
+   "Lugar": "San Juan",
+   "Provincia": "San Juan",
+   "Pais": "Argentina",
+   "lat": -31.53726,
+   "lon": -68.52502,
+   "Tipo": "localidad"
+  },
   "san justo": {
    "Lugar": "San Justo",
    "Provincia": "Santa Fe",
    "Pais": "Argentina",
    "lat": -30.78917,
    "lon": -60.5933,
+   "Tipo": "localidad"
+  },
+  "san lorenzo": {
+   "Lugar": "San Lorenzo",
+   "Provincia": "Santa Fe",
+   "Pais": "Argentina",
+   "lat": -32.74726,
+   "lon": -60.73569,
    "Tipo": "localidad"
   },
   "san luis": {
@@ -2466,7 +4714,23 @@
    "lon": -66.33685,
    "Tipo": "localidad"
   },
+  "san luis capital": {
+   "Lugar": "San Luis",
+   "Provincia": "San Luis",
+   "Pais": "Argentina",
+   "lat": -33.30209,
+   "lon": -66.33685,
+   "Tipo": "localidad"
+  },
   "san luis presente": {
+   "Lugar": "San Luis",
+   "Provincia": "San Luis",
+   "Pais": "Argentina",
+   "lat": -33.30209,
+   "lon": -66.33685,
+   "Tipo": "localidad"
+  },
+  "san luissss": {
    "Lugar": "San Luis",
    "Provincia": "San Luis",
    "Pais": "Argentina",
@@ -2490,12 +4754,36 @@
    "lon": -58.537,
    "Tipo": "localidad"
   },
+  "san miguel": {
+   "Lugar": "San Miguel",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.54313,
+   "lon": -58.7092,
+   "Tipo": "localidad"
+  },
+  "san miguel de tucuman": {
+   "Lugar": "San Miguel de Tucumán",
+   "Provincia": "Tucumán",
+   "Pais": "Argentina",
+   "lat": -26.83039,
+   "lon": -65.20378,
+   "Tipo": "localidad"
+  },
   "san miguel del monte": {
    "Lugar": "San Miguel del Monte",
    "Provincia": "Buenos Aires",
    "Pais": "Argentina",
    "lat": -35.44104,
    "lon": -58.80345,
+   "Tipo": "localidad"
+  },
+  "san miguel-bs as": {
+   "Lugar": "Ciudad Autónoma de Buenos Aires",
+   "Provincia": "Ciudad Autónoma de Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.61444,
+   "lon": -58.44588,
    "Tipo": "localidad"
   },
   "san pedro de atacama": {
@@ -2514,6 +4802,14 @@
    "lon": -68.33564,
    "Tipo": "localidad"
   },
+  "san rafael mendoza": {
+   "Lugar": "San Rafael",
+   "Provincia": "Mendoza",
+   "Pais": "Argentina",
+   "lat": -34.61777,
+   "lon": -68.33564,
+   "Tipo": "localidad"
+  },
   "san vicente": {
    "Lugar": "San Vicente",
    "Provincia": "Buenos Aires",
@@ -2522,7 +4818,23 @@
    "lon": -58.4224,
    "Tipo": "localidad"
   },
+  "santa ana": {
+   "Lugar": "Santa Ana",
+   "Provincia": "Corrientes",
+   "Pais": "Argentina",
+   "lat": -27.45535,
+   "lon": -58.65476,
+   "Tipo": "localidad"
+  },
   "santa cruz caleta olivia": {
+   "Lugar": "Santa Cruz",
+   "Provincia": "Santa Cruz",
+   "Pais": "Argentina",
+   "lat": -48.81555,
+   "lon": -69.95576,
+   "Tipo": "provincia"
+  },
+  "santa cruz chicos": {
    "Lugar": "Santa Cruz",
    "Provincia": "Santa Cruz",
    "Pais": "Argentina",
@@ -2602,6 +4914,14 @@
    "lon": -65.77892,
    "Tipo": "localidad"
   },
+  "santa rosa": {
+   "Lugar": "Santa Rosa",
+   "Provincia": "La Pampa",
+   "Pais": "Argentina",
+   "lat": -36.6204,
+   "lon": -64.29063,
+   "Tipo": "localidad"
+  },
   "santa rosa de calamuchita": {
    "Lugar": "Santa Rosa de Calamuchita",
    "Provincia": "Córdoba",
@@ -2618,7 +4938,23 @@
    "lon": -64.29063,
    "Tipo": "localidad"
   },
+  "santiago de estero": {
+   "Lugar": "Santiago",
+   "Provincia": "Cartago",
+   "Pais": "Costa Rica",
+   "lat": 9.86948,
+   "lon": -83.79807,
+   "Tipo": "localidad"
+  },
   "santiago del estero": {
+   "Lugar": "Santiago del Estero",
+   "Provincia": "Santiago del Estero",
+   "Pais": "Argentina",
+   "lat": -27.78768,
+   "lon": -64.25967,
+   "Tipo": "localidad"
+  },
+  "santiago del estero capital": {
    "Lugar": "Santiago del Estero",
    "Provincia": "Santiago del Estero",
    "Pais": "Argentina",
@@ -2658,7 +4994,23 @@
    "lon": -58.78728,
    "Tipo": "localidad"
   },
+  "sde": {
+   "Lugar": "Argentina",
+   "Provincia": "Santiago del Estero",
+   "Pais": "Argentina",
+   "lat": -29.53495,
+   "lon": -62.26615,
+   "Tipo": "localidad"
+  },
   "senillosa": {
+   "Lugar": "Senillosa",
+   "Provincia": "Neuquén",
+   "Pais": "Argentina",
+   "lat": -39.01009,
+   "lon": -68.42598,
+   "Tipo": "localidad"
+  },
+  "senillosa rural neuquen": {
    "Lugar": "Senillosa",
    "Provincia": "Neuquén",
    "Pais": "Argentina",
@@ -2672,6 +5024,14 @@
    "Pais": "España",
    "lat": 37.38863,
    "lon": -5.99534,
+   "Tipo": "localidad"
+  },
+  "sfv de catamarca": {
+   "Lugar": "San Fernando del Valle de Catamarca",
+   "Provincia": "Catamarca",
+   "Pais": "Argentina",
+   "lat": -28.46901,
+   "lon": -65.77892,
    "Tipo": "localidad"
   },
   "sgo del estero": {
@@ -2706,6 +5066,14 @@
    "lon": -67.1769,
    "Tipo": "localidad"
   },
+  "sierra de la ventana": {
+   "Lugar": "Sierra de la Ventana",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -38.13851,
+   "lon": -61.79324,
+   "Tipo": "localidad"
+  },
   "sierras de cordoba": {
    "Lugar": "Córdoba",
    "Provincia": "Córdoba",
@@ -2714,12 +5082,60 @@
    "lon": -64.17911,
    "Tipo": "localidad"
   },
+  "simoca tucuman": {
+   "Lugar": "San Miguel de Tucumán",
+   "Provincia": "Tucumán",
+   "Pais": "Argentina",
+   "lat": -26.83039,
+   "lon": -65.20378,
+   "Tipo": "localidad"
+  },
   "soy tucuman jajajuckszu2wh9gy1mb0dv-11ujg ksify6lzfolm6akanydqag": {
    "Lugar": "San Miguel de Tucumán",
    "Provincia": "Tucumán",
    "Pais": "Argentina",
    "lat": -26.83039,
    "lon": -65.20378,
+   "Tipo": "localidad"
+  },
+  "stgo de chile": {
+   "Lugar": "Santiago",
+   "Provincia": "Región Metropolitana de Santiago",
+   "Pais": "Chile",
+   "lat": -33.4377,
+   "lon": -70.65107,
+   "Tipo": "localidad"
+  },
+  "suecia": {
+   "Lugar": "Suecia",
+   "Provincia": "",
+   "Pais": "Suecia",
+   "lat": 60.1282,
+   "lon": 18.6435,
+   "Tipo": "pais"
+  },
+  "suiza": {
+   "Lugar": "Suiza",
+   "Provincia": "",
+   "Pais": "Suiza",
+   "lat": 46.8182,
+   "lon": 8.2275,
+   "Tipo": "pais"
+  },
+  "sumalao -valle viejo": {
+   "Lugar": "Sumalao",
+   "Provincia": "Catamarca",
+   "Pais": "Argentina",
+   "lat": -28.47496,
+   "lon": -65.73759,
+   "Tipo": "localidad"
+  },
+  "sunchales sant fe": {
+   "Lugar": "Sunchales",
+   "Provincia": "Santa Fe",
+   "Pais": "Argentina",
+   "lat": -30.94508,
+   "lon": -61.56066,
    "Tipo": "localidad"
   },
   "sunchales santa fe": {
@@ -2762,6 +5178,46 @@
    "lon": -59.1369,
    "Tipo": "localidad"
   },
+  "tandil genia guille": {
+   "Lugar": "Tandil",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -37.3287,
+   "lon": -59.1369,
+   "Tipo": "localidad"
+  },
+  "tandil te mandamos saludos": {
+   "Lugar": "Tandil",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -37.3287,
+   "lon": -59.1369,
+   "Tipo": "localidad"
+  },
+  "tanti": {
+   "Lugar": "Tanti",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -31.3548,
+   "lon": -64.59235,
+   "Tipo": "localidad"
+  },
+  "tanti cordoba": {
+   "Lugar": "Tanti",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -31.3548,
+   "lon": -64.59235,
+   "Tipo": "localidad"
+  },
+  "tarragona espana": {
+   "Lugar": "Tarragona",
+   "Provincia": "Cataluña",
+   "Pais": "España",
+   "lat": 41.11724,
+   "lon": 1.25461,
+   "Tipo": "localidad"
+  },
   "temperley": {
    "Lugar": "Temperley",
    "Provincia": "Buenos Aires",
@@ -2786,6 +5242,14 @@
    "lon": -58.57553,
    "Tipo": "localidad"
   },
+  "tilcara": {
+   "Lugar": "Tilcara",
+   "Provincia": "Jujuy",
+   "Pais": "Argentina",
+   "lat": -23.5769,
+   "lon": -65.39337,
+   "Tipo": "localidad"
+  },
   "tinogasta": {
    "Lugar": "Tinogasta",
    "Provincia": "Catamarca",
@@ -2802,12 +5266,52 @@
    "lon": -65.77892,
    "Tipo": "localidad"
   },
+  "tod s a catamarca": {
+   "Lugar": "San Fernando del Valle de Catamarca",
+   "Provincia": "Catamarca",
+   "Pais": "Argentina",
+   "lat": -28.46901,
+   "lon": -65.77892,
+   "Tipo": "localidad"
+  },
+  "todo perfecto en catamarca": {
+   "Lugar": "San Fernando del Valle de Catamarca",
+   "Provincia": "Catamarca",
+   "Pais": "Argentina",
+   "lat": -28.46901,
+   "lon": -65.77892,
+   "Tipo": "localidad"
+  },
+  "tortugas santa fe": {
+   "Lugar": "Tortugas",
+   "Provincia": "Santa Fe",
+   "Pais": "Argentina",
+   "lat": -32.7474,
+   "lon": -61.82099,
+   "Tipo": "localidad"
+  },
   "trelew": {
    "Lugar": "Trelew",
    "Provincia": "Chubut",
    "Pais": "Argentina",
    "lat": -43.25319,
    "lon": -65.30938,
+   "Tipo": "localidad"
+  },
+  "trelew chubut": {
+   "Lugar": "Trelew",
+   "Provincia": "Chubut",
+   "Pais": "Argentina",
+   "lat": -43.25319,
+   "lon": -65.30938,
+   "Tipo": "localidad"
+  },
+  "trelew-chubut": {
+   "Lugar": "Trelew",
+   "Provincia": "Chubut",
+   "Pais": "Argentina",
+   "lat": -43.25312,
+   "lon": -65.30944,
    "Tipo": "localidad"
   },
   "trenque lauquen": {
@@ -2826,12 +5330,28 @@
    "lon": -62.73275,
    "Tipo": "localidad"
   },
+  "tres arroyos": {
+   "Lugar": "Tres Arroyos",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -38.3772,
+   "lon": -60.27522,
+   "Tipo": "localidad"
+  },
   "trevelin chubut felicitaciones": {
    "Lugar": "Trevelín",
    "Provincia": "Chubut",
    "Pais": "Argentina",
    "lat": -43.07916,
    "lon": -71.46403,
+   "Tipo": "localidad"
+  },
+  "tucu tucu tucuman": {
+   "Lugar": "San Miguel de Tucumán",
+   "Provincia": "Tucumán",
+   "Pais": "Argentina",
+   "lat": -26.83039,
+   "lon": -65.20378,
    "Tipo": "localidad"
   },
   "tucuman": {
@@ -2866,6 +5386,22 @@
    "lon": -65.20378,
    "Tipo": "localidad"
   },
+  "tucuman presente": {
+   "Lugar": "San Miguel de Tucumán",
+   "Provincia": "Tucumán",
+   "Pais": "Argentina",
+   "lat": -26.83039,
+   "lon": -65.20378,
+   "Tipo": "localidad"
+  },
+  "tucuman presente buen hallazgo": {
+   "Lugar": "San Miguel de Tucumán",
+   "Provincia": "Tucumán",
+   "Pais": "Argentina",
+   "lat": -26.83039,
+   "lon": -65.20378,
+   "Tipo": "localidad"
+  },
   "tucuman presenteeee": {
    "Lugar": "San Miguel de Tucumán",
    "Provincia": "Tucumán",
@@ -2880,6 +5416,14 @@
    "Pais": "Argentina",
    "lat": -26.83039,
    "lon": -65.20378,
+   "Tipo": "localidad"
+  },
+  "ucacha": {
+   "Lugar": "Ucacha",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -33.03144,
+   "lon": -63.50612,
    "Tipo": "localidad"
   },
   "uckszu2wh9gy1mb0dv-11ujg g8afy6ywgukuhl0plbia2aedesde mdq": {
@@ -2922,6 +5466,14 @@
    "lon": -68.30376,
    "Tipo": "localidad"
   },
+  "ushuaia los seguimos": {
+   "Lugar": "Ushuaia",
+   "Provincia": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+   "Pais": "Argentina",
+   "lat": -54.8074,
+   "lon": -68.30376,
+   "Tipo": "localidad"
+  },
   "ushuaia tierra del fuego": {
    "Lugar": "Ushuaia",
    "Provincia": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
@@ -2930,12 +5482,60 @@
    "lon": -68.30376,
    "Tipo": "localidad"
   },
+  "valencia": {
+   "Lugar": "Valencia",
+   "Provincia": "Comunidad Valenciana",
+   "Pais": "España",
+   "lat": 39.46971,
+   "lon": -0.37634,
+   "Tipo": "localidad"
+  },
+  "valentin alsina": {
+   "Lugar": "Valentín Alsina",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.67141,
+   "lon": -58.40905,
+   "Tipo": "localidad"
+  },
+  "valeria del mar": {
+   "Lugar": "Valeria del Mar",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -37.14565,
+   "lon": -56.88197,
+   "Tipo": "localidad"
+  },
   "valle hermoso": {
    "Lugar": "Valle Hermoso",
    "Provincia": "Córdoba",
    "Pais": "Argentina",
    "lat": -31.11396,
    "lon": -64.48516,
+   "Tipo": "localidad"
+  },
+  "valle viejo": {
+   "Lugar": "Valle Viejo",
+   "Provincia": "Chinandega",
+   "Pais": "Nicaragua",
+   "lat": 12.5726,
+   "lon": -87.01625,
+   "Tipo": "localidad"
+  },
+  "vamo catamarca": {
+   "Lugar": "San Fernando del Valle de Catamarca",
+   "Provincia": "Catamarca",
+   "Pais": "Argentina",
+   "lat": -28.46901,
+   "lon": -65.77892,
+   "Tipo": "localidad"
+  },
+  "vamooss catamarca": {
+   "Lugar": "San Fernando del Valle de Catamarca",
+   "Provincia": "Catamarca",
+   "Pais": "Argentina",
+   "lat": -28.46901,
+   "lon": -65.77892,
    "Tipo": "localidad"
   },
   "vamos catamarca": {
@@ -2954,6 +5554,14 @@
    "lon": -65.41062,
    "Tipo": "localidad"
   },
+  "venado tuerto": {
+   "Lugar": "Venado Tuerto",
+   "Provincia": "Santa Fe",
+   "Pais": "Argentina",
+   "lat": -33.7455,
+   "lon": -61.96873,
+   "Tipo": "localidad"
+  },
   "venezuela": {
    "Lugar": "Venezuela",
    "Provincia": "",
@@ -2961,6 +5569,30 @@
    "lat": 6.4238,
    "lon": -66.5897,
    "Tipo": "pais"
+  },
+  "venezuela viendo todo": {
+   "Lugar": "Venezuela",
+   "Provincia": "",
+   "Pais": "Venezuela",
+   "lat": 6.4238,
+   "lon": -66.5897,
+   "Tipo": "pais"
+  },
+  "victoria": {
+   "Lugar": "Victoria",
+   "Provincia": "Entre Ríos",
+   "Pais": "Argentina",
+   "lat": -32.62161,
+   "lon": -60.15795,
+   "Tipo": "localidad"
+  },
+  "vicuna mackenna cordoba": {
+   "Lugar": "Vicuña Mackenna",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -33.91564,
+   "lon": -64.38985,
+   "Tipo": "localidad"
   },
   "viedma": {
    "Lugar": "Viedma",
@@ -3010,12 +5642,36 @@
    "lon": -63.89242,
    "Tipo": "localidad"
   },
+  "villa ballester": {
+   "Lugar": "Villa Ballester",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.54808,
+   "lon": -58.55708,
+   "Tipo": "localidad"
+  },
+  "villa cacique barker": {
+   "Lugar": "Villa Cacique",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -37.67623,
+   "lon": -59.39619,
+   "Tipo": "localidad"
+  },
   "villa carlos paz": {
    "Lugar": "Villa Carlos Paz",
    "Provincia": "Córdoba",
    "Pais": "Argentina",
    "lat": -31.41792,
    "lon": -64.49403,
+   "Tipo": "localidad"
+  },
+  "villa cerro azul cordoba": {
+   "Lugar": "Villa Cerro Azul",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -31.07067,
+   "lon": -64.31624,
    "Tipo": "localidad"
   },
   "villa constitucion": {
@@ -3034,6 +5690,14 @@
    "lon": -65.77892,
    "Tipo": "localidad"
   },
+  "villa de mayo": {
+   "Lugar": "Villa de Mayo",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.50661,
+   "lon": -58.67897,
+   "Tipo": "localidad"
+  },
   "villa devoto caba buenas": {
    "Lugar": "Ciudad Autónoma de Buenos Aires",
    "Provincia": "Ciudad Autónoma de Buenos Aires",
@@ -3050,7 +5714,23 @@
    "lon": -65.19024,
    "Tipo": "localidad"
   },
+  "villa dominico": {
+   "Lugar": "Villa Domínico",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.69458,
+   "lon": -58.33046,
+   "Tipo": "localidad"
+  },
   "villa gesell": {
+   "Lugar": "Villa Gesell",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -37.26323,
+   "lon": -56.97456,
+   "Tipo": "localidad"
+  },
+  "villa gesell viendolos": {
    "Lugar": "Villa Gesell",
    "Provincia": "Buenos Aires",
    "Pais": "Argentina",
@@ -3064,6 +5744,30 @@
    "Pais": "Argentina",
    "lat": -40.763,
    "lon": -71.641,
+   "Tipo": "localidad"
+  },
+  "villa maria": {
+   "Lugar": "Villa María",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -32.4135,
+   "lon": -63.24833,
+   "Tipo": "localidad"
+  },
+  "villa mercedes": {
+   "Lugar": "Villa Mercedes",
+   "Provincia": "San Luis",
+   "Pais": "Argentina",
+   "lat": -33.68036,
+   "lon": -65.46975,
+   "Tipo": "localidad"
+  },
+  "villa mercedes san luis": {
+   "Lugar": "Villa Mercedes",
+   "Provincia": "San Luis",
+   "Pais": "Argentina",
+   "lat": -33.68036,
+   "lon": -65.46975,
    "Tipo": "localidad"
   },
   "villa nueva cordoba": {
@@ -3114,6 +5818,14 @@
    "lon": -58.63843,
    "Tipo": "localidad"
   },
+  "villa union la rioja": {
+   "Lugar": "Villa Unión",
+   "Provincia": "La Rioja",
+   "Pais": "Argentina",
+   "lat": -29.31657,
+   "lon": -68.2274,
+   "Tipo": "localidad"
+  },
   "villa urquiza": {
    "Lugar": "Villa Urquiza",
    "Provincia": "Ciudad Autónoma de Buenos Aires",
@@ -3130,12 +5842,28 @@
    "lon": -59.02689,
    "Tipo": "localidad"
   },
+  "viva catamarca": {
+   "Lugar": "San Fernando del Valle de Catamarca",
+   "Provincia": "Catamarca",
+   "Pais": "Argentina",
+   "lat": -28.46901,
+   "lon": -65.77892,
+   "Tipo": "localidad"
+  },
   "yo vivo en catamarca": {
    "Lugar": "San Fernando del Valle de Catamarca",
    "Provincia": "Catamarca",
    "Pais": "Argentina",
    "lat": -28.46901,
    "lon": -65.77892,
+   "Tipo": "localidad"
+  },
+  "zarate": {
+   "Lugar": "Zárate",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.09892,
+   "lon": -59.02966,
    "Tipo": "localidad"
   }
  }

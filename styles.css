@@ -226,7 +226,7 @@ html[data-theme="light"] .dark-tiles {
   white-space: nowrap;
 }
 
-/* Pastilla EN VIVO */
+/* Pastilla del streaming */
 
 .live {
   display: inline-flex;
@@ -272,20 +272,6 @@ html[data-theme="light"] .live:hover {
   height: 6px;
   border-radius: 50%;
   background: var(--accent);
-  box-shadow: 0 0 0 0 rgba(255, 59, 59, 0.55);
-  animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-  0% {
-    box-shadow: 0 0 0 0 rgba(255, 59, 59, 0.55);
-  }
-  70% {
-    box-shadow: 0 0 0 7px rgba(255, 59, 59, 0);
-  }
-  100% {
-    box-shadow: 0 0 0 0 rgba(255, 59, 59, 0);
-  }
 }
 
 .toggle {
@@ -379,6 +365,52 @@ html[data-theme="light"] .live:hover {
 .search__clear:hover {
   color: var(--text);
   background: var(--hover);
+}
+
+/* Filtro por día */
+
+.days {
+  display: flex;
+  gap: 6px;
+  margin: 0 18px 10px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.days::-webkit-scrollbar {
+  display: none;
+}
+
+.day {
+  flex: 0 0 auto;
+  padding: 6px 11px;
+  font: inherit;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+  color: var(--muted);
+  background: var(--input-bg);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  cursor: pointer;
+  transition: color 0.16s ease, background 0.16s ease, border-color 0.16s ease;
+}
+
+.day:hover {
+  color: var(--text);
+  background: var(--hover);
+}
+
+.day.is-active {
+  color: #fff;
+  background: rgba(255, 77, 46, 0.9);
+  border-color: rgba(255, 77, 46, 0.9);
+}
+
+.day:focus-visible {
+  outline: 2px solid var(--accent-2);
+  outline-offset: 2px;
 }
 
 /* Meta */
@@ -777,6 +809,15 @@ html[data-theme="light"] .leaflet-popup-content-wrapper {
   word-break: break-word;
 }
 
+.person__day {
+  margin: 7px 0 0;
+  font-size: 9.5px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: var(--accent-2);
+  text-transform: uppercase;
+}
+
 .person__message,
 .person__comment {
   margin: 3px 0 0;
@@ -1024,6 +1065,10 @@ html[data-theme="light"] .leaflet-control-layers-toggle {
     margin: 0 14px 8px;
   }
 
+  .days {
+    margin: 0 14px 8px;
+  }
+
   .panel__meta {
     padding: 0 16px 8px;
   }
@@ -1037,6 +1082,7 @@ html[data-theme="light"] .leaflet-control-layers-toggle {
   }
 
   .panel.is-collapsed .search,
+  .panel.is-collapsed .days,
   .panel.is-collapsed .panel__meta,
   .panel.is-collapsed .results,
   .panel.is-collapsed .cta {

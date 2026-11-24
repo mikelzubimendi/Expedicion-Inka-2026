@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Mapa Inka · La comunidad del stream en el mapa</title>
-  <meta name="description" content="Mapa de la comunidad que escucha el stream en vivo de Mapa Inka: localidades, usuarios y comentarios.">
+  <meta name="description" content="Mapa de la comunidad que siguió el streaming de Mapa Inka: localidades, usuarios y comentarios de los 4 videos.">
   <meta name="theme-color" content="#08080c">
   <script>
     try {
@@ -42,9 +42,9 @@
         <h1>Mapa <span class="grad">Inka</span></h1>
         <p>La comunidad del stream</p>
       </div>
-      <a class="live" href="https://www.youtube.com/live/CtAJIkQDiyQ" target="_blank" rel="noopener" aria-label="Escuchar el stream en vivo en YouTube (se abre en otra pestaña)">
+      <a class="live" href="https://www.youtube.com/watch?v=CtAJIkQDiyQ" target="_blank" rel="noopener" aria-label="Ver el streaming en YouTube (se abre en otra pestaña)">
         <span class="live__dot" aria-hidden="true"></span>
-        <span class="live__label">En vivo</span>
+        <span class="live__label">Grabado</span>
       </a>
       <button class="toggle" id="toggle" type="button" aria-expanded="true" aria-controls="results" aria-label="Mostrar u ocultar la lista de localidades">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -62,6 +62,10 @@
       <button class="search__clear" id="clear" type="button" aria-label="Limpiar búsqueda" hidden>&times;</button>
     </div>
 
+    <div class="days" id="days" role="group" aria-label="Filtrar los comentarios por día del streaming">
+      <button class="day is-active" type="button" data-day="" aria-pressed="true">Todos</button>
+    </div>
+
     <div class="panel__meta">
       <span id="count" aria-live="polite">Cargando localidades…</span>
       <button class="reset" id="reset" type="button">Ver todo el mapa</button>
@@ -72,13 +76,13 @@
       <p class="empty" id="empty" hidden>No encontramos localidades con ese nombre.</p>
     </div>
 
-    <a class="cta" href="https://www.youtube.com/live/CtAJIkQDiyQ" target="_blank" rel="noopener">
+    <a class="cta" href="https://www.youtube.com/watch?v=CtAJIkQDiyQ" target="_blank" rel="noopener">
       <span class="cta__play" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 7.2v9.6l8.2-4.8L9 7.2z"/></svg>
       </span>
       <span class="cta__text">
-        <span class="cta__title">Escuchá el streaming</span>
-        <span class="cta__hint">En vivo por YouTube</span>
+        <span class="cta__title">Mirá el streaming</span>
+        <span class="cta__hint">4 videos en YouTube</span>
       </span>
       <svg class="cta__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
         <path d="M7 17 17 7M9 7h8v8"/>

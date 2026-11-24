@@ -1,14 +1,14 @@
 # Mapa Inka 🎧🗺️
 
-**El mapa de la comunidad que escucha el streaming en vivo.**
+**El mapa de la comunidad que siguió el streaming.**
 
-Cada punto muestra una localidad desde donde alguien sigue el vivo, con el nombre de usuario
-y los comentarios que dejó en el chat. Buscá tu ciudad o tu usuario, mirá dónde está el resto
-de la comunidad y sumate a la transmisión.
+Cada punto muestra una localidad desde donde alguien siguió la transmisión, con el nombre de
+usuario y los comentarios que dejó en el chat. Buscá tu ciudad o tu usuario y recorré dónde
+está el resto de la comunidad.
 
 - 🌐 **Ver el mapa:** <https://andonizubimendi.github.io/mapa-inka/>
-- ▶️ **Escuchar el streaming:** <https://www.youtube.com/live/CtAJIkQDiyQ>
-- 🗺️ **Datos generados desde el chat del vivo** con el script de [`scripts/`](scripts/README.md).
+- ▶️ **Ver el streaming (4 videos):** <https://www.youtube.com/watch?v=CtAJIkQDiyQ>
+- 🗺️ **Datos generados desde el chat de los 4 videos** con el script de [`scripts/`](scripts/README.md).
 
 ## Qué muestra
 
@@ -20,8 +20,9 @@ Cada marcador es una localidad. Al abrirlo se ve:
 - El mensaje donde nombró su ciudad.
 - Los comentarios adicionales que haya dejado en el chat.
 
-La lista lateral se puede buscar por localidad, provincia, usuario o texto de un comentario,
-y el botón **En vivo** lleva directo al streaming.
+La lista lateral se puede buscar por localidad, provincia, usuario o texto de un comentario.
+Los botones **Todos / Día 1 / Día 2 / Día 3 / Día 4** filtran los oyentes y comentarios de cada
+video, o los muestran todos juntos. El botón del encabezado lleva directo al streaming.
 
 ## Funcionalidades
 
@@ -38,8 +39,8 @@ y el botón **En vivo** lleva directo al streaming.
 
 ## Cómo se generan los datos
 
-El GeoJSON no se edita a mano: se genera a partir de los comentarios del chat del vivo. El
-proceso es manual y a demanda:
+El GeoJSON no se edita a mano: se genera a partir de los comentarios del chat de los 4 videos
+del streaming. El proceso es manual y a demanda:
 
 ```bash
 python3 scripts/generar_localidades.py --solo-reporte   # revisar candidatos
@@ -48,12 +49,13 @@ python3 scripts/generar_localidades.py                  # escribir localidades.g
 
 El script:
 
-1. Descarga el chat del vivo con `yt-dlp`.
+1. Descarga el chat de los 4 videos con `yt-dlp`.
 2. Detecta mensajes donde la gente nombra su ciudad (“desde Salta”, “soy de La Plata”,
    “Córdoba presente”, etc.).
 3. Geocodifica con el listado oficial de localidades de Georef y con Nominatim para el resto
    del mundo.
-4. Agrupa por localidad y guarda usuario, mensaje y comentarios adicionales.
+4. Agrupa por localidad y guarda usuario, mensaje, comentarios adicionales y el día de cada
+   comentario.
 
 Las frases ya resueltas se guardan en `scripts/diccionario_lugares.json`, así que los
 comentarios repetidos se resuelven al instante y las siguientes corridas son mucho más
