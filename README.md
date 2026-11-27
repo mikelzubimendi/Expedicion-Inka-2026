@@ -6,7 +6,7 @@ Cada punto muestra una localidad desde donde alguien siguió la transmisión, co
 usuario y los comentarios que dejó en el chat. Buscá tu ciudad o tu usuario y recorré dónde
 está el resto de la comunidad.
 
-- 🌐 **Ver el mapa:** <https://andonizubimendi.github.io/mapa-inka/>
+- 🌐 **Ver el mapa:** <https://mikelzubimendi.github.io/Expedicion-Inka-2026/>
 - ▶️ **Ver el streaming (4 videos):** <https://www.youtube.com/watch?v=CtAJIkQDiyQ>
 - 🗺️ **Datos generados desde el chat de los 4 videos** con el script de [`scripts/`](scripts/README.md).
 
