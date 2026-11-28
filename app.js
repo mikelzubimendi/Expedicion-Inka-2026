@@ -1,6 +1,7 @@
 'use strict';
 
-const DATA_URL = 'localidades.geojson';
+const APP_VERSION = '20261128b';
+const DATA_URL = 'localidades.geojson?v=' + APP_VERSION;
 const STREAM_URL = 'https://www.youtube.com/watch?v=CtAJIkQDiyQ';
 const THEME_KEY = 'mapa-inka-theme';
 
