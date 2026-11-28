@@ -1,7 +1,10 @@
 'use strict';
 
-const APP_VERSION = '20261128b';
-const DATA_URL = 'localidades.geojson?v=' + APP_VERSION;
+// Subir APP_VERSION al cambiar app.js/styles.css (también en index.html).
+// Subir DATA_VERSION al regenerar localidades.geojson.
+const APP_VERSION = '20261128c';
+const DATA_VERSION = '20261128c';
+const DATA_URL = 'localidades.geojson?v=' + DATA_VERSION;
 const STREAM_URL = 'https://www.youtube.com/watch?v=CtAJIkQDiyQ';
 const THEME_KEY = 'mapa-inka-theme';
 

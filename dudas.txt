@@ -24,12 +24,6 @@ Para resolver un caso:
   Corrientes y en San Juan.
 - Estado: **EXCLUIDO** hasta confirmar.
 
-### @ignaciopagani7187
-- Mensaje: `saludos desde laguna blanca`
-- Detectado: **Laguna Blanca, Chaco, Argentina** (Georef, confianza baja).
-- Duda: hay Laguna Blanca en Chaco, Formosa y Río Negro; el mensaje no aclara provincia.
-- Estado: **EXCLUIDO** hasta confirmar.
-
 ### @RocioFranco-mb4tx
 - Mensaje: `saludos desde Coro el Bogado Sante Fe`
 - Detectado originalmente: **Paraje El Cajón, Córdoba** (mal).
@@ -90,6 +84,13 @@ Para resolver un caso:
 - Duda menor: podría referirse a otro “Las Heras” (CABA, Mendoza o Santa Cruz), pero el
   mensaje aclara “Pcia de Buenos Aires”.
 
+### @ignaciopagani7187
+- Mensaje: `saludos desde laguna blanca`
+- Antes: Laguna Blanca, Chaco (mal; hay varias homónimas).
+- Ahora: **Laguna Blanca, Catamarca, Argentina** (Departamento Belén, dentro de la
+  Reserva de Biosfera Laguna Blanca).
+- Confirmado por búsqueda: se trata de un guía turístico de Belén que trabaja en la reserva.
+
 ### @luciamassry9984
 - Mensaje: `Saludos desde Nqn!!!`
 - Detectado: **Neuquén, Neuquén, Argentina**.
@@ -134,7 +135,7 @@ Listado completo de confianza baja de esta corrida (28):
 - Lomas del Perú, Honduras — @facundojimenez3358 (**excluido antes**)
 - Las Heras → General Las Heras — @g.a.m8485 (**corregido**)
 - Santa Fe — @griseldaherrera3184 (**excluido antes**)
-- Laguna Blanca, Chaco — @ignaciopagani7187 (**excluido**)
+- Laguna Blanca, Catamarca — @ignaciopagani7187 (**corregido**)
 - Fray Mamerto Esquiú, Catamarca — @kamarce103
 - Junín, Buenos Aires — @leticiabalocco8312
 - Neuquén — @luciamassry9984

@@ -18,7 +18,6 @@
     "@camilaraverta2018",
     "@eledelarosa3261",
     "@Saraceramica",
-    "@ignaciopagani7187",
     "@pachicojordandeurries3903"
   ],
   "excluir_lugares": [
@@ -166,6 +165,13 @@
       "Pais": "Argentina",
       "lat": -34.9280308,
       "lon": -58.9445391
+    },
+    "@ignaciopagani7187": {
+      "Lugar": "Laguna Blanca",
+      "Provincia": "Catamarca",
+      "Pais": "Argentina",
+      "lat": -26.5869996,
+      "lon": -66.9413064
     }
   },
   "incluir": {

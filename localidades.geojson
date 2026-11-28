@@ -36,11 +36,11 @@
     "video": "https://www.youtube.com/live/CtAJIkQDiyQ",
     "video_id": "CtAJIkQDiyQ",
     "titulo": "Expedición Inka",
-    "generado": "2026-11-28T12:44:27+00:00",
+    "generado": "2026-11-28T13:13:16+00:00",
     "comentarios_analizados": 15239,
     "usuarios_analizados": 4374,
-    "localidades": 426,
-    "oyentes_mapeados": 1621
+    "localidades": 427,
+    "oyentes_mapeados": 1622
   },
   "features": [
     {
@@ -19470,6 +19470,39 @@
         "coordinates": [
           -71.59714,
           -42.06013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Lugar": "Laguna Blanca",
+        "Provincia": "Catamarca",
+        "Pais": "Argentina",
+        "Tipo": "localidad",
+        "Oyentes": [
+          {
+            "Usuario": "@ignaciopagani7187",
+            "Mensaje": "saludos desde laguna blanca",
+            "Dia": "Día 1",
+            "Comentarios": [],
+            "Dias": [
+              "Día 1"
+            ],
+            "ComentariosPorDia": {
+              "Día 1": [
+                "saludos desde laguna blanca"
+              ]
+            }
+          }
+        ],
+        "Cantidad": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.94131,
+          -26.587
         ]
       }
     },
