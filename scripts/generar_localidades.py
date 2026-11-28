@@ -285,6 +285,8 @@ EXTRA_PLACES = {
     "del shincal": ("El Shincal", "Catamarca", "Argentina", -27.6847, -67.1769),
     "shincal": ("El Shincal", "Catamarca", "Argentina", -27.6847, -67.1769),
     "el shincal": ("El Shincal", "Catamarca", "Argentina", -27.6847, -67.1769),
+    "fiorito": ("Fiorito", "Buenos Aires", "Argentina", -34.7000, -58.3167),
+    "valle viejo": ("Valle Viejo", "Catamarca", "Argentina", -28.4667, -65.7167),
 }
 
 # Ciudades y regiones del exterior que aparecen en el chat y que no están en
@@ -305,6 +307,9 @@ FOREIGN_PLACES = {
     "cerdena": ("Cerdeña", None, "Italia", 40.0913, 9.0306),
     "sardegna": ("Cerdeña", None, "Italia", 40.0913, 9.0306),
     "san pedro de atacama": ("San Pedro de Atacama", "Antofagasta", "Chile", -22.9090, -68.1990),
+    "cusco": ("Cusco", "Cusco", "Perú", -13.5319, -71.9675),
+    "cuzco": ("Cusco", "Cusco", "Perú", -13.5319, -71.9675),
+    "el cusco": ("Cusco", "Cusco", "Perú", -13.5319, -71.9675),
 }
 
 # Alias de localidades que aparecen escritas de forma coloquial o abreviada.
@@ -364,6 +369,9 @@ PLACE_ALIASES = {
     "rio cuarto": "Río Cuarto",
     "rio grande": "Río Grande",
     "tierra fuego": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+    "corcoba": "Córdoba",
+    "santiago de estero": "Santiago del Estero",
+    "misones": "Misiones",
 }
 
 # Nombres ambiguos: provincia a la que se los asocia por defecto.
@@ -407,6 +415,9 @@ GENERIC_PHRASES = {
     "el equipo", "el proyecto", "el programa", "la facultad", "la catedra",
     "la carrera", "el ministerio", "la direccion", "la fundacion", "el area",
     "la red", "el grupo", "la municipalidad", "la universidad nacional",
+    # Nombres comunes que también existen como localidades y generan falsos
+    # positivos al geocodificarse ("aguante el metal" -> El Metal, Asturias).
+    "el metal", "la chamba", "coca cola", "la ciudad", "la republica",
 }
 
 CONFIDENCE_ORDER = {"alta": 0, "media": 1, "baja": 2}
@@ -808,13 +819,17 @@ class Geocoder:
         if not phrases:
             return None
 
+        # Sin país explícito asumimos Argentina: el público del stream es
+        # mayoritariamente argentino y así evitamos homónimos remotos
+        # ("el metal" -> El Metal, Asturias).
+        default_cc = "ar" if pais in (None, "Argentina") else None
         queries: list[tuple[str, str | None]] = []
         for index, candidate in enumerate(phrases[:2]):
             if provincia and pais in (None, "Argentina"):
                 queries.append((f"{candidate}, {provincia}, Argentina", "ar"))
             if index == 0 and pais:
                 queries.append((f"{candidate}, {pais}", "ar" if pais == "Argentina" else None))
-            queries.append((candidate, "ar" if pais == "Argentina" else None))
+            queries.append((candidate, default_cc))
 
         seen_queries = set()
         for query, cc in queries:
@@ -1235,6 +1250,11 @@ class Resolver:
         province = detect_province(context) or detect_province(phrase)
         place = self.geocoder.lookup(phrase, province, "Argentina" if province else None)
         if place:
+            # Sin provincia ni país en el texto no hay forma de confirmar el
+            # homónimo: queda para revisión y no se publica por defecto.
+            if not province and not context_country:
+                place = replace_place(place, confianza="baja",
+                                      detalle="Nominatim sin contexto")
             self._learn(phrase, place)
             return place, "Nominatim"
 
@@ -1325,6 +1345,11 @@ RULE_PRIORITY = {
     "saludo": 1, "presente": 1, "aguante": 2, "mensaje corto": 3,
 }
 
+# Solo estas pistas justifican consultar Nominatim. "aguante" es una arenga,
+# no una afirmación de ubicación, y produce falsos positivos como
+# "aguante el metal" -> El Metal (Asturias).
+NOMINATIM_RULES = {"desde", "soy de", "estoy en", "acá en", "saludo", "presente"}
+
 
 NON_PLACE_WORDS = {
     "hermoso", "hermosa", "lugar", "sitio", "mañana", "manana", "gracias",
@@ -1338,6 +1363,7 @@ NON_PLACE_WORDS = {
     "nuestro", "parte", "abuela", "abuelo", "familia", "parientes", "amigos",
     "division", "antropologia", "arqueologia", "ciencia", "cultura", "ancestral",
     "costa", "centrales", "umai", "turqui", "colegas", "unju",
+    "metal", "chamba", "esta", "aventura", "cientificos", "cientificas",
 }
 
 
@@ -1417,6 +1443,8 @@ def choose_matches(grouped: dict[str, list[Message]], resolver: Resolver,
             tried: set[str] = set()
             for candidate in ordered:
                 phrase, rule, _, message = candidate
+                if rule not in NOMINATIM_RULES:
+                    continue
                 if not candidate_is_plausible(phrase, rule, message):
                     continue
                 key = norm(phrase)
@@ -1512,7 +1540,8 @@ def place_from_override(entry: dict, resolver: Resolver) -> Place | None:
 
 
 def build_features(best: dict[str, Match], all_messages: dict[str, list[Message]],
-                   revision: dict, resolver: Resolver) -> list[dict]:
+                   revision: dict, resolver: Resolver,
+                   incluir_baja: bool = False) -> list[dict]:
     excluded = set(revision.get("excluir_usuarios", []))
     excluded_places = {norm(name) for name in revision.get("excluir_lugares", [])}
 
@@ -1521,7 +1550,12 @@ def build_features(best: dict[str, Match], all_messages: dict[str, list[Message]
     for user, match in best.items():
         if user in excluded:
             continue
-        place = place_from_override(revision.get("corregir", {}).get(user, {}), resolver) or match.place
+        override = revision.get("corregir", {}).get(user, {})
+        place = place_from_override(override, resolver) or match.place
+        # Las ubicaciones dudosas quedan en el reporte para revisión, no en el
+        # mapa, salvo que se pidan explícitamente o se corrijan a mano.
+        if not override and not incluir_baja and match.confianza == "baja":
+            continue
         if norm(place.nombre) in excluded_places:
             continue
         records[user].append((user, place, match.mensaje))
@@ -1702,6 +1736,8 @@ def parse_args() -> argparse.Namespace:
                         help="Sobrescribe con los resultados de esta corrida las frases ya existentes.")
     parser.add_argument("--solo-reporte", action="store_true",
                         help="No escribe el GeoJSON; solo genera los CSV de revisión.")
+    parser.add_argument("--incluir-baja", action="store_true",
+                        help="Incluye en el GeoJSON los lugares de confianza baja (por defecto se excluyen).")
     parser.add_argument("--actualizar-chat", action="store_true", help="Vuelve a descargar el chat.")
     parser.add_argument("--actualizar-datos", action="store_true",
                         help="Vuelve a descargar localidades y provincias de Georef.")
@@ -1770,7 +1806,8 @@ def main() -> None:
         return
 
     revision = load_revision(args.revision)
-    features = build_features(best, grouped, revision, resolver)
+    features = build_features(best, grouped, revision, resolver,
+                              incluir_baja=args.incluir_baja)
     write_geojson(features, args.salida, len(messages), len(grouped))
     geocoder.save()
 

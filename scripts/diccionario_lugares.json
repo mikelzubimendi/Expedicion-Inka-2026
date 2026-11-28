@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-11-24T10:15:40+00:00",
+ "actualizado": "2026-11-28T00:16:30+00:00",
  "lugares": {
   "abrazo desde jujuy": {
    "Lugar": "San Salvador de Jujuy",
@@ -232,14 +232,6 @@
    "Pais": "Argentina",
    "lat": -34.06751,
    "lon": -60.10869,
-   "Tipo": "localidad"
-  },
-  "arriba aylencita": {
-   "Lugar": "Saint-Gladie-Arrive-Munein",
-   "Provincia": "Nueva Aquitania",
-   "Pais": "Francia",
-   "lat": 43.38098,
-   "lon": -0.93377,
    "Tipo": "localidad"
   },
   "arroyito cordoba": {
@@ -1290,14 +1282,6 @@
    "lon": -58.0172,
    "Tipo": "localidad"
   },
-  "corcoba": {
-   "Lugar": "La Córcoba",
-   "Provincia": "Asturias",
-   "Pais": "España",
-   "lat": 43.1915,
-   "lon": -5.21114,
-   "Tipo": "localidad"
-  },
   "cordoba": {
    "Lugar": "Córdoba",
    "Provincia": "Córdoba",
@@ -1786,14 +1770,6 @@
    "lon": -78.1834,
    "Tipo": "pais"
   },
-  "el alfarero mina clavero": {
-   "Lugar": "Ellis County",
-   "Provincia": "Kansas",
-   "Pais": "Estados Unidos de América",
-   "lat": 38.9153,
-   "lon": -99.31725,
-   "Tipo": "localidad"
-  },
   "el bolson rio negro": {
    "Lugar": "El Bolsón",
    "Provincia": "Río Negro",
@@ -1818,14 +1794,6 @@
    "lon": -71.30434,
    "Tipo": "localidad"
   },
-  "el cusco": {
-   "Lugar": "el Cuscó",
-   "Provincia": "Cataluña",
-   "Pais": "España",
-   "lat": 41.32341,
-   "lon": 1.59612,
-   "Tipo": "localidad"
-  },
   "el ires catamarca": {
    "Lugar": "San Fernando del Valle de Catamarca",
    "Provincia": "Catamarca",
@@ -1848,22 +1816,6 @@
    "Pais": "Argentina",
    "lat": -26.07957,
    "lon": -65.39309,
-   "Tipo": "localidad"
-  },
-  "el lobo": {
-   "Lugar": "Soplin",
-   "Provincia": "Loreto",
-   "Pais": "Perú",
-   "lat": -6.32536,
-   "lon": -73.61417,
-   "Tipo": "localidad"
-  },
-  "el metal": {
-   "Lugar": "El Metal",
-   "Provincia": "Asturias",
-   "Pais": "España",
-   "lat": 43.49075,
-   "lon": -5.28255,
    "Tipo": "localidad"
   },
   "el pato culon": {
@@ -2010,14 +1962,6 @@
    "lon": -71.32157,
    "Tipo": "localidad"
   },
-  "esta aventura": {
-   "Lugar": "Esta",
-   "Provincia": "",
-   "Pais": "Suecia",
-   "lat": 58.89423,
-   "lon": 17.2452,
-   "Tipo": "localidad"
-  },
   "exelente saludos desde tucuman": {
    "Lugar": "San Miguel de Tucumán",
    "Provincia": "Tucumán",
@@ -2096,14 +2040,6 @@
    "Pais": "Argentina",
    "lat": -38.00645,
    "lon": -57.54384,
-   "Tipo": "localidad"
-  },
-  "fines mirando en vivo": {
-   "Lugar": "Fines",
-   "Provincia": "Andalucía",
-   "Pais": "España",
-   "lat": 37.36,
-   "lon": -2.26329,
    "Tipo": "localidad"
   },
   "florenciaaaaaa": {
@@ -2554,14 +2490,6 @@
    "lon": -65.77892,
    "Tipo": "localidad"
   },
-  "la chamba": {
-   "Lugar": "La Chamba",
-   "Provincia": "Auvergne-Rhône-Alpes",
-   "Pais": "Francia",
-   "lat": 45.75565,
-   "lon": 3.75771,
-   "Tipo": "localidad"
-  },
   "la cocha": {
    "Lugar": "La Cocha",
    "Provincia": "Tucumán",
@@ -2946,14 +2874,6 @@
    "lon": -58.52124,
    "Tipo": "localidad"
   },
-  "little horse": {
-   "Lugar": "Little",
-   "Provincia": "Kentucky",
-   "Pais": "Estados Unidos de América",
-   "lat": 37.43981,
-   "lon": -83.36185,
-   "Tipo": "localidad"
-  },
   "lomas de zamora": {
    "Lugar": "Lomas de Zamora",
    "Provincia": "Buenos Aires",
@@ -3024,14 +2944,6 @@
    "Pais": "Argentina",
    "lat": -33.09968,
    "lon": -68.56881,
-   "Tipo": "localidad"
-  },
-  "los cientificos argentinos": {
-   "Lugar": "Los",
-   "Provincia": "",
-   "Pais": "Suecia",
-   "lat": 61.73651,
-   "lon": 15.16921,
    "Tipo": "localidad"
   },
   "los menucos rio negro": {
@@ -3360,14 +3272,6 @@
    "Pais": "Argentina",
    "lat": -38.27046,
    "lon": -57.83985,
-   "Tipo": "localidad"
-  },
-  "misones": {
-   "Lugar": "Los Misones",
-   "Provincia": "Castilla y León",
-   "Pais": "España",
-   "lat": 42.6785,
-   "lon": -6.41775,
    "Tipo": "localidad"
   },
   "mocoreta": {
@@ -3904,14 +3808,6 @@
    "Pais": "Argentina",
    "lat": -28.46901,
    "lon": -65.77892,
-   "Tipo": "localidad"
-  },
-  "quebrada de luna dordoba": {
-   "Lugar": "Camuy",
-   "Provincia": "Puerto Rico",
-   "Pais": "Estados Unidos de América",
-   "lat": 18.3712,
-   "lon": -66.83715,
    "Tipo": "localidad"
   },
   "quenuma": {
@@ -4938,14 +4834,6 @@
    "lon": -64.29063,
    "Tipo": "localidad"
   },
-  "santiago de estero": {
-   "Lugar": "Santiago",
-   "Provincia": "Cartago",
-   "Pais": "Costa Rica",
-   "lat": 9.86948,
-   "lon": -83.79807,
-   "Tipo": "localidad"
-  },
   "santiago del estero": {
    "Lugar": "Santiago del Estero",
    "Provincia": "Santiago del Estero",
@@ -5512,14 +5400,6 @@
    "Pais": "Argentina",
    "lat": -31.11396,
    "lon": -64.48516,
-   "Tipo": "localidad"
-  },
-  "valle viejo": {
-   "Lugar": "Valle Viejo",
-   "Provincia": "Chinandega",
-   "Pais": "Nicaragua",
-   "lat": 12.5726,
-   "lon": -87.01625,
    "Tipo": "localidad"
   },
   "vamo catamarca": {

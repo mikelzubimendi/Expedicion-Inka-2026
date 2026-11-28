@@ -2,17 +2,120 @@
   "excluir_usuarios": [
     "@RocioFranco-mb4tx",
     "@bettydonati1811",
-    "@Elisamicozzi6950"
+    "@Elisamicozzi6950",
+    "@Paulensis",
+    "@rociodelsouc5353",
+    "@rominamartinez6406",
+    "@patriciazappalorto",
+    "@jazlazo3588",
+    "@vicsw08",
+    "@lavidaenfresa",
+    "@noemia4261",
+    "@mariapiabernat8051",
+    "@griseldaherrera3184",
+    "@facundojimenez3358",
+    "@silvanaj8866",
+    "@camilaraverta2018",
+    "@eledelarosa3261"
   ],
-  "excluir_lugares": [],
-  "corregir": {},
+  "excluir_lugares": [
+    "El Metal",
+    "Coca Cola",
+    "La Chamba",
+    "Fines",
+    "Los",
+    "Esta",
+    "Las Bases",
+    "Little",
+    "Saint-Gladie-Arrive-Munein",
+    "Çarşamba",
+    "La Ciudad",
+    "La República",
+    "Villas del Perú",
+    "Egipto",
+    "Soplin",
+    "Camuy"
+  ],
+  "corregir": {
+    "@ValenDiLeva-y3p": {
+      "Lugar": "Quilmes",
+      "Provincia": "Buenos Aires",
+      "Pais": "Argentina",
+      "lat": -34.7206,
+      "lon": -58.2545
+    },
+    "@ezequielcismondi1219": {
+      "Lugar": "Devoto",
+      "Provincia": "Ciudad Autónoma de Buenos Aires",
+      "Pais": "Argentina",
+      "lat": -34.601,
+      "lon": -58.513
+    },
+    "@CiieSalliquelo": {
+      "Lugar": "Salliqueló",
+      "Provincia": "Buenos Aires",
+      "Pais": "Argentina",
+      "lat": -36.7667,
+      "lon": -62.95
+    },
+    "@franciscovizzoni8946": {
+      "Lugar": "Mina Clavero",
+      "Provincia": "Córdoba",
+      "Pais": "Argentina",
+      "lat": -31.7167,
+      "lon": -65.0
+    },
+    "@danilagonzalez9955": {
+      "Lugar": "Misiones",
+      "Provincia": "Misiones",
+      "Pais": "Argentina",
+      "lat": -26.875,
+      "lon": -54.5,
+      "Tipo": "provincia"
+    },
+    "@ChechoCbes": {
+      "Lugar": "Córdoba",
+      "Provincia": "Córdoba",
+      "Pais": "Argentina",
+      "lat": -31.415,
+      "lon": -64.1791
+    },
+    "@josuedavidnaveroshuaman": {
+      "Lugar": "Cusco",
+      "Provincia": "Cusco",
+      "Pais": "Perú",
+      "lat": -13.5319,
+      "lon": -71.9675
+    },
+    "@MabeledithVidelabarros": {
+      "Lugar": "Valle Viejo",
+      "Provincia": "Catamarca",
+      "Pais": "Argentina",
+      "lat": -28.4667,
+      "lon": -65.7167
+    },
+    "@manuelgonzales5763": {
+      "Lugar": "Fiorito",
+      "Provincia": "Buenos Aires",
+      "Pais": "Argentina",
+      "lat": -34.7,
+      "lon": -58.3167
+    },
+    "@MartinaVazquez-eo3pz": {
+      "Lugar": "Santiago del Estero",
+      "Provincia": "Santiago del Estero",
+      "Pais": "Argentina",
+      "lat": -27.795,
+      "lon": -64.261
+    }
+  },
   "incluir": {
     "@GabrielaPendola": {
       "Lugar": "Santa Fe",
       "Provincia": "Santa Fe",
       "Pais": "Argentina",
       "lat": -31.6333,
-      "lon": -60.7000
+      "lon": -60.7
     },
     "@silvinaolleta8944": {
       "Lugar": "Las Toninas",
@@ -39,7 +142,7 @@
       "Lugar": "La Chacarita",
       "Provincia": "Catamarca",
       "Pais": "Argentina",
-      "lat": -28.45990,
+      "lat": -28.4599,
       "lon": -65.75244
     },
     "@JoseHernandez-vv5pp": {

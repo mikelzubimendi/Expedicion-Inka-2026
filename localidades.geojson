@@ -39,8 +39,8 @@
     "generado": "2026-11-24T10:15:40+00:00",
     "comentarios_analizados": 15239,
     "usuarios_analizados": 4374,
-    "localidades": 449,
-    "oyentes_mapeados": 1640
+    "localidades": 429,
+    "oyentes_mapeados": 1626
   },
   "features": [
     {
@@ -3614,39 +3614,6 @@
         "coordinates": [
           -65.64298,
           -24.90813
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Lugar": "Camuy",
-        "Provincia": "Puerto Rico",
-        "Pais": "Estados Unidos de América",
-        "Tipo": "localidad",
-        "Oyentes": [
-          {
-            "Usuario": "@eledelarosa3261",
-            "Mensaje": "saludos de quebrada de luna dordoba",
-            "Dia": "Día 3",
-            "Comentarios": [],
-            "Dias": [
-              "Día 3"
-            ],
-            "ComentariosPorDia": {
-              "Día 3": [
-                "saludos de quebrada de luna dordoba"
-              ]
-            }
-          }
-        ],
-        "Cantidad": 1
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -66.83715,
-          18.3712
         ]
       }
     },
@@ -8270,72 +8237,6 @@
     {
       "type": "Feature",
       "properties": {
-        "Lugar": "Coca Cola",
-        "Provincia": "San José",
-        "Pais": "Costa Rica",
-        "Tipo": "localidad",
-        "Oyentes": [
-          {
-            "Usuario": "@rociodelsouc5353",
-            "Mensaje": "aguante coca cola",
-            "Dia": "Día 2",
-            "Comentarios": [
-              "viva tung tung shaur",
-              "UCkszU2WH9gy1mb0dV-11UJg/xsIfY4OqCd2T29sP54iAsAwUCkszU2WH9gy1mb0dV-11UJg/xsIfY4OqCd2T29sP54iAsAwUCkszU2WH9gy1mb0dV-11UJg/xsIfY4OqCd2T29sP54iAsAwUCkszU2WH9gy1mb0dV-11UJg/xsIfY4OqCd2T29sP54iAsAwUCkszU2WH9gy1mb0dV-11UJg/xsIfY4OqCd2T29sP54iAsAw",
-              "UCkszU2WH9gy1mb0dV-11UJg/ssIfY7OFG5OykQOpn4CQCwUCkszU2WH9gy1mb0dV-11UJg/ssIfY7OFG5OykQOpn4CQCwUCkszU2WH9gy1mb0dV-11UJg/ssIfY7OFG5OykQOpn4CQCwUCkszU2WH9gy1mb0dV-11UJg/ssIfY7OFG5OykQOpn4CQCwUCkszU2WH9gy1mb0dV-11UJg/ssIfY7OFG5OykQOpn4CQCwUCkszU2WH9gy1mb0dV-11UJg/ssIfY7OFG5OykQOpn4CQCwUCkszU2WH9gy1mb0dV-11UJg/ssIfY7OFG5OykQOpn4CQCw",
-              "UCkszU2WH9gy1mb0dV-11UJg/b8IfY7zOK9iVkNAP_I2A-AYUCkszU2WH9gy1mb0dV-11UJg/b8IfY7zOK9iVkNAP_I2A-AYUCkszU2WH9gy1mb0dV-11UJg/b8IfY7zOK9iVkNAP_I2A-AYUCkszU2WH9gy1mb0dV-11UJg/b8IfY7zOK9iVkNAP_I2A-AYUCkszU2WH9gy1mb0dV-11UJg/b8IfY7zOK9iVkNAP_I2A-AYUCkszU2WH9gy1mb0dV-11UJg/b8IfY7zOK9iVkNAP_I2A-AYUCkszU2WH9gy1mb0dV-11UJg/b8IfY7zOK9iVkNAP_I2A-AYUCkszU2WH9gy1mb0dV-11UJg/b8IfY7zOK9iVkNAP_I2A-AYUCkszU2WH9gy1mb0dV-11UJg/b8IfY7zOK9iVkNAP_I2A-AYUCkszU2WH9gy1mb0dV-11UJg/b8IfY7zOK9iVkNAP_I2A-AYUCkszU2WH9gy1mb0dV-11UJg/b8IfY7zOK9iVkNAP_I2A-AYUCkszU2WH9gy1mb0dV-11UJg/b8IfY7zOK9iVkNAP_I2A-AYUCkszU2WH9gy1mb0dV-11UJg/b8IfY7zOK9iVkNAP_I2A-AYUCkszU2WH9gy1mb0dV-11UJg/b8IfY7zOK9iVkNAP_I2A-AYUCkszU2WH9gy1mb0dV-11UJg/b8IfY7zOK9iVkNAP_I2A-AY",
-              "viva shaur",
-              "viva mi mojon",
-              "fuera milei que viva milei pobres kishneristas",
-              "seisiete",
-              "UCkszU2WH9gy1mb0dV-11UJg/6_cfY8HJH8bV5QS5yYDYDgUCkszU2WH9gy1mb0dV-11UJg/6_cfY8HJH8bV5QS5yYDYDgUCkszU2WH9gy1mb0dV-11UJg/6_cfY8HJH8bV5QS5yYDYDgUCkszU2WH9gy1mb0dV-11UJg/6_cfY8HJH8bV5QS5yYDYDgUCkszU2WH9gy1mb0dV-11UJg/6_cfY8HJH8bV5QS5yYDYDgUCkszU2WH9gy1mb0dV-11UJg/6_cfY8HJH8bV5QS5yYDYDgUCkszU2WH9gy1mb0dV-11UJg/6_cfY8HJH8bV5QS5yYDYDgUCkszU2WH9gy1mb0dV-11UJg/6_cfY8HJH8bV5QS5yYDYDgUCkszU2WH9gy1mb0dV-11UJg/6_cfY8HJH8bV5QS5yYDYDgUCkszU2WH9gy1mb0dV-11UJg/6_cfY8HJH8bV5QS5yYDYDgUCkszU2WH9gy1mb0dV-11UJg/6_cfY8HJH8bV5QS5yYDYDgUCkszU2WH9gy1mb0dV-11UJg/6_cfY8HJH8bV5QS5yYDYDgUCkszU2WH9gy1mb0dV-11UJg/6_cfY8HJH8bV5QS5yYDYDgUCkszU2WH9gy1mb0dV-11UJg/xsIfY4OqCd2T29sP54iAsAwUCkszU2WH9gy1mb0dV-11UJg/xsIfY4OqCd2T29sP54iAsAwUCkszU2WH9gy1mb0dV-11UJg/xsIfY4OqCd2T29sP54iAsAwUCkszU2WH9gy1mb0dV-11UJg/xsIfY4OqCd2T29sP54iAsAwUCkszU2WH9gy1mb0dV-11UJg/xsIfY4OqCd2T29sP54iAsAw",
-              "UCkszU2WH9gy1mb0dV-11UJg/6_cfY8HJH8bV5QS5yYDYDg",
-              "peron que grande so",
-              "ay que poner edificios la naturaleza es bodrio",
-              "mentira jjaajja los amo mi artgentina linda",
-              "son hermosso",
-              "estan respirando?",
-              "es un video genial amo mis babys"
-            ],
-            "Dias": [
-              "Día 2"
-            ],
-            "ComentariosPorDia": {
-              "Día 2": [
-                "aguante coca cola",
-                "viva tung tung shaur",
-                "UCkszU2WH9gy1mb0dV-11UJg/xsIfY4OqCd2T29sP54iAsAwUCkszU2WH9gy1mb0dV-11UJg/xsIfY4OqCd2T29sP54iAsAwUCkszU2WH9gy1mb0dV-11UJg/xsIfY4OqCd2T29sP54iAsAwUCkszU2WH9gy1mb0dV-11UJg/xsIfY4OqCd2T29sP54iAsAwUCkszU2WH9gy1mb0dV-11UJg/xsIfY4OqCd2T29sP54iAsAw",
-                "UCkszU2WH9gy1mb0dV-11UJg/ssIfY7OFG5OykQOpn4CQCwUCkszU2WH9gy1mb0dV-11UJg/ssIfY7OFG5OykQOpn4CQCwUCkszU2WH9gy1mb0dV-11UJg/ssIfY7OFG5OykQOpn4CQCwUCkszU2WH9gy1mb0dV-11UJg/ssIfY7OFG5OykQOpn4CQCwUCkszU2WH9gy1mb0dV-11UJg/ssIfY7OFG5OykQOpn4CQCwUCkszU2WH9gy1mb0dV-11UJg/ssIfY7OFG5OykQOpn4CQCwUCkszU2WH9gy1mb0dV-11UJg/ssIfY7OFG5OykQOpn4CQCw",
-                "UCkszU2WH9gy1mb0dV-11UJg/b8IfY7zOK9iVkNAP_I2A-AYUCkszU2WH9gy1mb0dV-11UJg/b8IfY7zOK9iVkNAP_I2A-AYUCkszU2WH9gy1mb0dV-11UJg/b8IfY7zOK9iVkNAP_I2A-AYUCkszU2WH9gy1mb0dV-11UJg/b8IfY7zOK9iVkNAP_I2A-AYUCkszU2WH9gy1mb0dV-11UJg/b8IfY7zOK9iVkNAP_I2A-AYUCkszU2WH9gy1mb0dV-11UJg/b8IfY7zOK9iVkNAP_I2A-AYUCkszU2WH9gy1mb0dV-11UJg/b8IfY7zOK9iVkNAP_I2A-AYUCkszU2WH9gy1mb0dV-11UJg/b8IfY7zOK9iVkNAP_I2A-AYUCkszU2WH9gy1mb0dV-11UJg/b8IfY7zOK9iVkNAP_I2A-AYUCkszU2WH9gy1mb0dV-11UJg/b8IfY7zOK9iVkNAP_I2A-AYUCkszU2WH9gy1mb0dV-11UJg/b8IfY7zOK9iVkNAP_I2A-AYUCkszU2WH9gy1mb0dV-11UJg/b8IfY7zOK9iVkNAP_I2A-AYUCkszU2WH9gy1mb0dV-11UJg/b8IfY7zOK9iVkNAP_I2A-AYUCkszU2WH9gy1mb0dV-11UJg/b8IfY7zOK9iVkNAP_I2A-AYUCkszU2WH9gy1mb0dV-11UJg/b8IfY7zOK9iVkNAP_I2A-AY",
-                "viva shaur",
-                "viva mi mojon",
-                "fuera milei que viva milei pobres kishneristas",
-                "seisiete",
-                "UCkszU2WH9gy1mb0dV-11UJg/6_cfY8HJH8bV5QS5yYDYDgUCkszU2WH9gy1mb0dV-11UJg/6_cfY8HJH8bV5QS5yYDYDgUCkszU2WH9gy1mb0dV-11UJg/6_cfY8HJH8bV5QS5yYDYDgUCkszU2WH9gy1mb0dV-11UJg/6_cfY8HJH8bV5QS5yYDYDgUCkszU2WH9gy1mb0dV-11UJg/6_cfY8HJH8bV5QS5yYDYDgUCkszU2WH9gy1mb0dV-11UJg/6_cfY8HJH8bV5QS5yYDYDgUCkszU2WH9gy1mb0dV-11UJg/6_cfY8HJH8bV5QS5yYDYDgUCkszU2WH9gy1mb0dV-11UJg/6_cfY8HJH8bV5QS5yYDYDgUCkszU2WH9gy1mb0dV-11UJg/6_cfY8HJH8bV5QS5yYDYDgUCkszU2WH9gy1mb0dV-11UJg/6_cfY8HJH8bV5QS5yYDYDgUCkszU2WH9gy1mb0dV-11UJg/6_cfY8HJH8bV5QS5yYDYDgUCkszU2WH9gy1mb0dV-11UJg/6_cfY8HJH8bV5QS5yYDYDgUCkszU2WH9gy1mb0dV-11UJg/6_cfY8HJH8bV5QS5yYDYDgUCkszU2WH9gy1mb0dV-11UJg/xsIfY4OqCd2T29sP54iAsAwUCkszU2WH9gy1mb0dV-11UJg/xsIfY4OqCd2T29sP54iAsAwUCkszU2WH9gy1mb0dV-11UJg/xsIfY4OqCd2T29sP54iAsAwUCkszU2WH9gy1mb0dV-11UJg/xsIfY4OqCd2T29sP54iAsAwUCkszU2WH9gy1mb0dV-11UJg/xsIfY4OqCd2T29sP54iAsAw",
-                "UCkszU2WH9gy1mb0dV-11UJg/6_cfY8HJH8bV5QS5yYDYDg",
-                "peron que grande so",
-                "ay que poner edificios la naturaleza es bodrio",
-                "mentira jjaajja los amo mi artgentina linda",
-                "son hermosso",
-                "estan respirando?",
-                "es un video genial amo mis babys"
-              ]
-            }
-          }
-        ],
-        "Cantidad": 1
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.08657,
-          9.93579
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "Lugar": "Coghlan",
         "Provincia": "Ciudad Autónoma de Buenos Aires",
         "Pais": "Argentina",
@@ -9409,6 +9310,51 @@
     {
       "type": "Feature",
       "properties": {
+        "Lugar": "Cusco",
+        "Provincia": "Cusco",
+        "Pais": "Perú",
+        "Tipo": "localidad",
+        "Oyentes": [
+          {
+            "Usuario": "@josuedavidnaveroshuaman",
+            "Mensaje": "que genial muy bueno todo saludos desde el cusco",
+            "Dia": "Día 2",
+            "Comentarios": [
+              "que genial saludos desde el cusco buen trabajo",
+              "saludos desde cusco",
+              "buena labor, saludos desde un tambo inka camata tambo",
+              "existe un cerámica de transición entre los inka y las culturas locales, y que incono trasciende mas"
+            ],
+            "Dias": [
+              "Día 2",
+              "Día 4"
+            ],
+            "ComentariosPorDia": {
+              "Día 2": [
+                "que genial muy bueno todo saludos desde el cusco",
+                "que genial saludos desde el cusco buen trabajo"
+              ],
+              "Día 4": [
+                "saludos desde cusco",
+                "buena labor, saludos desde un tambo inka camata tambo",
+                "existe un cerámica de transición entre los inka y las culturas locales, y que incono trasciende mas"
+              ]
+            }
+          }
+        ],
+        "Cantidad": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.9675,
+          -13.5319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Lugar": "Cuzco",
         "Provincia": "Cusco",
         "Pais": "Perú",
@@ -9789,6 +9735,26 @@
                 "QUE NO TERMINE!!!!?",
                 "Que interesante todoooo no corten porfi",
                 "Felicitaciones A LAS PROFESORAS"
+              ]
+            }
+          },
+          {
+            "Usuario": "@ChechoCbes",
+            "Mensaje": "Desde Córcoba",
+            "Dia": "Día 3",
+            "Comentarios": [
+              "TREMENDO!!"
+            ],
+            "Dias": [
+              "Día 1",
+              "Día 3"
+            ],
+            "ComentariosPorDia": {
+              "Día 1": [
+                "TREMENDO!!"
+              ],
+              "Día 3": [
+                "Desde Córcoba"
               ]
             }
           },
@@ -11063,7 +11029,7 @@
             }
           }
         ],
-        "Cantidad": 73
+        "Cantidad": 74
       },
       "geometry": {
         "type": "Point",
@@ -11103,50 +11069,6 @@
         "coordinates": [
           -63.96987,
           -32.02225
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Lugar": "Delaware",
-        "Provincia": "Delaware",
-        "Pais": "Estados Unidos de América",
-        "Tipo": "region",
-        "Oyentes": [
-          {
-            "Usuario": "@CiieSalliquelo",
-            "Mensaje": "Buen dia Desde del CIIE de Salliquelo",
-            "Dia": "Día 2",
-            "Comentarios": [
-              "Desde CIIE Salliquelö Rodolfo Adelio Raffino los acompañamos, junto a estudiantes del profesorado de Historia",
-              "¡Holaaaa! Aquí desde CIIE \"Rodolfo Adelio Raffino\" de Salliqueló, seguimos de cerquita lo que sucede en esta excavación junto a estudiantes de Secundaria 1. Abrazo especial a Cute y todo el equipo"
-            ],
-            "Dias": [
-              "Día 1",
-              "Día 2",
-              "Día 4"
-            ],
-            "ComentariosPorDia": {
-              "Día 1": [
-                "Desde CIIE Salliquelö Rodolfo Adelio Raffino los acompañamos, junto a estudiantes del profesorado de Historia"
-              ],
-              "Día 2": [
-                "Buen dia Desde del CIIE de Salliquelo"
-              ],
-              "Día 4": [
-                "¡Holaaaa! Aquí desde CIIE \"Rodolfo Adelio Raffino\" de Salliqueló, seguimos de cerquita lo que sucede en esta excavación junto a estudiantes de Secundaria 1. Abrazo especial a Cute y todo el equipo"
-              ]
-            }
-          }
-        ],
-        "Cantidad": 1
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.40133,
-          38.69205
         ]
       }
     },
@@ -11224,6 +11146,39 @@
         "coordinates": [
           -64.29478,
           -31.81428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Lugar": "Devoto",
+        "Provincia": "Ciudad Autónoma de Buenos Aires",
+        "Pais": "Argentina",
+        "Tipo": "localidad",
+        "Oyentes": [
+          {
+            "Usuario": "@ezequielcismondi1219",
+            "Mensaje": "saludos desde la republica popular de devoto",
+            "Dia": "Día 3",
+            "Comentarios": [],
+            "Dias": [
+              "Día 3"
+            ],
+            "ComentariosPorDia": {
+              "Día 3": [
+                "saludos desde la republica popular de devoto"
+              ]
+            }
+          }
+        ],
+        "Cantidad": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.513,
+          -34.601
         ]
       }
     },
@@ -11371,54 +11326,6 @@
     {
       "type": "Feature",
       "properties": {
-        "Lugar": "Egipto",
-        "Provincia": "",
-        "Pais": "Egipto",
-        "Tipo": "pais",
-        "Oyentes": [
-          {
-            "Usuario": "@silvanaj8866",
-            "Mensaje": "Egipto quien te conoce jaja",
-            "Dia": "Día 1",
-            "Comentarios": [
-              "no se ve",
-              "jajjaa que te imaginabas ? jajajjja mira un poco de videos de excavaciones",
-              "ESPEREMOS NO HAYA MINERAS CERCA",
-              "#NOALAMINERIA",
-              "AGUANTE EL CONICET VIVA LA EDUCACIÓN PUBICA PROTEJAMOS LA HISTORIA NUESTROS ANCESTROS NO A LA MEGA MINERAS",
-              "CUIDEMOS NUESTROS CIENTIFICOS !!!!",
-              "no usan guantes ?"
-            ],
-            "Dias": [
-              "Día 1"
-            ],
-            "ComentariosPorDia": {
-              "Día 1": [
-                "Egipto quien te conoce jaja",
-                "no se ve",
-                "jajjaa que te imaginabas ? jajajjja mira un poco de videos de excavaciones",
-                "ESPEREMOS NO HAYA MINERAS CERCA",
-                "#NOALAMINERIA",
-                "AGUANTE EL CONICET VIVA LA EDUCACIÓN PUBICA PROTEJAMOS LA HISTORIA NUESTROS ANCESTROS NO A LA MEGA MINERAS",
-                "CUIDEMOS NUESTROS CIENTIFICOS !!!!",
-                "no usan guantes ?"
-              ]
-            }
-          }
-        ],
-        "Cantidad": 1
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          30.8025,
-          26.8206
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "Lugar": "El Bolsón",
         "Provincia": "Río Negro",
         "Pais": "Argentina",
@@ -11527,51 +11434,6 @@
     {
       "type": "Feature",
       "properties": {
-        "Lugar": "el Cuscó",
-        "Provincia": "Cataluña",
-        "Pais": "España",
-        "Tipo": "localidad",
-        "Oyentes": [
-          {
-            "Usuario": "@josuedavidnaveroshuaman",
-            "Mensaje": "que genial muy bueno todo saludos desde el cusco",
-            "Dia": "Día 2",
-            "Comentarios": [
-              "que genial saludos desde el cusco buen trabajo",
-              "saludos desde cusco",
-              "buena labor, saludos desde un tambo inka camata tambo",
-              "existe un cerámica de transición entre los inka y las culturas locales, y que incono trasciende mas"
-            ],
-            "Dias": [
-              "Día 2",
-              "Día 4"
-            ],
-            "ComentariosPorDia": {
-              "Día 2": [
-                "que genial muy bueno todo saludos desde el cusco",
-                "que genial saludos desde el cusco buen trabajo"
-              ],
-              "Día 4": [
-                "saludos desde cusco",
-                "buena labor, saludos desde un tambo inka camata tambo",
-                "existe un cerámica de transición entre los inka y las culturas locales, y que incono trasciende mas"
-              ]
-            }
-          }
-        ],
-        "Cantidad": 1
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.59612,
-          41.32341
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "Lugar": "El Jagüel",
         "Provincia": "Buenos Aires",
         "Pais": "Argentina",
@@ -11660,56 +11522,6 @@
         "coordinates": [
           -65.39309,
           -26.07957
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Lugar": "El Metal",
-        "Provincia": "Asturias",
-        "Pais": "España",
-        "Tipo": "localidad",
-        "Oyentes": [
-          {
-            "Usuario": "@Paulensis",
-            "Mensaje": "aguante el metal",
-            "Dia": "Día 2",
-            "Comentarios": [
-              "buenas",
-              "Uno de mis sueños de piba: ser arqueóloga",
-              "muy bien esas cámaras che",
-              "Chau Rocio",
-              "pongan like al vivo, gente",
-              "qué genia la que habla"
-            ],
-            "Dias": [
-              "Día 2",
-              "Día 3"
-            ],
-            "ComentariosPorDia": {
-              "Día 2": [
-                "aguante el metal",
-                "buenas",
-                "Uno de mis sueños de piba: ser arqueóloga",
-                "muy bien esas cámaras che",
-                "Chau Rocio",
-                "pongan like al vivo, gente",
-                "qué genia la que habla"
-              ],
-              "Día 3": [
-                "buenas"
-              ]
-            }
-          }
-        ],
-        "Cantidad": 1
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -5.28255,
-          43.49075
         ]
       }
     },
@@ -12178,39 +11990,6 @@
     {
       "type": "Feature",
       "properties": {
-        "Lugar": "Ellis County",
-        "Provincia": "Kansas",
-        "Pais": "Estados Unidos de América",
-        "Tipo": "localidad",
-        "Oyentes": [
-          {
-            "Usuario": "@franciscovizzoni8946",
-            "Mensaje": "los felicitamos desde @ el alfarero Mina Clavero",
-            "Dia": "Día 2",
-            "Comentarios": [],
-            "Dias": [
-              "Día 2"
-            ],
-            "ComentariosPorDia": {
-              "Día 2": [
-                "los felicitamos desde @ el alfarero Mina Clavero"
-              ]
-            }
-          }
-        ],
-        "Cantidad": 1
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -99.31725,
-          38.9153
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "Lugar": "Entre Ríos",
         "Provincia": "Entre Ríos",
         "Pais": "Argentina",
@@ -12618,131 +12397,6 @@
     {
       "type": "Feature",
       "properties": {
-        "Lugar": "Esta",
-        "Provincia": "",
-        "Pais": "Suecia",
-        "Tipo": "localidad",
-        "Oyentes": [
-          {
-            "Usuario": "@vicsw08",
-            "Mensaje": "Hermoso estar nuevamente por acá en esta aventura",
-            "Dia": "Día 2",
-            "Comentarios": [
-              "Yo siendo estudiante de profe de Historia viendo esto",
-              "Vamos Lanús",
-              "Me encanta ver todo esto y escuchar cómo explican el proceso",
-              "Siempre me encantaron los inkas y ver esto me emociona mucho como estudiante del profesorado de Historia, ojalá hagan más stream sobre excavaciones arqueológicas para conocer más nuestra historia",
-              "Bueno loco, está bien que haga esas preguntas para que guíen y la gente comprenda términos técnicos, si quieren que hablen como científicos y ustedes se quedan sin entender nada",
-              "Qué interesante todo, y también la importancia de destacar que habitaron diversas poblaciones, no sólo los inkas",
-              "Siempre amo escuchar la parte histórica de la situación",
-              "Clave el rol de los kurakas, incluso enviaban a sus hijos al Cuzco para que sean educados y se apropien del quechua como lengua oficial",
-              "Cuanta conexión con la naturaleza en lo etimológico del nombre del lugar",
-              "Hermosa producción para que nos ubiquemos en tiempo y espacio",
-              "Transmisión de lujo",
-              "Lo importante del apoyo interdisciplinario para conocer el pasado",
-              "¿Arqueóloga o locutora? Tremenda voz JAJAJAJA",
-              "Primordial comentar que es algo meticuloso y que lleva tiempo para conservar lo mejor posible el área registrada",
-              "Es muy interesante poder darle forma en nuestras cabezas a la cancha",
-              "Ella re orgullosa de su hija JAJAJAJA",
-              "Tremendo laburo",
-              "Sí, los incas usaban la metalurgia",
-              "Espectacular, un dino JAJAJJA",
-              "Por suerte hoy veo más sombra que ayer en el área de trabajo, sino se hace muy pesado",
-              "Fundamental contar con los elementos necesarios para no pasar por alto nada",
-              "Se agachaba cada vez más y no se la escuchaba JAJAJA",
-              "Super interesante la verdad, aparte eso ayuda a conocer más sobre el tipo de dieta que mantenían o lo que utilizaban como medicina",
-              "Tremendo laburazo para poder descubrir hasta el más mínimo detalle que evidencie el estilo de vida que llevaban a cabo",
-              "Mi bebé decía JAJAJAJ",
-              "La tiene re clara el tipo",
-              "Se le va a poder sacar mucho jugo al hallazgo de cerámica",
-              "Increíble el equipazo que formaron",
-              "soy el papa de la cuenta,mientras almuerzo me obliga a verlos. jajaja",
-              "vamossssss",
-              "Tremendo hallazgo, se van encontrando cada vez más cosas",
-              "Impresionante cada cosita que se va encontrando",
-              "La grandeza de este equipo es notable en los hallazgos y laburo hechos",
-              "Espectaculares las tomas que hacen de la zona",
-              "Una locura esa cantidad de restos",
-              "Data importantísima para comprender cómo interactuaban entre diversas poblaciones y asentamientos",
-              "Cómo me encantaría que en mi profesorado de Historia estuviese la materia Arqueología",
-              "Impresionnate lo que comentás",
-              "Un dato primordial está aportando",
-              "Hermosa la reconstrucción",
-              "La política tiene que ver porque es la que invierte en investigación, genio",
-              "Nancy, ayer lo comentaron, está escrito con K por una cuestión de reivindicar cómo ellos lo pronunciaban, con c es por los españoles",
-              "Cada cosa es mejor que la otra",
-              "SALUDOOOOS"
-            ],
-            "Dias": [
-              "Día 1",
-              "Día 2"
-            ],
-            "ComentariosPorDia": {
-              "Día 1": [
-                "Yo siendo estudiante de profe de Historia viendo esto",
-                "Vamos Lanús",
-                "Me encanta ver todo esto y escuchar cómo explican el proceso",
-                "Siempre me encantaron los inkas y ver esto me emociona mucho como estudiante del profesorado de Historia, ojalá hagan más stream sobre excavaciones arqueológicas para conocer más nuestra historia",
-                "Bueno loco, está bien que haga esas preguntas para que guíen y la gente comprenda términos técnicos, si quieren que hablen como científicos y ustedes se quedan sin entender nada",
-                "Qué interesante todo, y también la importancia de destacar que habitaron diversas poblaciones, no sólo los inkas",
-                "Siempre amo escuchar la parte histórica de la situación",
-                "Clave el rol de los kurakas, incluso enviaban a sus hijos al Cuzco para que sean educados y se apropien del quechua como lengua oficial",
-                "Cuanta conexión con la naturaleza en lo etimológico del nombre del lugar"
-              ],
-              "Día 2": [
-                "Hermoso estar nuevamente por acá en esta aventura",
-                "Hermosa producción para que nos ubiquemos en tiempo y espacio",
-                "Transmisión de lujo",
-                "Lo importante del apoyo interdisciplinario para conocer el pasado",
-                "¿Arqueóloga o locutora? Tremenda voz JAJAJAJA",
-                "Primordial comentar que es algo meticuloso y que lleva tiempo para conservar lo mejor posible el área registrada",
-                "Es muy interesante poder darle forma en nuestras cabezas a la cancha",
-                "Ella re orgullosa de su hija JAJAJAJA",
-                "Tremendo laburo",
-                "Sí, los incas usaban la metalurgia",
-                "Espectacular, un dino JAJAJJA",
-                "Por suerte hoy veo más sombra que ayer en el área de trabajo, sino se hace muy pesado",
-                "Fundamental contar con los elementos necesarios para no pasar por alto nada",
-                "Se agachaba cada vez más y no se la escuchaba JAJAJA",
-                "Super interesante la verdad, aparte eso ayuda a conocer más sobre el tipo de dieta que mantenían o lo que utilizaban como medicina",
-                "Tremendo laburazo para poder descubrir hasta el más mínimo detalle que evidencie el estilo de vida que llevaban a cabo",
-                "Mi bebé decía JAJAJAJ",
-                "La tiene re clara el tipo",
-                "Se le va a poder sacar mucho jugo al hallazgo de cerámica",
-                "Increíble el equipazo que formaron",
-                "soy el papa de la cuenta,mientras almuerzo me obliga a verlos. jajaja",
-                "vamossssss",
-                "Tremendo hallazgo, se van encontrando cada vez más cosas",
-                "Impresionante cada cosita que se va encontrando",
-                "La grandeza de este equipo es notable en los hallazgos y laburo hechos",
-                "Espectaculares las tomas que hacen de la zona",
-                "Una locura esa cantidad de restos",
-                "Data importantísima para comprender cómo interactuaban entre diversas poblaciones y asentamientos",
-                "Cómo me encantaría que en mi profesorado de Historia estuviese la materia Arqueología",
-                "Impresionnate lo que comentás",
-                "Un dato primordial está aportando",
-                "Hermosa la reconstrucción",
-                "La política tiene que ver porque es la que invierte en investigación, genio",
-                "Nancy, ayer lo comentaron, está escrito con K por una cuestión de reivindicar cómo ellos lo pronunciaban, con c es por los españoles",
-                "Cada cosa es mejor que la otra",
-                "SALUDOOOOS"
-              ]
-            }
-          }
-        ],
-        "Cantidad": 1
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.2452,
-          58.89423
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "Lugar": "Ezeiza",
         "Provincia": "Buenos Aires",
         "Pais": "Argentina",
@@ -12899,51 +12553,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Lugar": "Fines",
-        "Provincia": "Andalucía",
-        "Pais": "España",
-        "Tipo": "localidad",
-        "Oyentes": [
-          {
-            "Usuario": "@patriciazappalorto",
-            "Mensaje": "estamos desde fines mirando en vivo",
-            "Dia": "Día 3",
-            "Comentarios": [
-              "de donde sacaban los pigmentos",
-              "manden saludos a los alumnos de fines en mardel con la profe Paloma apasionada por lo suyo estamos viendo en vivo.justo estamos tratando este tema",
-              "de donde sacaban los pigmentos osra las basijas",
-              "esas bolsitas son especiales para todo esto?"
-            ],
-            "Dias": [
-              "Día 3"
-            ],
-            "ComentariosPorDia": {
-              "Día 3": [
-                "estamos desde fines mirando en vivo",
-                "de donde sacaban los pigmentos",
-                "manden saludos a los alumnos de fines en mardel con la profe Paloma apasionada por lo suyo estamos viendo en vivo.justo estamos tratando este tema",
-                "de donde sacaban los pigmentos osra las basijas",
-                "esas bolsitas son especiales para todo esto?"
-              ]
-            }
-          }
-        ],
-        "Cantidad": 1
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.26329,
-          37.36
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "Lugar": "Fiorito",
-        "Provincia": "Florida",
-        "Pais": "Estados Unidos de América",
+        "Provincia": "Buenos Aires",
+        "Pais": "Argentina",
         "Tipo": "localidad",
         "Oyentes": [
           {
@@ -12974,8 +12586,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -82.43903,
-          27.9658
+          -58.3167,
+          -34.7
         ]
       }
     },
@@ -15359,75 +14971,6 @@
     {
       "type": "Feature",
       "properties": {
-        "Lugar": "La Chamba",
-        "Provincia": "Auvergne-Rhône-Alpes",
-        "Pais": "Francia",
-        "Tipo": "localidad",
-        "Oyentes": [
-          {
-            "Usuario": "@rominamartinez6406",
-            "Mensaje": "acá los veo desde la chamba",
-            "Dia": "Día 3",
-            "Comentarios": [
-              "gracias totales por su divulgación científica"
-            ],
-            "Dias": [
-              "Día 3"
-            ],
-            "ComentariosPorDia": {
-              "Día 3": [
-                "acá los veo desde la chamba",
-                "gracias totales por su divulgación científica"
-              ]
-            }
-          }
-        ],
-        "Cantidad": 1
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          3.75771,
-          45.75565
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Lugar": "La Ciudad",
-        "Provincia": "Durango",
-        "Pais": "México",
-        "Tipo": "localidad",
-        "Oyentes": [
-          {
-            "Usuario": "@griseldaherrera3184",
-            "Mensaje": "hola! saludos desde la ciudad vecina de Belén",
-            "Dia": "Día 2",
-            "Comentarios": [],
-            "Dias": [
-              "Día 2"
-            ],
-            "ComentariosPorDia": {
-              "Día 2": [
-                "hola! saludos desde la ciudad vecina de Belén"
-              ]
-            }
-          }
-        ],
-        "Cantidad": 1
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -105.68997,
-          23.73217
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "Lugar": "La Cocha",
         "Provincia": "Tucumán",
         "Pais": "Argentina",
@@ -15725,45 +15268,6 @@
         "coordinates": [
           -64.4942,
           -30.98213
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Lugar": "La Córcoba",
-        "Provincia": "Asturias",
-        "Pais": "España",
-        "Tipo": "localidad",
-        "Oyentes": [
-          {
-            "Usuario": "@ChechoCbes",
-            "Mensaje": "Desde Córcoba",
-            "Dia": "Día 3",
-            "Comentarios": [
-              "TREMENDO!!"
-            ],
-            "Dias": [
-              "Día 1",
-              "Día 3"
-            ],
-            "ComentariosPorDia": {
-              "Día 1": [
-                "TREMENDO!!"
-              ],
-              "Día 3": [
-                "Desde Córcoba"
-              ]
-            }
-          }
-        ],
-        "Cantidad": 1
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -5.21114,
-          43.1915
         ]
       }
     },
@@ -19570,39 +19074,6 @@
     {
       "type": "Feature",
       "properties": {
-        "Lugar": "La Republica",
-        "Provincia": "Chihuahua",
-        "Pais": "México",
-        "Tipo": "localidad",
-        "Oyentes": [
-          {
-            "Usuario": "@ezequielcismondi1219",
-            "Mensaje": "saludos desde la republica popular de devoto",
-            "Dia": "Día 3",
-            "Comentarios": [],
-            "Dias": [
-              "Día 3"
-            ],
-            "ComentariosPorDia": {
-              "Día 3": [
-                "saludos desde la republica popular de devoto"
-              ]
-            }
-          }
-        ],
-        "Cantidad": 1
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -105.52198,
-          26.86893
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "Lugar": "La Rioja",
         "Provincia": "La Rioja",
         "Pais": "Argentina",
@@ -20216,62 +19687,6 @@
         "coordinates": [
           -58.39113,
           -34.70756
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Lugar": "Las Bases",
-        "Provincia": "Castilla y León",
-        "Pais": "España",
-        "Tipo": "localidad",
-        "Oyentes": [
-          {
-            "Usuario": "@ValenDiLeva-y3p",
-            "Mensaje": "SALUDOS DESDE BASES DE JUAN BAUTISTA ALBERDI (escuela de Quilmes)",
-            "Dia": "Día 3",
-            "Comentarios": [
-              "Saludo para matera",
-              "SALUDO PARA MATTERA POR FABOR",
-              "DALE BAUTISTA, futuramente millonario",
-              "JAJAJA",
-              "QUE LIMDO",
-              "Bauti futuro astrólogo",
-              "BAUTI BAUTI BAUTI BAUTIIIII",
-              "BAUTI",
-              "Qué lindo lo q hacen",
-              "67",
-              "67 SIX SEVEN"
-            ],
-            "Dias": [
-              "Día 3"
-            ],
-            "ComentariosPorDia": {
-              "Día 3": [
-                "SALUDOS DESDE BASES DE JUAN BAUTISTA ALBERDI (escuela de Quilmes)",
-                "Saludo para matera",
-                "SALUDO PARA MATTERA POR FABOR",
-                "DALE BAUTISTA, futuramente millonario",
-                "JAJAJA",
-                "QUE LIMDO",
-                "Bauti futuro astrólogo",
-                "BAUTI BAUTI BAUTI BAUTIIIII",
-                "BAUTI",
-                "Qué lindo lo q hacen",
-                "67",
-                "67 SIX SEVEN"
-              ]
-            }
-          }
-        ],
-        "Cantidad": 1
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -4.09929,
-          40.92879
         ]
       }
     },
@@ -20980,39 +20395,6 @@
         "coordinates": [
           -58.52124,
           -34.63871
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Lugar": "Little",
-        "Provincia": "Kentucky",
-        "Pais": "Estados Unidos de América",
-        "Tipo": "localidad",
-        "Oyentes": [
-          {
-            "Usuario": "@lavidaenfresa",
-            "Mensaje": "salu2 desde Little Horse",
-            "Dia": "Día 4",
-            "Comentarios": [],
-            "Dias": [
-              "Día 4"
-            ],
-            "ComentariosPorDia": {
-              "Día 4": [
-                "salu2 desde Little Horse"
-              ]
-            }
-          }
-        ],
-        "Cantidad": 1
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.36185,
-          37.43981
         ]
       }
     },
@@ -21731,66 +21113,6 @@
     {
       "type": "Feature",
       "properties": {
-        "Lugar": "Los",
-        "Provincia": "",
-        "Pais": "Suecia",
-        "Tipo": "localidad",
-        "Oyentes": [
-          {
-            "Usuario": "@jazlazo3588",
-            "Mensaje": "aguante los científicos argentinos",
-            "Dia": "Día 4",
-            "Comentarios": [
-              "me encanta mirar estoooo!!!!!",
-              "no sé vallan por favor",
-              "aguante el CONICET",
-              "amo la ciencia",
-              "soy Emma los quiero mucho amo sus videos son lo mejor se merecen todo los quiroooo!!!",
-              "mándame saludos",
-              "Gracias aguante argentina",
-              "Gracias por todo los amo son los mejores",
-              "que orgullo",
-              "hermoso todo",
-              "y mucho orgullo para la argentina",
-              "hallazgooooo!!!!!",
-              "Gracias por tanto trabajo"
-            ],
-            "Dias": [
-              "Día 4"
-            ],
-            "ComentariosPorDia": {
-              "Día 4": [
-                "aguante los científicos argentinos",
-                "me encanta mirar estoooo!!!!!",
-                "no sé vallan por favor",
-                "aguante el CONICET",
-                "amo la ciencia",
-                "soy Emma los quiero mucho amo sus videos son lo mejor se merecen todo los quiroooo!!!",
-                "mándame saludos",
-                "Gracias aguante argentina",
-                "Gracias por todo los amo son los mejores",
-                "que orgullo",
-                "hermoso todo",
-                "y mucho orgullo para la argentina",
-                "hallazgooooo!!!!!",
-                "Gracias por tanto trabajo"
-              ]
-            }
-          }
-        ],
-        "Cantidad": 1
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.16921,
-          61.73651
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "Lugar": "Los Barriales",
         "Provincia": "Mendoza",
         "Pais": "Argentina",
@@ -21851,39 +21173,6 @@
         "coordinates": [
           -68.08592,
           -40.84281
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Lugar": "Los Misones",
-        "Provincia": "Castilla y León",
-        "Pais": "España",
-        "Tipo": "localidad",
-        "Oyentes": [
-          {
-            "Usuario": "@danilagonzalez9955",
-            "Mensaje": "SALUDOS DESDE MISONES!!",
-            "Dia": "Día 3",
-            "Comentarios": [],
-            "Dias": [
-              "Día 3"
-            ],
-            "ComentariosPorDia": {
-              "Día 3": [
-                "SALUDOS DESDE MISONES!!"
-              ]
-            }
-          }
-        ],
-        "Cantidad": 1
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -6.41775,
-          42.6785
         ]
       }
     },
@@ -25070,6 +24359,20 @@
         "Tipo": "localidad",
         "Oyentes": [
           {
+            "Usuario": "@franciscovizzoni8946",
+            "Mensaje": "los felicitamos desde @ el alfarero Mina Clavero",
+            "Dia": "Día 2",
+            "Comentarios": [],
+            "Dias": [
+              "Día 2"
+            ],
+            "ComentariosPorDia": {
+              "Día 2": [
+                "los felicitamos desde @ el alfarero Mina Clavero"
+              ]
+            }
+          },
+          {
             "Usuario": "@gaffleitanodad",
             "Mensaje": "saludos desde mina clavero",
             "Dia": "Día 4",
@@ -25084,7 +24387,7 @@
             }
           }
         ],
-        "Cantidad": 1
+        "Cantidad": 2
       },
       "geometry": {
         "type": "Point",
@@ -25211,6 +24514,20 @@
                 "que emoción",
                 "20",
                 "200!!"
+              ]
+            }
+          },
+          {
+            "Usuario": "@danilagonzalez9955",
+            "Mensaje": "SALUDOS DESDE MISONES!!",
+            "Dia": "Día 3",
+            "Comentarios": [],
+            "Dias": [
+              "Día 3"
+            ],
+            "ComentariosPorDia": {
+              "Día 3": [
+                "SALUDOS DESDE MISONES!!"
               ]
             }
           },
@@ -25353,7 +24670,7 @@
             }
           }
         ],
-        "Cantidad": 11
+        "Cantidad": 12
       },
       "geometry": {
         "type": "Point",
@@ -30310,9 +29627,46 @@
                 "Quizás ya lo hablaron, si fue así, perdón! ya me enteraré"
               ]
             }
+          },
+          {
+            "Usuario": "@ValenDiLeva-y3p",
+            "Mensaje": "SALUDOS DESDE BASES DE JUAN BAUTISTA ALBERDI (escuela de Quilmes)",
+            "Dia": "Día 3",
+            "Comentarios": [
+              "Saludo para matera",
+              "SALUDO PARA MATTERA POR FABOR",
+              "DALE BAUTISTA, futuramente millonario",
+              "JAJAJA",
+              "QUE LIMDO",
+              "Bauti futuro astrólogo",
+              "BAUTI BAUTI BAUTI BAUTIIIII",
+              "BAUTI",
+              "Qué lindo lo q hacen",
+              "67",
+              "67 SIX SEVEN"
+            ],
+            "Dias": [
+              "Día 3"
+            ],
+            "ComentariosPorDia": {
+              "Día 3": [
+                "SALUDOS DESDE BASES DE JUAN BAUTISTA ALBERDI (escuela de Quilmes)",
+                "Saludo para matera",
+                "SALUDO PARA MATTERA POR FABOR",
+                "DALE BAUTISTA, futuramente millonario",
+                "JAJAJA",
+                "QUE LIMDO",
+                "Bauti futuro astrólogo",
+                "BAUTI BAUTI BAUTI BAUTIIIII",
+                "BAUTI",
+                "Qué lindo lo q hacen",
+                "67",
+                "67 SIX SEVEN"
+              ]
+            }
           }
         ],
-        "Cantidad": 14
+        "Cantidad": 15
       },
       "geometry": {
         "type": "Point",
@@ -32360,42 +31714,6 @@
     {
       "type": "Feature",
       "properties": {
-        "Lugar": "Saint-Gladie-Arrive-Munein",
-        "Provincia": "Nueva Aquitania",
-        "Pais": "Francia",
-        "Tipo": "localidad",
-        "Oyentes": [
-          {
-            "Usuario": "@noemia4261",
-            "Mensaje": "El doctor Rafino te protege desde arriba Aylencita !!!!!",
-            "Dia": "Día 3",
-            "Comentarios": [
-              "muy clara tu explicacion Aylencita ,Mama"
-            ],
-            "Dias": [
-              "Día 3"
-            ],
-            "ComentariosPorDia": {
-              "Día 3": [
-                "El doctor Rafino te protege desde arriba Aylencita !!!!!",
-                "muy clara tu explicacion Aylencita ,Mama"
-              ]
-            }
-          }
-        ],
-        "Cantidad": 1
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.93377,
-          43.38098
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "Lugar": "Saldán",
         "Provincia": "Córdoba",
         "Pais": "Argentina",
@@ -32483,6 +31801,31 @@
             }
           },
           {
+            "Usuario": "@CiieSalliquelo",
+            "Mensaje": "Buen dia Desde del CIIE de Salliquelo",
+            "Dia": "Día 2",
+            "Comentarios": [
+              "Desde CIIE Salliquelö Rodolfo Adelio Raffino los acompañamos, junto a estudiantes del profesorado de Historia",
+              "¡Holaaaa! Aquí desde CIIE \"Rodolfo Adelio Raffino\" de Salliqueló, seguimos de cerquita lo que sucede en esta excavación junto a estudiantes de Secundaria 1. Abrazo especial a Cute y todo el equipo"
+            ],
+            "Dias": [
+              "Día 1",
+              "Día 2",
+              "Día 4"
+            ],
+            "ComentariosPorDia": {
+              "Día 1": [
+                "Desde CIIE Salliquelö Rodolfo Adelio Raffino los acompañamos, junto a estudiantes del profesorado de Historia"
+              ],
+              "Día 2": [
+                "Buen dia Desde del CIIE de Salliquelo"
+              ],
+              "Día 4": [
+                "¡Holaaaa! Aquí desde CIIE \"Rodolfo Adelio Raffino\" de Salliqueló, seguimos de cerquita lo que sucede en esta excavación junto a estudiantes de Secundaria 1. Abrazo especial a Cute y todo el equipo"
+              ]
+            }
+          },
+          {
             "Usuario": "@larapedrazsuccurro4644",
             "Mensaje": "Saludos desde Salliquelo! Buenisimo stream",
             "Dia": "Día 3",
@@ -32497,7 +31840,7 @@
             }
           }
         ],
-        "Cantidad": 4
+        "Cantidad": 5
       },
       "geometry": {
         "type": "Point",
@@ -41860,63 +41203,6 @@
       "type": "Feature",
       "properties": {
         "Lugar": "Santiago",
-        "Provincia": "Cartago",
-        "Pais": "Costa Rica",
-        "Tipo": "localidad",
-        "Oyentes": [
-          {
-            "Usuario": "@MartinaVazquez-eo3pz",
-            "Mensaje": "eu saluditos para el colegio sagrado corazon de aqui en santiago de estero",
-            "Dia": "Día 3",
-            "Comentarios": [
-              "Hola",
-              "cuenten curiosidades",
-              "saludos desde el colegio sagrado corazon de jesus",
-              "saludos desde el colegio sagrado corazon de jesus de sgo del estero",
-              "AMPLIEN EL VIVO",
-              "MANDEN SALUDOS PARA EL COLEGIO SAGRADO CORAZON DE JESES DE SANTIAGO DEL ESTERO",
-              "MANDEN SALUDOS PARA EL COLEGIO SAGRADO CORAZON DE JESUS DE SGO DEL ESTERO",
-              "mandelen un SALUDO PARA BAUTI FELI ZOE Y BRI PORFAA",
-              "mandelen un saludo a bri zoe que vieron sus 2 ultimos vivos",
-              "MANDA SALUDO PARA EL COLEGIO SAGRADO CORAZON DE JESUS DE SANTIAGO DEL ESTERO"
-            ],
-            "Dias": [
-              "Día 3",
-              "Día 4"
-            ],
-            "ComentariosPorDia": {
-              "Día 3": [
-                "eu saluditos para el colegio sagrado corazon de aqui en santiago de estero",
-                "Hola",
-                "cuenten curiosidades",
-                "saludos desde el colegio sagrado corazon de jesus",
-                "saludos desde el colegio sagrado corazon de jesus de sgo del estero",
-                "AMPLIEN EL VIVO",
-                "MANDEN SALUDOS PARA EL COLEGIO SAGRADO CORAZON DE JESES DE SANTIAGO DEL ESTERO",
-                "MANDEN SALUDOS PARA EL COLEGIO SAGRADO CORAZON DE JESUS DE SGO DEL ESTERO",
-                "mandelen un SALUDO PARA BAUTI FELI ZOE Y BRI PORFAA",
-                "mandelen un saludo a bri zoe que vieron sus 2 ultimos vivos"
-              ],
-              "Día 4": [
-                "MANDA SALUDO PARA EL COLEGIO SAGRADO CORAZON DE JESUS DE SANTIAGO DEL ESTERO"
-              ]
-            }
-          }
-        ],
-        "Cantidad": 1
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -83.79807,
-          9.86948
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Lugar": "Santiago",
         "Provincia": "Región Metropolitana de Santiago",
         "Pais": "Chile",
         "Tipo": "localidad",
@@ -42129,6 +41415,44 @@
             }
           },
           {
+            "Usuario": "@MartinaVazquez-eo3pz",
+            "Mensaje": "eu saluditos para el colegio sagrado corazon de aqui en santiago de estero",
+            "Dia": "Día 3",
+            "Comentarios": [
+              "Hola",
+              "cuenten curiosidades",
+              "saludos desde el colegio sagrado corazon de jesus",
+              "saludos desde el colegio sagrado corazon de jesus de sgo del estero",
+              "AMPLIEN EL VIVO",
+              "MANDEN SALUDOS PARA EL COLEGIO SAGRADO CORAZON DE JESES DE SANTIAGO DEL ESTERO",
+              "MANDEN SALUDOS PARA EL COLEGIO SAGRADO CORAZON DE JESUS DE SGO DEL ESTERO",
+              "mandelen un SALUDO PARA BAUTI FELI ZOE Y BRI PORFAA",
+              "mandelen un saludo a bri zoe que vieron sus 2 ultimos vivos",
+              "MANDA SALUDO PARA EL COLEGIO SAGRADO CORAZON DE JESUS DE SANTIAGO DEL ESTERO"
+            ],
+            "Dias": [
+              "Día 3",
+              "Día 4"
+            ],
+            "ComentariosPorDia": {
+              "Día 3": [
+                "eu saluditos para el colegio sagrado corazon de aqui en santiago de estero",
+                "Hola",
+                "cuenten curiosidades",
+                "saludos desde el colegio sagrado corazon de jesus",
+                "saludos desde el colegio sagrado corazon de jesus de sgo del estero",
+                "AMPLIEN EL VIVO",
+                "MANDEN SALUDOS PARA EL COLEGIO SAGRADO CORAZON DE JESES DE SANTIAGO DEL ESTERO",
+                "MANDEN SALUDOS PARA EL COLEGIO SAGRADO CORAZON DE JESUS DE SGO DEL ESTERO",
+                "mandelen un SALUDO PARA BAUTI FELI ZOE Y BRI PORFAA",
+                "mandelen un saludo a bri zoe que vieron sus 2 ultimos vivos"
+              ],
+              "Día 4": [
+                "MANDA SALUDO PARA EL COLEGIO SAGRADO CORAZON DE JESUS DE SANTIAGO DEL ESTERO"
+              ]
+            }
+          },
+          {
             "Usuario": "@mirirramirez6822",
             "Mensaje": "Saludos desde Santiago del Estero!!!! Aca tambien tenemos sitios hermosos para descubrir cementerios antiguos con mucha ceramica funebre",
             "Dia": "Día 4",
@@ -42328,7 +41652,7 @@
             }
           }
         ],
-        "Cantidad": 19
+        "Cantidad": 20
       },
       "geometry": {
         "type": "Point",
@@ -42614,42 +41938,6 @@
         "coordinates": [
           -61.79324,
           -38.13851
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Lugar": "Soplin",
-        "Provincia": "Loreto",
-        "Pais": "Perú",
-        "Tipo": "localidad",
-        "Oyentes": [
-          {
-            "Usuario": "@camilaraverta2018",
-            "Mensaje": "aguante el lobo",
-            "Dia": "Día 3",
-            "Comentarios": [
-              "Que hermosura poder ver esto"
-            ],
-            "Dias": [
-              "Día 3"
-            ],
-            "ComentariosPorDia": {
-              "Día 3": [
-                "aguante el lobo",
-                "Que hermosura poder ver esto"
-              ]
-            }
-          }
-        ],
-        "Cantidad": 1
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.61417,
-          -6.32536
         ]
       }
     },
@@ -45396,8 +44684,8 @@
       "type": "Feature",
       "properties": {
         "Lugar": "Valle Viejo",
-        "Provincia": "Chinandega",
-        "Pais": "Nicaragua",
+        "Provincia": "Catamarca",
+        "Pais": "Argentina",
         "Tipo": "localidad",
         "Oyentes": [
           {
@@ -45420,8 +44708,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -87.01625,
-          12.5726
+          -65.7167,
+          -28.4667
         ]
       }
     },
@@ -47167,39 +46455,6 @@
     {
       "type": "Feature",
       "properties": {
-        "Lugar": "Villas del Perú",
-        "Provincia": "Atlántida",
-        "Pais": "Honduras",
-        "Tipo": "localidad",
-        "Oyentes": [
-          {
-            "Usuario": "@facundojimenez3358",
-            "Mensaje": "Saludos! Me da curiosidad la cuestión del abandono del Shincal. ¿Fue por temor a los españoles que venían desde el Perú? ¿O una cosmovisión de que si cae el Inca, se desarma todo el Tawantinsuyu?",
-            "Dia": "Día 3",
-            "Comentarios": [],
-            "Dias": [
-              "Día 3"
-            ],
-            "ComentariosPorDia": {
-              "Día 3": [
-                "Saludos! Me da curiosidad la cuestión del abandono del Shincal. ¿Fue por temor a los españoles que venían desde el Perú? ¿O una cosmovisión de que si cae el Inca, se desarma todo el Tawantinsuyu?"
-              ]
-            }
-          }
-        ],
-        "Cantidad": 1
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.72561,
-          15.78125
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "Lugar": "Virreyes",
         "Provincia": "Buenos Aires",
         "Pais": "Argentina",
@@ -47334,46 +46589,6 @@
         "coordinates": [
           -59.02966,
           -34.09892
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Lugar": "Çarşamba",
-        "Provincia": "Samsun",
-        "Pais": "Turquía",
-        "Tipo": "localidad",
-        "Oyentes": [
-          {
-            "Usuario": "@mariapiabernat8051",
-            "Mensaje": "¡Los estudiantes esperan un saludo desde allí!",
-            "Dia": "Día 3",
-            "Comentarios": [
-              "Hola ! Buenos días! Estamos desde una escuela Secundaria rural : IPEM N° 116 M. BELGRANO ANEXO PUNTA DEL AGUA! Los seguimos porque leímos una novela que hace referencia arqueológicas de ahí",
-              "¿Los estudiantes quieren saber cuántas horas estan trabajando por día?",
-              "¡graciaaas por la respuesta!!!!"
-            ],
-            "Dias": [
-              "Día 3"
-            ],
-            "ComentariosPorDia": {
-              "Día 3": [
-                "¡Los estudiantes esperan un saludo desde allí!",
-                "Hola ! Buenos días! Estamos desde una escuela Secundaria rural : IPEM N° 116 M. BELGRANO ANEXO PUNTA DEL AGUA! Los seguimos porque leímos una novela que hace referencia arqueológicas de ahí",
-                "¿Los estudiantes quieren saber cuántas horas estan trabajando por día?",
-                "¡graciaaas por la respuesta!!!!"
-              ]
-            }
-          }
-        ],
-        "Cantidad": 1
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          36.72955,
-          41.25796
         ]
       }
     }

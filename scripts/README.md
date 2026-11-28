@@ -50,6 +50,7 @@ python3 scripts/generar_localidades.py --actualizar-chat
 --revision ARCHIVO    Correcciones manuales (scripts/revision.json)
 --diccionario ARCHIVO Diccionario de frases aprendidas (scripts/diccionario_lugares.json)
 --solo-reporte        No escribe el GeoJSON; solo genera los reportes
+--incluir-baja        Incluye en el GeoJSON los lugares de confianza baja (por defecto se excluyen)
 --sin-aprender        No guarda frases nuevas en el diccionario
 --actualizar-diccionario  Sobrescribe las frases ya aprendidas
 --actualizar-chat     Vuelve a descargar el chat
@@ -72,12 +73,17 @@ python3 scripts/generar_localidades.py --actualizar-chat
    - alias para escrituras habituales (“Mar Plata”, “Mardel”, “MDQ”, “Sgo Estero”, “Bs As”,
      “Caba”, “Bariloche”, etc.);
    - [Nominatim](https://nominatim.org/) para ciudades y países de fuera de Argentina y para
-     barrios o lugares que no están en Georef.
+     barrios o lugares que no están en Georef. Solo se consulta para pistas locativas claras
+     (“desde”, “soy de”, “estoy en”, “acá en”, “saludo”, “presente”); las arengas como
+     “aguante…” no se geocodifican. Si el mensaje no menciona otro país, la búsqueda se acota
+     a Argentina para evitar homónimos remotos.
 5. Si un usuario escribió varias veces, elige la ubicación con mayor confianza y guarda
    todos sus otros comentarios como metadata.
 
 Los resultados dudosos quedan en `scripts/reporte.csv` con una columna de confianza, y los
-usuarios que quedaron sin ubicación en `scripts/no_detectados.csv`.
+usuarios que quedaron sin ubicación en `scripts/no_detectados.csv`. Las ubicaciones de
+confianza baja no se publican en el mapa por defecto: se pueden incluir con `--incluir-baja`
+o corregir en `revision.json`.
 
 ### Progreso
 
@@ -153,6 +159,9 @@ mucho más rápidas porque se reutilizan la caché y el diccionario.
 - `excluir_lugares`: descarta un lugar completo (por ejemplo, falsos positivos).
 - `corregir`: reemplaza la ubicación detectada para un usuario.
 - `incluir`: agrega un usuario que el detector no encontró.
+
+Los lugares de confianza baja no se publican salvo que se incluyan con `--incluir-baja` o se
+resuelvan con `corregir`/`incluir`.
 
 Si se omite `lat`/`lon`, se intenta geocodificar el `Lugar` con el contexto de la provincia.
 
