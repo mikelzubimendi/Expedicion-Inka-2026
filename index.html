@@ -66,6 +66,11 @@
       <button class="day is-active" type="button" data-day="" aria-pressed="true">Todos</button>
     </div>
 
+    <div class="view-mode" id="view-mode" role="group" aria-label="Modo de visualización del mapa">
+      <button class="view-mode__btn is-active" type="button" data-mode="cluster" aria-pressed="true" title="Agrupar los lugares según la escala">Agrupados</button>
+      <button class="view-mode__btn" type="button" data-mode="points" aria-pressed="false" title="Mostrar cada lugar como punto, sin agrupar">Puntos</button>
+    </div>
+
     <div class="panel__meta">
       <span id="count" aria-live="polite">Cargando localidades…</span>
       <button class="reset" id="reset" type="button">Ver todo el mapa</button>

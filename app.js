@@ -14,6 +14,7 @@ const ui = {
   count: document.getElementById('count'),
   empty: document.getElementById('empty'),
   reset: document.getElementById('reset'),
+  viewMode: document.getElementById('view-mode'),
 };
 
 /* ---------------------------------------------------------------------------
@@ -117,8 +118,9 @@ updateThemeButtons(document.documentElement.dataset.theme);
  * ------------------------------------------------------------------------- */
 
 const canCluster = typeof L.markerClusterGroup === 'function';
+const VIEW_KEY = 'mapa-inka-view';
 
-const markers = canCluster
+const clusterLayer = canCluster
   ? L.markerClusterGroup({
       showCoverageOnHover: false,
       spiderfyOnMaxZoom: true,
@@ -133,8 +135,21 @@ const markers = canCluster
         });
       },
     })
-  : L.layerGroup();
+  : null;
 
+const plainLayer = L.layerGroup();
+
+function storedView() {
+  try {
+    const value = localStorage.getItem(VIEW_KEY);
+    return value === 'cluster' || value === 'points' ? value : null;
+  } catch (error) {
+    return null;
+  }
+}
+
+let viewMode = canCluster && storedView() !== 'points' ? 'cluster' : 'points';
+let markers = viewMode === 'cluster' ? clusterLayer : plainLayer;
 markers.addTo(map);
 
 /* ---------------------------------------------------------------------------
@@ -621,6 +636,44 @@ function focusPlace(place) {
   }
 }
 
+function setViewMode(mode, persist) {
+  const nextMode = mode === 'cluster' && clusterLayer ? 'cluster' : 'points';
+  const nextLayer = nextMode === 'cluster' ? clusterLayer : plainLayer;
+
+  if (nextLayer !== markers) {
+    for (const place of places) {
+      if (!place.marker) continue;
+      if (clusterLayer) clusterLayer.removeLayer(place.marker);
+      plainLayer.removeLayer(place.marker);
+      if (place.onMap) nextLayer.addLayer(place.marker);
+    }
+    map.removeLayer(markers);
+    nextLayer.addTo(map);
+    markers = nextLayer;
+  }
+  viewMode = nextMode;
+
+  if (ui.viewMode) {
+    ui.viewMode.querySelectorAll('.view-mode__btn').forEach((button) => {
+      const on = button.dataset.mode === viewMode;
+      button.classList.toggle('is-active', on);
+      button.setAttribute('aria-pressed', String(on));
+      if (button.dataset.mode === 'cluster') {
+        button.disabled = !canCluster;
+        if (!canCluster) button.title = 'El agrupamiento no está disponible';
+      }
+    });
+  }
+
+  if (persist) {
+    try {
+      localStorage.setItem(VIEW_KEY, viewMode);
+    } catch (error) {
+      /* sin almacenamiento disponible */
+    }
+  }
+}
+
 function applyFilter(query) {
   const needle = normalize(query);
   let visible = 0;
@@ -878,6 +931,13 @@ ui.toggle.addEventListener('click', () => {
   ui.toggle.setAttribute('aria-label', collapsed ? 'Mostrar la lista de localidades' : 'Ocultar la lista de localidades');
   updatePopupPaddings();
 });
+
+if (ui.viewMode) {
+  ui.viewMode.querySelectorAll('.view-mode__btn').forEach((button) => {
+    button.addEventListener('click', () => setViewMode(button.dataset.mode, true));
+  });
+}
+setViewMode(viewMode, false);
 
 /* ---------------------------------------------------------------------------
  * Arranque

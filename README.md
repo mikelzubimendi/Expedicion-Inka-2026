@@ -28,7 +28,8 @@ video, o los muestran todos juntos. El botón del encabezado lleva directo al st
 
 - Mapa oscuro con capa satelital opcional y **botón de modo claro/oscuro** (se recuerda en el
   navegador).
-- Agrupado de marcadores (clustering) para ver todo el mundo sin superposición.
+- Dos modos de visualización: **Agrupados** (clustering por escala) y **Puntos** (cada lugar
+  como marcador individual, sin agrupar). La preferencia se recuerda en el navegador.
 - Buscador tolerante a mayúsculas y acentos, que también busca dentro de usuarios y
   comentarios.
 - Popups con la lista de oyentes y sus comentarios.
