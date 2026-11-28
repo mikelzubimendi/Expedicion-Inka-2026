@@ -1,0 +1,166 @@
+# Dudas de geocodificación — Expedición Inka 2026
+
+Revisión hecha el 2026-11-28 sobre `scripts/reporte.csv` (regeneración con los 4 chats).
+
+Este archivo es para revisar juntos los casos que no son 100% claros. Los que están
+marcados como **EXCLUIDO** no se publican en el mapa hasta que los confirmemos. Los
+**CORREGIDO** sí se publican, pero conviene verificar que la localidad elegida sea la
+correcta.
+
+Para resolver un caso:
+
+- Si está bien: no hay que hacer nada.
+- Si está mal: agregarlo a `excluir_usuarios` o a `corregir` en `scripts/revision.json`
+  y volver a correr `python3 scripts/generar_localidades.py`.
+
+---
+
+## 1. Excluidos del mapa (duda real)
+
+### @Saraceramica
+- Mensaje: `9 de julio!!`
+- Detectado: **9 de Julio, Buenos Aires, Argentina** (Georef, confianza baja).
+- Duda: puede ser la fecha (9 de julio) o una localidad. Además hay 9 de Julio en
+  Corrientes y en San Juan.
+- Estado: **EXCLUIDO** hasta confirmar.
+
+### @ignaciopagani7187
+- Mensaje: `saludos desde laguna blanca`
+- Detectado: **Laguna Blanca, Chaco, Argentina** (Georef, confianza baja).
+- Duda: hay Laguna Blanca en Chaco, Formosa y Río Negro; el mensaje no aclara provincia.
+- Estado: **EXCLUIDO** hasta confirmar.
+
+### @RocioFranco-mb4tx
+- Mensaje: `saludos desde Coro el Bogado Sante Fe`
+- Detectado originalmente: **Paraje El Cajón, Córdoba** (mal).
+- Duda: parece “Coronda” o “Coronel Bogado”, ambos en Santa Fe. No se pudo resolver
+  con certeza.
+- Estado: **EXCLUIDO** hasta confirmar.
+
+### @pachicojordandeurries3903
+- Mensaje: `siguiéndoles desde S.José`
+- Detectado: **San José, California, Estados Unidos** (por diccionario).
+- Duda: “S.José” puede ser San José de Costa Rica, California o San José (Entre Ríos,
+  Argentina); el mensaje no aclara país.
+- Estado: **EXCLUIDO** hasta confirmar.
+
+---
+
+## 2. Corregidos (verificar que sean correctos)
+
+### @dielesky
+- Mensaje: `saludos desde Ingeniero Budge city`
+- Antes: Pablo Nogués, Buenos Aires (mal).
+- Ahora: **Ingeniero Budge, Buenos Aires, Argentina**.
+
+### @marcelarueda9528
+- Mensaje: `...saludos desde Choya S.E`
+- Antes: Choya, Catamarca (mal).
+- Ahora: **Choya, Santiago del Estero, Argentina** (“S.E” = Santiago del Estero).
+
+### @gabrielarearte8959
+- Mensaje: `Saludos desde Roque Saenz Peña, Chaco !`
+- Antes: Río Cuarto, Córdoba (mal).
+- Ahora: **Presidencia Roque Sáenz Peña, Chaco, Argentina**.
+
+### @NeliFernandez-w4x
+- Mensaje: `los veo desde ZONDA San Juan...`
+- Antes: San Juan (provincia).
+- Ahora: **Zonda, San Juan, Argentina**.
+
+### @capiLenSan
+- Mensaje: `saludos desde Fortaleza Brasil!!!`
+- Antes: Fortaleza, San Pablo (mal; hay una localidad homónima).
+- Ahora: **Fortaleza, Ceará, Brasil**.
+
+### @danielnavarro3734
+- Mensaje: `DESDE URUGUAY MONTEVIDEO...`
+- Antes: Uruguay (centroide del país).
+- Ahora: **Montevideo, Uruguay**.
+
+### @PantallasInteractivas-v8x
+- Mensaje: `...somos de Uruguay de escuela 11 de la ciudad de Paysandú...`
+- Antes: Uruguay (centroide del país).
+- Ahora: **Paysandú, Uruguay**.
+
+### @g.a.m8485
+- Mensaje: `SALUDOS DESDE Las Heras, Pcia de Buenos Aires...`
+- Antes: Las Heras, Buenos Aires (Nominatim, confianza baja).
+- Ahora: **General Las Heras, Buenos Aires, Argentina**.
+- Duda menor: podría referirse a otro “Las Heras” (CABA, Mendoza o Santa Cruz), pero el
+  mensaje aclara “Pcia de Buenos Aires”.
+
+### @luciamassry9984
+- Mensaje: `Saludos desde Nqn!!!`
+- Detectado: **Neuquén, Neuquén, Argentina**.
+- Duda menor: “Nqn” es la abreviación habitual de Neuquén. Se mantiene.
+
+### @LicetPatriciaAlvaro
+- Mensaje: `Saludos desde Cusco`
+- Antes: Cuzco, con coordenadas propias (feature separada de Cusco).
+- Ahora: **Cusco, Cusco, Perú** (se unificó con la otra entrada).
+
+### @NoliRafa
+- Mensaje: `SALUDOS DESDE LAGO MATIRO!`
+- Antes: figuraba solo como **Lago**.
+- Ahora: **Lago Matiro, Calabria, Italia**.
+
+---
+
+## 3. Confianza baja incluida automáticamente
+
+A partir de esta versión, `scripts/revision.json` tiene `"incluir_baja": true`, así que
+los lugares de confianza baja se publican salvo que el usuario o el lugar estén en las
+listas de exclusión. Los casos de arriba son los únicos que quedaron afuera por duda.
+
+Listado completo de confianza baja de esta corrida (28):
+
+- San Antonio, Catamarca — @AntonioLopez-y3x
+- Rivadavia, Buenos Aires — @CiieRivadavia
+- Santos Lugares, Buenos Aires — @FabianaAlvarezcasals
+- Anillaco, Catamarca — @IndianaRo7558
+- Barrio Justo José de Urquiza, Entre Ríos — @LudmilaFalcón-s2d
+- Paraje El Cajón, Córdoba — @RocioFranco-mb4tx (**excluido**)
+- 9 de Julio, Buenos Aires — @Saraceramica (**excluido**)
+- Puiggari, Entre Ríos — @andreaventancorortiz5675
+- Junín, Buenos Aires — @ariiiamc7534
+- Junín, Buenos Aires — @berniebojko9610
+- Los Toldos, Buenos Aires — @brujildamarote4292
+- Fortaleza, Ceará — @capiLenSan (**corregido**)
+- Ituzaingó, Buenos Aires — @cristinatriay8127
+- Ledesma, Jujuy — @cuquiponcedeleon7669
+- Pablo Nogués → Ingeniero Budge — @dielesky (**corregido**)
+- La República → Devoto — @ezequielcismondi1219 (**corregido antes**)
+- Lomas del Perú, Honduras — @facundojimenez3358 (**excluido antes**)
+- Las Heras → General Las Heras — @g.a.m8485 (**corregido**)
+- Santa Fe — @griseldaherrera3184 (**excluido antes**)
+- Laguna Blanca, Chaco — @ignaciopagani7187 (**excluido**)
+- Fray Mamerto Esquiú, Catamarca — @kamarce103
+- Junín, Buenos Aires — @leticiabalocco8312
+- Neuquén — @luciamassry9984
+- El Talar, Tigre — @luisdellamorte4586
+- Choya, Santiago del Estero — @marcelarueda9528 (**corregido**)
+- Córdoba — @noemia4261 (**excluido antes**)
+- Mercedes, Buenos Aires — @raulcapurro
+- Villa Adelina, Buenos Aires — @silporcel8882
+
+---
+
+## 4. Cómo seguir
+
+1. Revisar los casos de la sección 1 y 2.
+2. Editar `scripts/revision.json` si hay que mover alguno.
+3. Regenerar:
+
+   ```bash
+   cd ~/proyectos/Expedicion-Inka-2026
+   python3 scripts/generar_localidades.py
+   ```
+
+4. Publicar:
+
+   ```bash
+   git add localidades.geojson scripts/revision.json dudas.txt
+   git commit -m "Ajustar lugares dudosos"
+   git push origin main
+   ```

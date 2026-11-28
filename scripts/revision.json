@@ -16,7 +16,10 @@
     "@facundojimenez3358",
     "@silvanaj8866",
     "@camilaraverta2018",
-    "@eledelarosa3261"
+    "@eledelarosa3261",
+    "@Saraceramica",
+    "@ignaciopagani7187",
+    "@pachicojordandeurries3903"
   ],
   "excluir_lugares": [
     "El Metal",
@@ -107,6 +110,62 @@
       "Pais": "Argentina",
       "lat": -27.795,
       "lon": -64.261
+    },
+    "@dielesky": {
+      "Lugar": "Ingeniero Budge",
+      "Provincia": "Buenos Aires",
+      "Pais": "Argentina",
+      "lat": -34.7185365,
+      "lon": -58.4624341
+    },
+    "@marcelarueda9528": {
+      "Lugar": "Choya",
+      "Provincia": "Santiago del Estero",
+      "Pais": "Argentina",
+      "lat": -28.4956624,
+      "lon": -64.8587573
+    },
+    "@gabrielarearte8959": {
+      "Lugar": "Presidencia Roque Sáenz Peña",
+      "Provincia": "Chaco",
+      "Pais": "Argentina",
+      "lat": -26.7909701,
+      "lon": -60.441295
+    },
+    "@NeliFernandez-w4x": {
+      "Lugar": "Zonda",
+      "Provincia": "San Juan",
+      "Pais": "Argentina",
+      "lat": -31.575441,
+      "lon": -68.9277926
+    },
+    "@capiLenSan": {
+      "Lugar": "Fortaleza",
+      "Provincia": "Ceará",
+      "Pais": "Brasil",
+      "lat": -3.7932167,
+      "lon": -38.5280359
+    },
+    "@danielnavarro3734": {
+      "Lugar": "Montevideo",
+      "Provincia": "Montevideo",
+      "Pais": "Uruguay",
+      "lat": -34.9058916,
+      "lon": -56.1913095
+    },
+    "@PantallasInteractivas-v8x": {
+      "Lugar": "Paysandú",
+      "Provincia": "Paysandú",
+      "Pais": "Uruguay",
+      "lat": -32.3217257,
+      "lon": -58.0892136
+    },
+    "@g.a.m8485": {
+      "Lugar": "General Las Heras",
+      "Provincia": "Buenos Aires",
+      "Pais": "Argentina",
+      "lat": -34.9280308,
+      "lon": -58.9445391
     }
   },
   "incluir": {
@@ -173,5 +232,6 @@
       "lat": -28.46901,
       "lon": -65.77892
     }
-  }
+  },
+  "incluir_baja": true
 }

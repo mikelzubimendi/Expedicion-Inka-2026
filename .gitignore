@@ -4,3 +4,6 @@ scripts/.cache/
 scripts/reporte.csv
 scripts/no_detectados.csv
 __pycache__
+
+# Exportes locales de comentarios (no se publican)
+comentarios_dia_*.txt

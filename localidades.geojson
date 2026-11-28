@@ -36,11 +36,11 @@
     "video": "https://www.youtube.com/live/CtAJIkQDiyQ",
     "video_id": "CtAJIkQDiyQ",
     "titulo": "Expedición Inka",
-    "generado": "2026-11-24T10:15:40+00:00",
+    "generado": "2026-11-28T12:44:27+00:00",
     "comentarios_analizados": 15239,
     "usuarios_analizados": 4374,
-    "localidades": 429,
-    "oyentes_mapeados": 1626
+    "localidades": 426,
+    "oyentes_mapeados": 1621
   },
   "features": [
     {
@@ -73,51 +73,6 @@
         "coordinates": [
           -60.17156,
           -35.43247
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Lugar": "9 de Julio",
-        "Provincia": "Buenos Aires",
-        "Pais": "Argentina",
-        "Tipo": "localidad",
-        "Oyentes": [
-          {
-            "Usuario": "@Saraceramica",
-            "Mensaje": "9 de julio!!",
-            "Dia": "Día 3",
-            "Comentarios": [
-              "hermosooooo",
-              "en el 96 visite el sitio cuando tenia 9 años y todavía me acuerdo la sensación que me causo. que alegría poder ver esto!!",
-              "jajajajjaja",
-              "por eso es tan hermosa la 40"
-            ],
-            "Dias": [
-              "Día 2",
-              "Día 3"
-            ],
-            "ComentariosPorDia": {
-              "Día 2": [
-                "hermosooooo",
-                "en el 96 visite el sitio cuando tenia 9 años y todavía me acuerdo la sensación que me causo. que alegría poder ver esto!!",
-                "jajajajjaja"
-              ],
-              "Día 3": [
-                "9 de julio!!",
-                "por eso es tan hermosa la 40"
-              ]
-            }
-          }
-        ],
-        "Cantidad": 1
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -60.88463,
-          -35.44394
         ]
       }
     },
@@ -3150,6 +3105,20 @@
             }
           },
           {
+            "Usuario": "@danielburgos2630",
+            "Mensaje": "saludos de buenos aires...soy daniel burgos, mi familia de andalgala. conocimos shincal. aguante el conicet",
+            "Dia": "Día 1",
+            "Comentarios": [],
+            "Dias": [
+              "Día 1"
+            ],
+            "ComentariosPorDia": {
+              "Día 1": [
+                "saludos de buenos aires...soy daniel burgos, mi familia de andalgala. conocimos shincal. aguante el conicet"
+              ]
+            }
+          },
+          {
             "Usuario": "@titicastioni4541",
             "Mensaje": "Saludos desde Buenos Aires ciudad. Muuuy interesante, no perderé ningún día. Felicitaciones a ustedes y a Azara que lo hace posible. Éxito!!!",
             "Dia": "Día 1",
@@ -3164,7 +3133,7 @@
             }
           }
         ],
-        "Cantidad": 2
+        "Cantidad": 3
       },
       "geometry": {
         "type": "Point",
@@ -5243,7 +5212,7 @@
       "type": "Feature",
       "properties": {
         "Lugar": "Choya",
-        "Provincia": "Catamarca",
+        "Provincia": "Santiago del Estero",
         "Pais": "Argentina",
         "Tipo": "localidad",
         "Oyentes": [
@@ -5267,8 +5236,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.38384,
-          -27.52105
+          -64.85876,
+          -28.49566
         ]
       }
     },
@@ -8001,39 +7970,6 @@
     {
       "type": "Feature",
       "properties": {
-        "Lugar": "Ciudad Autónoma de Buenos Aires",
-        "Provincia": "Ciudad Autónoma de Buenos Aires",
-        "Pais": "Argentina",
-        "Tipo": "region",
-        "Oyentes": [
-          {
-            "Usuario": "@danielburgos2630",
-            "Mensaje": "saludos de buenos aires...soy daniel burgos, mi familia de andalgala. conocimos shincal. aguante el conicet",
-            "Dia": "Día 1",
-            "Comentarios": [],
-            "Dias": [
-              "Día 1"
-            ],
-            "ComentariosPorDia": {
-              "Día 1": [
-                "saludos de buenos aires...soy daniel burgos, mi familia de andalgala. conocimos shincal. aguante el conicet"
-              ]
-            }
-          }
-        ],
-        "Cantidad": 1
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.43562,
-          -34.61612
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "Lugar": "Ciudad de Buenos Aires",
         "Provincia": "Ciudad Autónoma de Buenos Aires",
         "Pais": "Argentina",
@@ -9340,26 +9276,7 @@
                 "existe un cerámica de transición entre los inka y las culturas locales, y que incono trasciende mas"
               ]
             }
-          }
-        ],
-        "Cantidad": 1
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -71.9675,
-          -13.5319
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Lugar": "Cuzco",
-        "Provincia": "Cusco",
-        "Pais": "Perú",
-        "Tipo": "localidad",
-        "Oyentes": [
+          },
           {
             "Usuario": "@LicetPatriciaAlvaro",
             "Mensaje": "Saludos desde Cusco",
@@ -9378,13 +9295,13 @@
             }
           }
         ],
-        "Cantidad": 1
+        "Cantidad": 2
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -71.97854,
-          -13.51709
+          -71.9675,
+          -13.5319
         ]
       }
     },
@@ -12967,7 +12884,7 @@
       "type": "Feature",
       "properties": {
         "Lugar": "Fortaleza",
-        "Provincia": "San Pablo",
+        "Provincia": "Ceará",
         "Pais": "Brasil",
         "Tipo": "localidad",
         "Oyentes": [
@@ -12991,8 +12908,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -46.44866,
-          -23.37708
+          -38.52804,
+          -3.79322
         ]
       }
     },
@@ -13245,6 +13162,42 @@
         "coordinates": [
           -65.0466,
           -24.67445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Lugar": "General Las Heras",
+        "Provincia": "Buenos Aires",
+        "Pais": "Argentina",
+        "Tipo": "localidad",
+        "Oyentes": [
+          {
+            "Usuario": "@g.a.m8485",
+            "Mensaje": "SALUDOS DESDE Las Heras, Pcia de Buenos Aires. Los sigo desde La Oficina",
+            "Dia": "Día 3",
+            "Comentarios": [
+              "EXCELENTE Gracias por compartirlo. Ésto es el sueño de muchos, poder seguir cada detalle"
+            ],
+            "Dias": [
+              "Día 3"
+            ],
+            "ComentariosPorDia": {
+              "Día 3": [
+                "SALUDOS DESDE Las Heras, Pcia de Buenos Aires. Los sigo desde La Oficina",
+                "EXCELENTE Gracias por compartirlo. Ésto es el sueño de muchos, poder seguir cada detalle"
+              ]
+            }
+          }
+        ],
+        "Cantidad": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.94454,
+          -34.92803
         ]
       }
     },
@@ -14105,6 +14058,39 @@
         "coordinates": [
           -58.63742,
           -34.58984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Lugar": "Ingeniero Budge",
+        "Provincia": "Buenos Aires",
+        "Pais": "Argentina",
+        "Tipo": "localidad",
+        "Oyentes": [
+          {
+            "Usuario": "@dielesky",
+            "Mensaje": "saludos desde Ingeniero Budge city",
+            "Dia": "Día 2",
+            "Comentarios": [],
+            "Dias": [
+              "Día 2"
+            ],
+            "ComentariosPorDia": {
+              "Día 2": [
+                "saludos desde Ingeniero Budge city"
+              ]
+            }
+          }
+        ],
+        "Cantidad": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.46243,
+          -34.71854
         ]
       }
     },
@@ -19399,7 +19385,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Lugar": "Lago",
+        "Lugar": "Lago Matiro",
         "Provincia": "Calabria",
         "Pais": "Italia",
         "Tipo": "localidad",
@@ -19484,39 +19470,6 @@
         "coordinates": [
           -71.59714,
           -42.06013
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Lugar": "Laguna Blanca",
-        "Provincia": "Chaco",
-        "Pais": "Argentina",
-        "Tipo": "localidad",
-        "Oyentes": [
-          {
-            "Usuario": "@ignaciopagani7187",
-            "Mensaje": "saludos desde laguna blanca",
-            "Dia": "Día 1",
-            "Comentarios": [],
-            "Dias": [
-              "Día 1"
-            ],
-            "ComentariosPorDia": {
-              "Día 1": [
-                "saludos desde laguna blanca"
-              ]
-            }
-          }
-        ],
-        "Cantidad": 1
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -59.23302,
-          -27.25543
         ]
       }
     },
@@ -19730,48 +19683,12 @@
       "type": "Feature",
       "properties": {
         "Lugar": "Las Heras",
-        "Provincia": "Buenos Aires",
-        "Pais": "Argentina",
-        "Tipo": "localidad",
-        "Oyentes": [
-          {
-            "Usuario": "@g.a.m8485",
-            "Mensaje": "SALUDOS DESDE Las Heras, Pcia de Buenos Aires. Los sigo desde La Oficina",
-            "Dia": "Día 3",
-            "Comentarios": [
-              "EXCELENTE Gracias por compartirlo. Ésto es el sueño de muchos, poder seguir cada detalle"
-            ],
-            "Dias": [
-              "Día 3"
-            ],
-            "ComentariosPorDia": {
-              "Día 3": [
-                "SALUDOS DESDE Las Heras, Pcia de Buenos Aires. Los sigo desde La Oficina",
-                "EXCELENTE Gracias por compartirlo. Ésto es el sueño de muchos, poder seguir cada detalle"
-              ]
-            }
-          }
-        ],
-        "Cantidad": 1
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -57.61412,
-          -38.02123
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Lugar": "Las Heras",
         "Provincia": "Santa Cruz",
         "Pais": "Argentina",
         "Tipo": "localidad",
         "Oyentes": [
           {
-            "Usuario": "@letyidahiaguale6049",
+            "Usuario": "@lia-oxalis",
             "Mensaje": "saludos desde Las Heras Santa Cruz!!! cuándo vienen por acá??",
             "Dia": "Día 2",
             "Comentarios": [
@@ -22678,35 +22595,6 @@
             }
           },
           {
-            "Usuario": "@presi2047",
-            "Mensaje": "saludos desre Mardel",
-            "Dia": "Día 2",
-            "Comentarios": [
-              "el tumulto del fondo es natural o artificial?",
-              "los incas que tipo de edificación urbana tenian? el tipico plano hipodamico o uno propio?",
-              "tenían un cardo/decumano?",
-              "cómo eran los enterramientos?",
-              "permitan las donaciones",
-              "activen las donaciones",
-              "pregunta para dario, el decaimiento del sitio se débio a destrucción violenta o con el paso del tiempo se fue abandonando?"
-            ],
-            "Dias": [
-              "Día 2"
-            ],
-            "ComentariosPorDia": {
-              "Día 2": [
-                "saludos desre Mardel",
-                "el tumulto del fondo es natural o artificial?",
-                "los incas que tipo de edificación urbana tenian? el tipico plano hipodamico o uno propio?",
-                "tenían un cardo/decumano?",
-                "cómo eran los enterramientos?",
-                "permitan las donaciones",
-                "activen las donaciones",
-                "pregunta para dario, el decaimiento del sitio se débio a destrucción violenta o con el paso del tiempo se fue abandonando?"
-              ]
-            }
-          },
-          {
             "Usuario": "@roxysplash3605",
             "Mensaje": "SALUDOS DESDE MARDEL, VIENDOLOS CON LA PROFE PALOMA DE FINES",
             "Dia": "Día 3",
@@ -22755,6 +22643,35 @@
                 "Se encuentra algún paleontólogo en la expedición?",
                 "Se encuentra algún Paleontólogo en la expedición?. Saludos desde Fines",
                 "Se encuentra algún Paleontólogo en la expedición?"
+              ]
+            }
+          },
+          {
+            "Usuario": "@san_fjl",
+            "Mensaje": "saludos desre Mardel",
+            "Dia": "Día 2",
+            "Comentarios": [
+              "el tumulto del fondo es natural o artificial?",
+              "los incas que tipo de edificación urbana tenian? el tipico plano hipodamico o uno propio?",
+              "tenían un cardo/decumano?",
+              "cómo eran los enterramientos?",
+              "permitan las donaciones",
+              "activen las donaciones",
+              "pregunta para dario, el decaimiento del sitio se débio a destrucción violenta o con el paso del tiempo se fue abandonando?"
+            ],
+            "Dias": [
+              "Día 2"
+            ],
+            "ComentariosPorDia": {
+              "Día 2": [
+                "saludos desre Mardel",
+                "el tumulto del fondo es natural o artificial?",
+                "los incas que tipo de edificación urbana tenian? el tipico plano hipodamico o uno propio?",
+                "tenían un cardo/decumano?",
+                "cómo eran los enterramientos?",
+                "permitan las donaciones",
+                "activen las donaciones",
+                "pregunta para dario, el decaimiento del sitio se débio a destrucción violenta o con el paso del tiempo se fue abandonando?"
               ]
             }
           },
@@ -24359,20 +24276,6 @@
         "Tipo": "localidad",
         "Oyentes": [
           {
-            "Usuario": "@franciscovizzoni8946",
-            "Mensaje": "los felicitamos desde @ el alfarero Mina Clavero",
-            "Dia": "Día 2",
-            "Comentarios": [],
-            "Dias": [
-              "Día 2"
-            ],
-            "ComentariosPorDia": {
-              "Día 2": [
-                "los felicitamos desde @ el alfarero Mina Clavero"
-              ]
-            }
-          },
-          {
             "Usuario": "@gaffleitanodad",
             "Mensaje": "saludos desde mina clavero",
             "Dia": "Día 4",
@@ -24387,7 +24290,7 @@
             }
           }
         ],
-        "Cantidad": 2
+        "Cantidad": 1
       },
       "geometry": {
         "type": "Point",
@@ -24863,15 +24766,32 @@
                 "Felicitaciones amigos! Exitos!Desde Montevideo/Uruguay"
               ]
             }
+          },
+          {
+            "Usuario": "@danielnavarro3734",
+            "Mensaje": "DESDE URUGUAY MONTEVIDEO SALUDOS Y GRACIAS POR DEJARNOS VER SU TRABAJO DANIEL NAVARRO",
+            "Dia": "Día 3",
+            "Comentarios": [
+              "UCkszU2WH9gy1mb0dV-11UJg/G8AfY6yWGuKuhL0PlbiA2AE"
+            ],
+            "Dias": [
+              "Día 3"
+            ],
+            "ComentariosPorDia": {
+              "Día 3": [
+                "DESDE URUGUAY MONTEVIDEO SALUDOS Y GRACIAS POR DEJARNOS VER SU TRABAJO DANIEL NAVARRO",
+                "UCkszU2WH9gy1mb0dV-11UJg/G8AfY6yWGuKuhL0PlbiA2AE"
+              ]
+            }
           }
         ],
-        "Cantidad": 1
+        "Cantidad": 2
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -56.1645,
-          -34.9011
+          -56.19131,
+          -34.90589
         ]
       }
     },
@@ -27736,6 +27656,42 @@
     {
       "type": "Feature",
       "properties": {
+        "Lugar": "Paysandú",
+        "Provincia": "Paysandú",
+        "Pais": "Uruguay",
+        "Tipo": "localidad",
+        "Oyentes": [
+          {
+            "Usuario": "@PantallasInteractivas-v8x",
+            "Mensaje": "Hola somos de Uruguay de escuela 11 de la ciudad de Paysandú, estamos trabajando sobre los pueblos originarios.Somos niños y niñas de segundo grado",
+            "Dia": "Día 4",
+            "Comentarios": [
+              "Escuela 11 de Paysandú,segundo año"
+            ],
+            "Dias": [
+              "Día 4"
+            ],
+            "ComentariosPorDia": {
+              "Día 4": [
+                "Hola somos de Uruguay de escuela 11 de la ciudad de Paysandú, estamos trabajando sobre los pueblos originarios.Somos niños y niñas de segundo grado",
+                "Escuela 11 de Paysandú,segundo año"
+              ]
+            }
+          }
+        ],
+        "Cantidad": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.08921,
+          -32.32173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Lugar": "País Vasco",
         "Provincia": "",
         "Pais": "España",
@@ -28415,6 +28371,39 @@
         "coordinates": [
           -55.89398,
           -27.36643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Lugar": "Presidencia Roque Sáenz Peña",
+        "Provincia": "Chaco",
+        "Pais": "Argentina",
+        "Tipo": "localidad",
+        "Oyentes": [
+          {
+            "Usuario": "@gabrielarearte8959",
+            "Mensaje": "Saludos desde Roque Saenz Peña, Chaco !",
+            "Dia": "Día 4",
+            "Comentarios": [],
+            "Dias": [
+              "Día 4"
+            ],
+            "ComentariosPorDia": {
+              "Día 4": [
+                "Saludos desde Roque Saenz Peña, Chaco !"
+              ]
+            }
+          }
+        ],
+        "Cantidad": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.44129,
+          -26.79097
         ]
       }
     },
@@ -29627,46 +29616,9 @@
                 "Quizás ya lo hablaron, si fue así, perdón! ya me enteraré"
               ]
             }
-          },
-          {
-            "Usuario": "@ValenDiLeva-y3p",
-            "Mensaje": "SALUDOS DESDE BASES DE JUAN BAUTISTA ALBERDI (escuela de Quilmes)",
-            "Dia": "Día 3",
-            "Comentarios": [
-              "Saludo para matera",
-              "SALUDO PARA MATTERA POR FABOR",
-              "DALE BAUTISTA, futuramente millonario",
-              "JAJAJA",
-              "QUE LIMDO",
-              "Bauti futuro astrólogo",
-              "BAUTI BAUTI BAUTI BAUTIIIII",
-              "BAUTI",
-              "Qué lindo lo q hacen",
-              "67",
-              "67 SIX SEVEN"
-            ],
-            "Dias": [
-              "Día 3"
-            ],
-            "ComentariosPorDia": {
-              "Día 3": [
-                "SALUDOS DESDE BASES DE JUAN BAUTISTA ALBERDI (escuela de Quilmes)",
-                "Saludo para matera",
-                "SALUDO PARA MATTERA POR FABOR",
-                "DALE BAUTISTA, futuramente millonario",
-                "JAJAJA",
-                "QUE LIMDO",
-                "Bauti futuro astrólogo",
-                "BAUTI BAUTI BAUTI BAUTIIIII",
-                "BAUTI",
-                "Qué lindo lo q hacen",
-                "67",
-                "67 SIX SEVEN"
-              ]
-            }
           }
         ],
-        "Cantidad": 15
+        "Cantidad": 14
       },
       "geometry": {
         "type": "Point",
@@ -31117,20 +31069,6 @@
             }
           },
           {
-            "Usuario": "@gabrielarearte8959",
-            "Mensaje": "Saludos desde Roque Saenz Peña, Chaco !",
-            "Dia": "Día 4",
-            "Comentarios": [],
-            "Dias": [
-              "Día 4"
-            ],
-            "ComentariosPorDia": {
-              "Día 4": [
-                "Saludos desde Roque Saenz Peña, Chaco !"
-              ]
-            }
-          },
-          {
             "Usuario": "@leandrogonzalezrigheto",
             "Mensaje": "viendo desde rio cuarto, cordoba con lxs sobris, tremeeendo, super enganchadxs",
             "Dia": "Día 4",
@@ -31224,7 +31162,7 @@
             }
           }
         ],
-        "Cantidad": 8
+        "Cantidad": 7
       },
       "geometry": {
         "type": "Point",
@@ -31801,31 +31739,6 @@
             }
           },
           {
-            "Usuario": "@CiieSalliquelo",
-            "Mensaje": "Buen dia Desde del CIIE de Salliquelo",
-            "Dia": "Día 2",
-            "Comentarios": [
-              "Desde CIIE Salliquelö Rodolfo Adelio Raffino los acompañamos, junto a estudiantes del profesorado de Historia",
-              "¡Holaaaa! Aquí desde CIIE \"Rodolfo Adelio Raffino\" de Salliqueló, seguimos de cerquita lo que sucede en esta excavación junto a estudiantes de Secundaria 1. Abrazo especial a Cute y todo el equipo"
-            ],
-            "Dias": [
-              "Día 1",
-              "Día 2",
-              "Día 4"
-            ],
-            "ComentariosPorDia": {
-              "Día 1": [
-                "Desde CIIE Salliquelö Rodolfo Adelio Raffino los acompañamos, junto a estudiantes del profesorado de Historia"
-              ],
-              "Día 2": [
-                "Buen dia Desde del CIIE de Salliquelo"
-              ],
-              "Día 4": [
-                "¡Holaaaa! Aquí desde CIIE \"Rodolfo Adelio Raffino\" de Salliqueló, seguimos de cerquita lo que sucede en esta excavación junto a estudiantes de Secundaria 1. Abrazo especial a Cute y todo el equipo"
-              ]
-            }
-          },
-          {
             "Usuario": "@larapedrazsuccurro4644",
             "Mensaje": "Saludos desde Salliquelo! Buenisimo stream",
             "Dia": "Día 3",
@@ -31840,7 +31753,7 @@
             }
           }
         ],
-        "Cantidad": 5
+        "Cantidad": 4
       },
       "geometry": {
         "type": "Point",
@@ -34348,6 +34261,23 @@
             }
           },
           {
+            "Usuario": "@LaMaga_LP",
+            "Mensaje": "éxitos!! acá siguiéndole desde Catamarca!!",
+            "Dia": "Día 1",
+            "Comentarios": [
+              "Felicitaciones!!!"
+            ],
+            "Dias": [
+              "Día 1"
+            ],
+            "ComentariosPorDia": {
+              "Día 1": [
+                "éxitos!! acá siguiéndole desde Catamarca!!",
+                "Felicitaciones!!!"
+              ]
+            }
+          },
+          {
             "Usuario": "@lichhhhhhh",
             "Mensaje": "hace calorsito en catamarca no? saludos desde catamarca JDASJDAS",
             "Dia": "Día 2",
@@ -34951,23 +34881,6 @@
             "ComentariosPorDia": {
               "Día 1": [
                 "saludos desde La Merced Paclín Catamarca"
-              ]
-            }
-          },
-          {
-            "Usuario": "@MarinaPinasco",
-            "Mensaje": "éxitos!! acá siguiéndole desde Catamarca!!",
-            "Dia": "Día 1",
-            "Comentarios": [
-              "Felicitaciones!!!"
-            ],
-            "Dias": [
-              "Día 1"
-            ],
-            "ComentariosPorDia": {
-              "Día 1": [
-                "éxitos!! acá siguiéndole desde Catamarca!!",
-                "Felicitaciones!!!"
               ]
             }
           },
@@ -36115,49 +36028,6 @@
     {
       "type": "Feature",
       "properties": {
-        "Lugar": "San José",
-        "Provincia": "California",
-        "Pais": "Estados Unidos de América",
-        "Tipo": "localidad",
-        "Oyentes": [
-          {
-            "Usuario": "@pachicojordandeurries3903",
-            "Mensaje": "siguiéndoles desde S.José",
-            "Dia": "Día 4",
-            "Comentarios": [
-              "Pachi Jordán de Urríes Senante y Azara",
-              "Querría haber podido estar presente pero me ha surgido un trámite ineludible y me he tenido que aguantar no pudiéndolo saludar y presentarme",
-              "&"
-            ],
-            "Dias": [
-              "Día 3",
-              "Día 4"
-            ],
-            "ComentariosPorDia": {
-              "Día 3": [
-                "Pachi Jordán de Urríes Senante y Azara"
-              ],
-              "Día 4": [
-                "siguiéndoles desde S.José",
-                "Querría haber podido estar presente pero me ha surgido un trámite ineludible y me he tenido que aguantar no pudiéndolo saludar y presentarme",
-                "&"
-              ]
-            }
-          }
-        ],
-        "Cantidad": 1
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.89059,
-          37.33617
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "Lugar": "San Juan",
         "Provincia": "San Juan",
         "Pais": "Argentina",
@@ -36619,39 +36489,6 @@
         "coordinates": [
           -68.52502,
           -31.53726
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Lugar": "San Juan",
-        "Provincia": "San Juan",
-        "Pais": "Argentina",
-        "Tipo": "region",
-        "Oyentes": [
-          {
-            "Usuario": "@NeliFernandez-w4x",
-            "Mensaje": "los veo desde ZONDA San Juan, aca tambien restos de pueblos aborigenes",
-            "Dia": "Día 4",
-            "Comentarios": [],
-            "Dias": [
-              "Día 4"
-            ],
-            "ComentariosPorDia": {
-              "Día 4": [
-                "los veo desde ZONDA San Juan, aca tambien restos de pueblos aborigenes"
-              ]
-            }
-          }
-        ],
-        "Cantidad": 1
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -68.92779,
-          -31.57544
         ]
       }
     },
@@ -41260,6 +41097,30 @@
             }
           },
           {
+            "Usuario": "@Axelvaldez-k1r",
+            "Mensaje": "saludos desde el coleguio sagardo corazon de jesos ubicado en santiago de estero",
+            "Dia": "Día 4",
+            "Comentarios": [
+              "hola",
+              "porque no hamplian la transmicion",
+              "a la graciela en hilo"
+            ],
+            "Dias": [
+              "Día 3",
+              "Día 4"
+            ],
+            "ComentariosPorDia": {
+              "Día 3": [
+                "hola",
+                "porque no hamplian la transmicion",
+                "a la graciela en hilo"
+              ],
+              "Día 4": [
+                "saludos desde el coleguio sagardo corazon de jesos ubicado en santiago de estero"
+              ]
+            }
+          },
+          {
             "Usuario": "@carloscoria4428",
             "Mensaje": "saludos desde sgo del estero",
             "Dia": "Día 1",
@@ -41652,7 +41513,7 @@
             }
           }
         ],
-        "Cantidad": 20
+        "Cantidad": 21
       },
       "geometry": {
         "type": "Point",
@@ -42917,45 +42778,6 @@
     {
       "type": "Feature",
       "properties": {
-        "Lugar": "Tierra del Fuego",
-        "Provincia": "Tierra del Fuego",
-        "Pais": "Argentina",
-        "Tipo": "region",
-        "Oyentes": [
-          {
-            "Usuario": "@olgadumrauf",
-            "Mensaje": "desde TDF AeIAS",
-            "Dia": "Día 3",
-            "Comentarios": [
-              "buena jornada"
-            ],
-            "Dias": [
-              "Día 2",
-              "Día 3"
-            ],
-            "ComentariosPorDia": {
-              "Día 2": [
-                "buena jornada"
-              ],
-              "Día 3": [
-                "desde TDF AeIAS"
-              ]
-            }
-          }
-        ],
-        "Cantidad": 1
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -67.5679,
-          -54.38152
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "Lugar": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
         "Provincia": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
         "Pais": "Argentina",
@@ -44114,23 +43936,6 @@
             }
           },
           {
-            "Usuario": "@danielnavarro3734",
-            "Mensaje": "DESDE URUGUAY MONTEVIDEO SALUDOS Y GRACIAS POR DEJARNOS VER SU TRABAJO DANIEL NAVARRO",
-            "Dia": "Día 3",
-            "Comentarios": [
-              "UCkszU2WH9gy1mb0dV-11UJg/G8AfY6yWGuKuhL0PlbiA2AE"
-            ],
-            "Dias": [
-              "Día 3"
-            ],
-            "ComentariosPorDia": {
-              "Día 3": [
-                "DESDE URUGUAY MONTEVIDEO SALUDOS Y GRACIAS POR DEJARNOS VER SU TRABAJO DANIEL NAVARRO",
-                "UCkszU2WH9gy1mb0dV-11UJg/G8AfY6yWGuKuhL0PlbiA2AE"
-              ]
-            }
-          },
-          {
             "Usuario": "@ingles-teachersreinavane1632",
             "Mensaje": "Saludos desde Uruguay!! Aguante la Educación Pública!!",
             "Dia": "Día 1",
@@ -44183,23 +43988,6 @@
             "ComentariosPorDia": {
               "Día 2": [
                 "Buenos días desde Uruguay"
-              ]
-            }
-          },
-          {
-            "Usuario": "@PantallasInteractivas-v8x",
-            "Mensaje": "Hola somos de Uruguay de escuela 11 de la ciudad de Paysandú, estamos trabajando sobre los pueblos originarios.Somos niños y niñas de segundo grado",
-            "Dia": "Día 4",
-            "Comentarios": [
-              "Escuela 11 de Paysandú,segundo año"
-            ],
-            "Dias": [
-              "Día 4"
-            ],
-            "ComentariosPorDia": {
-              "Día 4": [
-                "Hola somos de Uruguay de escuela 11 de la ciudad de Paysandú, estamos trabajando sobre los pueblos originarios.Somos niños y niñas de segundo grado",
-                "Escuela 11 de Paysandú,segundo año"
               ]
             }
           },
@@ -44263,7 +44051,7 @@
             }
           }
         ],
-        "Cantidad": 11
+        "Cantidad": 9
       },
       "geometry": {
         "type": "Point",
@@ -46550,6 +46338,39 @@
         "coordinates": [
           -70.06421,
           -38.90293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Lugar": "Zonda",
+        "Provincia": "San Juan",
+        "Pais": "Argentina",
+        "Tipo": "localidad",
+        "Oyentes": [
+          {
+            "Usuario": "@NeliFernandez-w4x",
+            "Mensaje": "los veo desde ZONDA San Juan, aca tambien restos de pueblos aborigenes",
+            "Dia": "Día 4",
+            "Comentarios": [],
+            "Dias": [
+              "Día 4"
+            ],
+            "ComentariosPorDia": {
+              "Día 4": [
+                "los veo desde ZONDA San Juan, aca tambien restos de pueblos aborigenes"
+              ]
+            }
+          }
+        ],
+        "Cantidad": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.92779,
+          -31.57544
         ]
       }
     },

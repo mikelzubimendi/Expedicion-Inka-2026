@@ -1500,7 +1500,8 @@ def pick_best_per_user(matches: list[Match]) -> dict[str, Match]:
 
 def load_revision(path: Path) -> dict:
     if not path.exists():
-        return {"excluir_usuarios": [], "excluir_lugares": [], "incluir": {}, "corregir": {}}
+        return {"excluir_usuarios": [], "excluir_lugares": [], "incluir": {},
+                "corregir": {}, "incluir_baja": False}
     try:
         data = json.loads(path.read_text(encoding="utf-8"))
     except json.JSONDecodeError as exc:
@@ -1509,6 +1510,7 @@ def load_revision(path: Path) -> dict:
     data.setdefault("excluir_lugares", [])
     data.setdefault("incluir", {})
     data.setdefault("corregir", {})
+    data.setdefault("incluir_baja", False)
     return data
 
 
@@ -1737,7 +1739,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--solo-reporte", action="store_true",
                         help="No escribe el GeoJSON; solo genera los CSV de revisión.")
     parser.add_argument("--incluir-baja", action="store_true",
-                        help="Incluye en el GeoJSON los lugares de confianza baja (por defecto se excluyen).")
+                        help="Incluye en el GeoJSON los lugares de confianza baja. "
+                             "También se puede activar con \"incluir_baja\": true en revision.json.")
     parser.add_argument("--actualizar-chat", action="store_true", help="Vuelve a descargar el chat.")
     parser.add_argument("--actualizar-datos", action="store_true",
                         help="Vuelve a descargar localidades y provincias de Georef.")
@@ -1806,8 +1809,9 @@ def main() -> None:
         return
 
     revision = load_revision(args.revision)
+    incluir_baja = args.incluir_baja or revision.get("incluir_baja", False)
     features = build_features(best, grouped, revision, resolver,
-                              incluir_baja=args.incluir_baja)
+                              incluir_baja=incluir_baja)
     write_geojson(features, args.salida, len(messages), len(grouped))
     geocoder.save()
 

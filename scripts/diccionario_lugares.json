@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-11-28T00:16:30+00:00",
+ "actualizado": "2026-11-28T12:44:27+00:00",
  "lugares": {
   "abrazo desde jujuy": {
    "Lugar": "San Salvador de Jujuy",
@@ -1282,6 +1282,14 @@
    "lon": -58.0172,
    "Tipo": "localidad"
   },
+  "corcoba": {
+   "Lugar": "Córdoba",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -31.41505,
+   "lon": -64.17911,
+   "Tipo": "localidad"
+  },
   "cordoba": {
    "Lugar": "Córdoba",
    "Provincia": "Córdoba",
@@ -1491,11 +1499,11 @@
    "Tipo": "localidad"
   },
   "cusco": {
-   "Lugar": "Cuzco",
+   "Lugar": "Cusco",
    "Provincia": "Cusco",
    "Pais": "Perú",
-   "lat": -13.51709,
-   "lon": -71.97854,
+   "lat": -13.5319,
+   "lon": -71.9675,
    "Tipo": "localidad"
   },
   "de catamarca super orgullosa": {
@@ -1560,6 +1568,14 @@
    "Pais": "Argentina",
    "lat": -40.80252,
    "lon": -62.9836,
+   "Tipo": "localidad"
+  },
+  "desde corcoba": {
+   "Lugar": "Córdoba",
+   "Provincia": "Córdoba",
+   "Pais": "Argentina",
+   "lat": -31.41505,
+   "lon": -64.17911,
    "Tipo": "localidad"
   },
   "desde florencio varela": {
@@ -1792,6 +1808,22 @@
    "Pais": "Argentina",
    "lat": -41.13581,
    "lon": -71.30434,
+   "Tipo": "localidad"
+  },
+  "el cusco": {
+   "Lugar": "Cusco",
+   "Provincia": "Cusco",
+   "Pais": "Perú",
+   "lat": -13.5319,
+   "lon": -71.9675,
+   "Tipo": "localidad"
+  },
+  "el cusco buen trabajo": {
+   "Lugar": "Cusco",
+   "Provincia": "Cusco",
+   "Pais": "Perú",
+   "lat": -13.5319,
+   "lon": -71.9675,
    "Tipo": "localidad"
   },
   "el ires catamarca": {
@@ -2040,6 +2072,14 @@
    "Pais": "Argentina",
    "lat": -38.00645,
    "lon": -57.54384,
+   "Tipo": "localidad"
+  },
+  "fiorito": {
+   "Lugar": "Fiorito",
+   "Provincia": "Buenos Aires",
+   "Pais": "Argentina",
+   "lat": -34.7,
+   "lon": -58.3167,
    "Tipo": "localidad"
   },
   "florenciaaaaaa": {
@@ -2731,7 +2771,7 @@
    "Tipo": "localidad"
   },
   "lago matiro": {
-   "Lugar": "Lago",
+   "Lugar": "Lago Matiro",
    "Provincia": "Calabria",
    "Pais": "Italia",
    "lat": 39.16594,
@@ -3273,6 +3313,14 @@
    "lat": -38.27046,
    "lon": -57.83985,
    "Tipo": "localidad"
+  },
+  "misones": {
+   "Lugar": "Misiones",
+   "Provincia": "Misiones",
+   "Pais": "Argentina",
+   "lat": -26.8753,
+   "lon": -54.65157,
+   "Tipo": "provincia"
   },
   "mocoreta": {
    "Lugar": "Mocoretá",
@@ -4178,14 +4226,6 @@
    "lon": -62.71107,
    "Tipo": "localidad"
   },
-  "s jose": {
-   "Lugar": "San José",
-   "Provincia": "California",
-   "Pais": "Estados Unidos de América",
-   "lat": 37.33617,
-   "lon": -121.89059,
-   "Tipo": "localidad"
-  },
   "saldan cordoba": {
    "Lugar": "Saldán",
    "Provincia": "Córdoba",
@@ -4401,6 +4441,14 @@
    "lat": -34.9155,
    "lon": -57.94799,
    "Tipo": "localidad"
+  },
+  "saludos desde misones": {
+   "Lugar": "Misiones",
+   "Provincia": "Misiones",
+   "Pais": "Argentina",
+   "lat": -26.8753,
+   "lon": -54.65157,
+   "Tipo": "provincia"
   },
   "saludos desde rio grande": {
    "Lugar": "Río Grande",
@@ -4832,6 +4880,14 @@
    "Pais": "Argentina",
    "lat": -36.6204,
    "lon": -64.29063,
+   "Tipo": "localidad"
+  },
+  "santiago de estero": {
+   "Lugar": "Santiago del Estero",
+   "Provincia": "Santiago del Estero",
+   "Pais": "Argentina",
+   "lat": -27.78768,
+   "lon": -64.25967,
    "Tipo": "localidad"
   },
   "santiago del estero": {
@@ -5400,6 +5456,14 @@
    "Pais": "Argentina",
    "lat": -31.11396,
    "lon": -64.48516,
+   "Tipo": "localidad"
+  },
+  "valle viejo": {
+   "Lugar": "Valle Viejo",
+   "Provincia": "Catamarca",
+   "Pais": "Argentina",
+   "lat": -28.4667,
+   "lon": -65.7167,
    "Tipo": "localidad"
   },
   "vamo catamarca": {

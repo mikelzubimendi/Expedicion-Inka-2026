@@ -50,7 +50,7 @@ python3 scripts/generar_localidades.py --actualizar-chat
 --revision ARCHIVO    Correcciones manuales (scripts/revision.json)
 --diccionario ARCHIVO Diccionario de frases aprendidas (scripts/diccionario_lugares.json)
 --solo-reporte        No escribe el GeoJSON; solo genera los reportes
---incluir-baja        Incluye en el GeoJSON los lugares de confianza baja (por defecto se excluyen)
+--incluir-baja        Incluye en el GeoJSON los lugares de confianza baja (también con "incluir_baja": true en revision.json)
 --sin-aprender        No guarda frases nuevas en el diccionario
 --actualizar-diccionario  Sobrescribe las frases ya aprendidas
 --actualizar-chat     Vuelve a descargar el chat
@@ -82,8 +82,8 @@ python3 scripts/generar_localidades.py --actualizar-chat
 
 Los resultados dudosos quedan en `scripts/reporte.csv` con una columna de confianza, y los
 usuarios que quedaron sin ubicación en `scripts/no_detectados.csv`. Las ubicaciones de
-confianza baja no se publican en el mapa por defecto: se pueden incluir con `--incluir-baja`
-o corregir en `revision.json`.
+confianza baja se excluyen por defecto; se pueden incluir con `--incluir-baja`, con
+`"incluir_baja": true` en `revision.json`, o corregir en `revision.json`.
 
 ### Progreso
 
@@ -132,6 +132,7 @@ mucho más rápidas porque se reutilizan la caché y el diccionario.
 
 ```json
 {
+  "incluir_baja": true,
   "excluir_usuarios": ["@usuario_a_ignorar"],
   "excluir_lugares": ["Argentina"],
   "corregir": {
@@ -159,9 +160,11 @@ mucho más rápidas porque se reutilizan la caché y el diccionario.
 - `excluir_lugares`: descarta un lugar completo (por ejemplo, falsos positivos).
 - `corregir`: reemplaza la ubicación detectada para un usuario.
 - `incluir`: agrega un usuario que el detector no encontró.
+- `incluir_baja`: si es `true`, publica también los lugares de confianza baja (por defecto
+  se excluyen).
 
-Los lugares de confianza baja no se publican salvo que se incluyan con `--incluir-baja` o se
-resuelvan con `corregir`/`incluir`.
+Los lugares de confianza baja no se publican salvo que `incluir_baja` sea `true` (o se use
+`--incluir-baja`) o se resuelvan con `corregir`/`incluir`.
 
 Si se omite `lat`/`lon`, se intenta geocodificar el `Lugar` con el contexto de la provincia.
 
